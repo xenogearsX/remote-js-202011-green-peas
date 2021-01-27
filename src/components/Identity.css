@@ -1,9 +1,14 @@
-.titre {
-  text-shadow: rgb(21, 221, 21) 4px 4px 4px;
-  font-size: 3em;
+
+
+/* Taille du logo dans le haeder */
+#header .logosite {
+  height: 36px;
+  margin-left: 1rem;
+  font-size: 2em;
 }
 
-.titre a {
+#header .titre a,
+#home .titre a {
   padding: 0px;
   text-decoration: none;
 }
@@ -11,6 +16,12 @@
 .logosite {
   height: 66px;
 }
+
+#home .titre {
+  font-size: 3em;
+  color:red;
+}
+
 .identity {
   display: flex;
 }

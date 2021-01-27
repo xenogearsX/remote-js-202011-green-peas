@@ -1,21 +1,20 @@
 
 /* Bouton du site  */
 .bouton {
-    border: 1px solid #1515152f;
+    font-weight: 400;
+    font-size: 1.3em;
     padding: 1rem 2rem;
     text-decoration: none;
-    background-color: #16db65;
-    color: #151515;
-    border-radius: 5px;
+    background-color: #38B858;
+    color: white;
+    border-radius: 10px;
     position: relative;
     top: 20px;
     transition: all .2s ease-in;
+    font-family: 'Robot' , sans-serif;
 }
 
 .bouton:active {
-    background-color: #151515;
-    color:#16db65;
-    border: 1px solid #16db654d;
-    font-weight: bold;
-    letter-spacing: .025em;
+    background-color: #112C64;
+    color:white;
 }
