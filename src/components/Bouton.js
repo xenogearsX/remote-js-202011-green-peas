@@ -1,11 +1,10 @@
 import React from 'react'
 import './bouton.css'
 
-const Bouton = (props) => {
+const Bouton = ({screen ,texte}) => {
     return(
-        <a href={props.screen} className="bouton">{props.texte}</a>
+        <a href={screen} className="bouton">{texte}</a>
     )
 }
-
 
 export default Bouton

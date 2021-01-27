@@ -8,7 +8,7 @@ import ProgresBar from './components/ProgresBar';
 class App extends React.Component {
   render() {
     return (
-    <div className="App">
+    <div>
       <Nav />
       <Header />
       <Home />
