@@ -1,15 +1,6 @@
 import React from 'react';
 import './ProgresBar.css';
 import flame from '../data/images/flame.png'
-// const ProgresBar = () => {
-// return (
-// <div className="progresBar">
-    
-    
-
-// </div>
-// )
-// }
 
 class ProgresBar extends React.Component {
     state = {
@@ -27,9 +18,6 @@ previous = () => {
     this.setState({ indicator: this.state.indicator - 100, width: this.state.width - 100})
 }
 render () {
-// const styleIndicator = {
-//     left: "50%"
-// };
 
 return (
     <div className="NavComponent">
