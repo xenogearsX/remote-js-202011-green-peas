@@ -36,7 +36,6 @@
 #flame {
     display: flex;
     position: absolute;
-    /* margin-left: 85%; */
     height: 40px;
     width: 40px;
     transform: translateY(-75%) translateX(-40%) 
