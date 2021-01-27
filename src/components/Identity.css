@@ -1,14 +1,14 @@
-#titre {
+.titre {
   text-shadow: rgb(21, 221, 21) 4px 4px 4px;
   font-size: 3em;
 }
 
-#titre a {
+.titre a {
   padding: 0px;
   text-decoration: none;
 }
 
-#logosite {
+.logosite {
   height: 66px;
 }
 .identity {

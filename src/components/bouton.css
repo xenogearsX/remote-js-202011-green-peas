@@ -1,0 +1,21 @@
+
+/* Bouton du site  */
+.bouton {
+    border: 1px solid #1515152f;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    background-color: #16db65;
+    color: #151515;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    transition: all .2s ease-in;
+}
+
+.bouton:active {
+    background-color: #151515;
+    color:#16db65;
+    border: 1px solid #16db654d;
+    font-weight: bold;
+    letter-spacing: .025em;
+}
