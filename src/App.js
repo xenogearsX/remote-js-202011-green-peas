@@ -10,16 +10,13 @@ class App extends React.Component {
   render() {
     return (
     <div className="App">
-      
-    
       <BounceIntro />
       <div className='homePage'>
-      <Nav />
-      <Header />
-      <Home />
-      <ProgresBar />
-      </div>
-      
+        <Nav />
+        <Header />
+        <Home />
+        <ProgresBar />
+      </div>     
     </div>
     );
   }
