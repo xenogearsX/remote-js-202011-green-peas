@@ -4,17 +4,20 @@ div.bubble {
 	width: 300px;
 	text-align: center;
 	line-height: 1.4em;
-	margin: 40px auto;
+	margin: 4rem auto;
 	background-color: #fff;
 	border: 8px solid #333;
 	border-radius: 30px;
 	font-family: sans-serif;
 	padding: 20px;
 	font-size: large;
+	display: flex;
 }
 
-.bubble img {
-	width: 50%;
+
+
+.bubble p {
+	text-align: left;
 }
 
 
