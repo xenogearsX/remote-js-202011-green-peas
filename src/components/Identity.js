@@ -5,11 +5,11 @@ import pois from '../data/images/gp-logo.svg'
 class Identity extends React.Component {
     render() {
         return(
-            <div class='identity'>
-                <img src={pois} alt="logo green peas" class="logosite" />
+            <div className='identity'>
+                <img src={pois} alt="logo green peas" className="logosite" />
                 {/* <div class="titre">
                     <a href="index.html">Green Peas</a>
-                    </div> */}
+        </div> */}
             </div>
         )
     }

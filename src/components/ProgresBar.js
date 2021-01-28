@@ -26,8 +26,8 @@ return (
             <div className="progresBarIndicator1" style={{width:this.state.width}}></div>
         </div>
         <div className="ButtonPad">
-        <imput className="ButtonTest" type="button" value="previous" onClick={this.previous}/>
-        <imput className="ButtonTest" type="button" value="next" onClick={this.next}/>
+        <input className="ButtonTest" type="button" value="previous" onClick={this.previous}/>
+        <input className="ButtonTest" type="button" value="next" onClick={this.next}/>
         </div>
     </div>
  
