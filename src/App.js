@@ -4,6 +4,7 @@ import Home from './screen/Home'
 import Nav from './components/Nav';
 import Header from './components/Header';
 import BounceIntro from './components/BounceIntro';
+import ProgresBar from './components/ProgresBar';
 
 class App extends React.Component {
   render() {
@@ -14,6 +15,7 @@ class App extends React.Component {
       <Nav />
       <Header />
       <Home />
+      <ProgresBar />
       </div>
       
     </div>

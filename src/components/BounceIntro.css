@@ -1,75 +1,50 @@
-* {
-    font-size: 1em;
-    box-sizing: border-box;
-    
-  }
-  
-  body {
-    text-align: center;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    
-  }
+
   .homePage {
-      opacity: 0.07;
+      opacity: 0.01;
   }
   
-
-  
-
-
-@media screen and (max-width:380px){
+  @media screen and (max-width:380px){
     .intro{
         margin-right: auto;
         margin-left: auto;
-        width: 250px;
-        position: absolute;
-        left: 70px;
-        right: 70px;
-        opacity: inherit;
-        top: 150px;
+        width: 200px;
     }
     #container {
         height: auto;
         margin-top: 30px;
-        width: 250px;
-        opacity: initial;
+        
     }
     .pic-1, .pic-2, .pic-3, .pic-4{
         width: 100px;
         height: 100px;
     }
-    #button-welcome{
-        width: 100px;
-        align-self: center;
-        position:absolute;
-        z-index: 1;
-        top: 150px;
-    }
-    
-    
 }
-
-
+ @media screen and (min-width:380px){
+    #container {
+        width: 200px;
+    }
+    .pic-1, .pic-2, .pic-3, .pic-4{
+        width: 100px;
+        height: 100px;
+    }
+} 
+.App {
+    background-color: honeydew;
+}
 
 .intro {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    left: 50%;
-    right: 50%;
-    
+    margin: auto;
 }
 
 #button-welcome{
-    width: 100px;
+    
     align-self: center;
-    position:absolute;
+    margin: auto;
     z-index: 1;
-    top: 135px;
+    
 }
 #title-welcome {
     
@@ -96,11 +71,7 @@
     }
 }
 #container{
-    margin-left: auto;
-    width: 400px;
-    left: calc(50% auto);
-    position: absolute;
-    
+    margin: auto;
 }
 .pic-1, .pic-3 {
     padding-right: 2px;

@@ -32,9 +32,7 @@ class BounceIntro extends React.Component {
          <Bounce top>
           <h2 id='title-welcome'>Green Peas</h2>
         </Bounce>
-        <Bounce left>
-          <button id="button-welcome" onClick={this.animationIntro}>Welcome</button>
-        </Bounce> 
+        
         <div id='container'> 
           <Bounce top left><img alt='assiette-1' src={imgTl} className='pic-1'/></Bounce>
           <Bounce top right><img alt='assiette-2' src={imgTr} className='pic-2'/></Bounce>
@@ -42,6 +40,9 @@ class BounceIntro extends React.Component {
           <Bounce bottom right><img alt='assiette-4' src={imgBr} className='pic-4'/></Bounce>
           
         </div>
+        <Bounce left>
+          <button id="button-welcome" onClick={this.animationIntro}>Welcome</button>
+        </Bounce> 
       </div>
     );
   }
