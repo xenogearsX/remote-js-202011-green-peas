@@ -10,9 +10,12 @@ class App extends React.Component {
     return (
     <div>
       <BounceIntro />
+      <div className='homePage'>
       <Nav />
       <Header />
       <Home />
+      </div>
+      
     </div>
     );
   }

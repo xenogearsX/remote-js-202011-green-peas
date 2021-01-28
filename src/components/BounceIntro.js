@@ -2,24 +2,27 @@
 import React from 'react'
 import "./BounceIntro.css"
 import Bounce from 'react-reveal/Bounce';
-import imgBr from '../images/assiette-br.png'
-import imgBl from '../images/assiette-bl.png'
-import imgTr from '../images/assiette-tr.png'
-import imgTl from '../images/assiette-tl.png' 
+import imgBr from '../data/images/assiette-br.png'
+import imgBl from '../data/images/assiette-bl.png'
+import imgTr from '../data/images/assiette-tr.png'
+import imgTl from '../data/images/assiette-tl.png' 
 
-
+document.getElementsByClassName('homePage')
 
 class BounceIntro extends React.Component {
 
+  
+
+
   animationIntro = () => {
     document.getElementById('container').className = 'enter'
-    document.getElementById('container').style.marginTop = '70px';
     document.getElementById('button-welcome').style.display = 'none'
     document.getElementById('title-welcome').style.display = 'none'
     setTimeout(this.end, 1000)
   }
   end = () => {
     document.getElementById('container').style.display = 'none'
+    document.querySelector('.homePage').style.opacity = '1'
     
   }
 
