@@ -37,7 +37,4 @@ function bip() {
     }
 }
 
-    
-
-
 export default Timer
