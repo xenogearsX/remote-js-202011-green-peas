@@ -10,9 +10,9 @@ const Home = () => {
         <div id="Page">
                 <section className='intro'>
                     <h1>Sauve la planète</h1>
-                    <figure class="figure">
-                        <img src={earth} class="figure-img img-fluid rounded" alt="" />
-                        <figcaption class="figure-caption text-xs-right"></figcaption>
+                    <figure className="figure">
+                        <img src={earth} className="figure-img img-fluid rounded" alt="" />
+                        <figcaption className="figure-caption text-xs-right"></figcaption>
                     </figure>
                     <FactsList />
                     <Bouton screen="jkrejkre.html" texte="Sauve la planète" />
@@ -20,6 +20,5 @@ const Home = () => {
         </div>
     )
 }
-
 
 export default Home
