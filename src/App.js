@@ -6,6 +6,7 @@ import Nav from './components/Nav';
 import Header from './components/Header';
 import BounceIntro from './components/BounceIntro';
 import ProgresBar from './components/ProgresBar';
+import Timer from './components/Timer';
 import './App.css';
 
 class App extends React.Component {
@@ -17,6 +18,7 @@ class App extends React.Component {
           <Nav />
           <Header />
           <Home />
+          <Timer />
           <ProgresBar />
           <Footer />
          </div>     
