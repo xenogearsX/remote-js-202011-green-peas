@@ -18,7 +18,6 @@ class App extends React.Component {
           <Nav />
           <Header />
           <Home />
-          <FactsList />
           <Timer />
           <ProgresBar />
           <Footer />
