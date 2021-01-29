@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Footer from './components/Footer';
 import Home from './screen/Home'
@@ -8,6 +7,7 @@ import BounceIntro from './components/BounceIntro';
 import ProgresBar from './components/ProgresBar';
 import Timer from './components/Timer';
 import './App.css';
+import FactsList from './components/FactsList';
 
 class App extends React.Component {
   render() {
@@ -18,6 +18,7 @@ class App extends React.Component {
           <Nav />
           <Header />
           <Home />
+          <FactsList />
           <Timer />
           <ProgresBar />
           <Footer />
