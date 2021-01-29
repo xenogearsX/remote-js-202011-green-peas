@@ -6,6 +6,8 @@
   text-align: center;
   text-decoration: none;
   font-size: 16px;
+  border: solid;
+  border-color: honeydew;
   border-radius: 20px;
 }
 .button:hover {
