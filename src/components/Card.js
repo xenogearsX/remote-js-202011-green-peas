@@ -4,10 +4,9 @@ class Card extends React.Component {
   render() {
     return (
       <div className="card">
-        <p>{prop.value}</p>
+        <p>{this.props.value}</p>
         <p>
-          Empreinte environnementale :{" "}
-          {prop.results[0]["Score_unique_EF_(mPt/kg_de_produit)"]}
+          Empreinte environnementale : {this.props.result}
         </p>
       </div>
     );
