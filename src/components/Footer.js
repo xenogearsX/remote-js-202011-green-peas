@@ -61,7 +61,7 @@ class Footer extends React.Component {
     this.setState({ loading: true }, () => {
       axios
         .get(
-          `https://koumoul.com/s/data-fair/api/v1/datasets/agribalyse-synthese/values_agg?field=Nom_du_Produit_en_Fran%C3%A7ais&format=json&agg_size=20&q=${this.state.search}&q_mode=simple&sort=Nom_du_Produit_en_Fran%C3%A7ais&size=20&select=%2A&sampling=neighbors`
+          `https://koumoul.com/s/data-fair/api/v1/datasets/agribalyse-synthese/values_agg?field=Nom_du_Produit_en_Fran%C3%A7ais&format=json&agg_size=100&q=${this.state.search}&q_mode=simple&sort=Nom_du_Produit_en_Fran%C3%A7ais&size=100&select=%2A&sampling=neighbors`
         )
         .then((response) => response.data)
         .then((data) => {
