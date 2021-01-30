@@ -6,7 +6,7 @@ class FactCards extends React.Component {
         const {props} = this
         return( 
             <div className="bubble thought">
-                <img src={props.icon} />
+                <img src={props.icon} alt="écologie"/>
                 <p>{props.texte}</p>
             </div>
         )
