@@ -1,5 +1,4 @@
 import React from 'react'
-import bouton from './Bouton'
 import './timer.css'
 
 class Timer extends React.Component {
