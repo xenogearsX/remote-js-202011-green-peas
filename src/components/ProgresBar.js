@@ -22,7 +22,7 @@ render () {
 return (
     <div className="NavComponent">
         <div className="progresBar" style={{width:this.state.width_progresBar}}>
-            <img id="flame" Indicator src={this.state.flame} alt="flame indicator" style={{left: this.state.indicator}} />
+            <img id="flame" src={this.state.flame} alt="flame indicator" style={{left: this.state.indicator}} />
             <div className="progresBarIndicator1" style={{width:this.state.width}}></div>
         </div>
         <div className="ButtonPad">
