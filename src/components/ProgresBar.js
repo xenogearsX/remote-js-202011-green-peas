@@ -11,7 +11,7 @@ class ProgresBar extends React.Component {
      }
 
 next = () => {
-    this.setState(this.state.indicator < 800 ? {indicator: this.state.indicator + 200, width: this.state.width + 200} : {indicator: this.state.indicator + 0, width: this.state.width + 0} )
+    this.setState(this.state.indicator < 800 ? {indicator: this.state.indicator + 200, width: this.state.width + 200} : null )
 }
 previous = () => {
     this.setState(this.state.indicator <=5 ? null :  {indicator: this.state.indicator - 200, width: this.state.width - 200})
