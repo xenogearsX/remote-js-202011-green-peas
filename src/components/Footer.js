@@ -49,14 +49,12 @@ class Footer extends React.Component {
     this.state = {
       food: "Aucune recherche",
       loading: false,
-      search: "votre aliment préféré",
+      search: "",
     };
     this.handleSearch = this.handleSearch.bind(this);
     this.getFood = this.getFood.bind(this);
   }
-  // componentDidMount() {
-  //   this.getFood();
-  // }
+
   getFood() {
     this.setState({ loading: true }, () => {
       axios
@@ -72,6 +70,7 @@ class Footer extends React.Component {
         });
     });
   }
+  
   handleSearch(event) {
     this.setState({
       search: event.target.value,
@@ -89,14 +88,39 @@ class Footer extends React.Component {
             onChange={this.handleSearch}
           />
           <button onClick={this.getFood}>Sauve la planète</button>
-          {this.state.food === "Aucune recherche" ? null : <p>Vous recherchez {this.state.search}</p>}
-
-          {this.state.food === "Aucune recherche" ? <div>Aucune recherche lancée</div> :loading ? (
+          {this.state.food === "Aucune recherche" ? (
+            <div>Aucune recherche lancée</div>
+          ) : loading ? (
             <div>loading...</div>
-          ) : this.state.food.length === 0 ? <div>Désolé, votre recherche n'est pas présent dans notre base de données</div> : (
-            <div className='result'>{this.state.food.map((prop) => (
-              <Card key= {prop.value} value={prop.value} result={prop.results[0]["Score_unique_EF_(mPt/kg_de_produit)"]} />
-            ))}</div>
+          ) : this.state.food.length === 0 ? (
+            <div>
+              Désolé, votre aliment n'est pas présent dans notre base de données
+            </div>
+          ) : (
+            <>
+              <p>
+                Vous {this.state.search.length === 0 ? "ne " : null}recherchez{" "}
+                {this.state.search.length === 0 ? "rien" : this.state.search}.
+              </p>
+              <p>
+                Il y a {this.state.food.length}{" "}
+                {this.state.food.length <= 1 ? "résultat" : "résultats"}.
+              </p>
+              {this.state.food.length === 100 ? (
+                <p>Trop de résultats, précisez votre recherche.</p>
+              ) : null}
+              <div className="result">
+                {this.state.food.map((prop) => (
+                  <Card
+                    key={prop.value}
+                    value={prop.value}
+                    result={
+                      prop.results[0]["Score_unique_EF_(mPt/kg_de_produit)"]
+                    }
+                  />
+                ))}
+              </div>
+            </>
           )}
         </div>
       </div>
