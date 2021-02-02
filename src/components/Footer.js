@@ -65,7 +65,7 @@ class Footer extends React.Component {
         .then((data) => {
           this.setState({
             loading: false,
-            food: data.aggs.filter(food=>food.value.toLowerCase().includes(this.state.search.toLowerCase())),
+            food: data.aggs.filter(food=>food.value.toLowerCase().includes(this.state.search.toLowerCase())|| food.results[0]["Sous-groupe_d'aliment"].toLowerCase().includes(this.state.search.toLowerCase())),
           });
         });
     });
