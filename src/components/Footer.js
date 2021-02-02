@@ -65,7 +65,7 @@ class Footer extends React.Component {
         .then((data) => {
           this.setState({
             loading: false,
-            food: data.aggs,
+            food: data.aggs.filter(food=>food.value.toLowerCase().includes(this.state.search.toLowerCase())),
           });
         });
     });
@@ -87,7 +87,7 @@ class Footer extends React.Component {
             id="search"
             onChange={this.handleSearch}
           />
-          <button onClick={this.getFood}>Sauve la planète</button>
+          <button onClick={this.getFood}>Recherchez</button>
           {this.state.food === "Aucune recherche" ? (
             <div>Aucune recherche lancée</div>
           ) : loading ? (
@@ -115,7 +115,7 @@ class Footer extends React.Component {
                     key={prop.value}
                     value={prop.value}
                     result={
-                      prop.results[0]["Score_unique_EF_(mPt/kg_de_produit)"]
+                      prop.results[0]["Score_unique_EF_(mPt/kg_de_produit)"].toFixed(2)
                     }
                   />
                 ))}
