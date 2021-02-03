@@ -1,0 +1,15 @@
+.BodyGame {
+    display: flex;
+    height: 150px;
+    width: 500px;
+    border-radius: 5px;
+    background-color: indigo;
+}
+
+#imageEarth {
+    display: flex;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+
+}
