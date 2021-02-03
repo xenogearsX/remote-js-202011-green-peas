@@ -1,5 +1,6 @@
 import React from "react";
-import './Nav.css';
+import "./Nav.css";
+import { Link } from "react-router-dom";
 
 class Nav extends React.Component {
   render() {
@@ -7,19 +8,19 @@ class Nav extends React.Component {
       <nav id="menu">
         <ul>
           <li>
-            <a href="index.html">Accueil</a>
+            <Link to="/home">Accueil</Link>
           </li>
           <li>
-            <a href="index.html">Jeux</a>
+            <Link to="/jeux">Jeux</Link>
           </li>
           <li>
-            <a href="index.html">Aliments</a>
+            <Link to="/aliments">Aliments</Link>
           </li>
           <li>
-            <a href="index.html">Consommer mieux</a>
+            <Link to="/mieux">Consommer mieux</Link>
           </li>
           <li>
-            <a href="index.html">A propos</a>
+            <Link to="/about">A propos</Link>
           </li>
         </ul>
       </nav>
