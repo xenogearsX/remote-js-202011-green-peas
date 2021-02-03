@@ -1,15 +1,53 @@
 .BodyGame {
     display: flex;
-    height: 150px;
+    position : relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    height: 400px;
     width: 500px;
     border-radius: 5px;
-    background-color: indigo;
+    background-color: rgb(21, 93, 21);
 }
 
 #imageEarth {
     display: flex;
-    height: 50px;
-    width: 50px;
+    position : absolute;
+    top : 25px;
+    right : 15px;
+    height: 135px;
+    width: 120px;
     border-radius: 5px;
+}
+
+#titleRules {
+    display: flex;
+    position: absolute;
+    margin: 0;
+    top : 10px;
+    left : 10px;
+    right : 150px;
+    font-size: 78px;
+    text-align: left;
+    text-indent: 0px;
+    letter-spacing: 5px;
+    color: ivory;
+}
+
+#rulesText {
+    display: flex;
+    position: absolute;
+    margin: 0;
+    left : 10px;
+    margin-top: 20px;
+    padding: 0;
+    bottom : 10px;
+    right : 20px;
+    font-size: 20px;
+    text-align: left;
+    text-indent: 0px;
+    letter-spacing: 2px;
+    color: ivory;
 
 }
