@@ -12,7 +12,7 @@ import soil from "../data/images/soil_degradation.svg";
 
 const facts = [
   {
-    catégorie: "Emissions",
+    categorie: "Emissions",
     texte:
       "Savais-tu que l’agriculture est responsable de près d’un quart des émissions mondiales de gaz à effet de serres ?",
     source: "https://www.greenpeace.fr/agriculture-dereglements-climatiques/",
@@ -20,7 +20,7 @@ const facts = [
   },
 
   {
-    catégorie: "Déforestation",
+    categorie: "Déforestation",
     texte:
       "Savais-tu que 80 % de la déforestation est causé par l’agriculture ?",
     source:
@@ -29,7 +29,7 @@ const facts = [
   },
 
   {
-    catégorie: "Déforestation",
+    categorie: "Déforestation",
     texte:
       "Savais-tu que 49% de la déforestation dans les pays tropicaux s’expliquent par la conversion illégale de terres en exploitations agricoles à vocation commerciale",
     source:
@@ -38,7 +38,7 @@ const facts = [
   },
 
   {
-    catégorie: "Déforestation",
+    categorie: "Déforestation",
     texte:
       "Savais-tu que 70% de la déforestation en Amérique du Sud est causée par l'agriculture commerciale ?",
     source: "http://www.fao.org/docrep/ARTICLE/WFC/XII/MS12A-F.htm",
@@ -46,7 +46,7 @@ const facts = [
   },
 
   {
-    catégorie: "Eau",
+    categorie: "Eau",
     texte:
       "Savais-tu que 70 % de l’eau douce sur terre est utilisée pour l’agriculture ?",
     source:
@@ -55,7 +55,7 @@ const facts = [
   },
 
   {
-    catégorie: "Sols",
+    categorie: "Sols",
     texte:
       "Savais-tu que chaque seconde 9500m² de terres cultivables disparaissent dans le monde ?",
     source:
@@ -64,7 +64,7 @@ const facts = [
   },
 
   {
-    catégorie: "Biodiversité",
+    categorie: "Biodiversité",
     texte:
       "Savais-tu que en France 70 % des insectes ont disparu en l’espace de 30 ans ?",
     source: "Vers la résilience alimentaire, les grenier de l’abondance",
@@ -72,7 +72,7 @@ const facts = [
   },
 
   {
-    catégorie: "Energies fossiles",
+    categorie: "Energies fossiles",
     texte:
       "Savais-tu qu’il faut 7 à 10 calories fossiles pour générer une seule calorie alimentaire ?",
     source:
@@ -81,7 +81,7 @@ const facts = [
   },
 
   {
-    catégorie: "Pesticide",
+    categorie: "Pesticide",
     texte:
       "Savais-tu que chaque année plus de 66,600 tonnes de pesticides sont utilisés en France ? Soit 2 kilos chaque secondes ?",
     source:
@@ -100,7 +100,7 @@ const facts = [
 
 const FactsList = () => {
   const rand = getRandom(0, facts.length - 1);
-  return <FactCards texte={facts[rand].texte} icon={facts[rand].icon} />;
+  return <FactCards texte={facts[rand].texte} icon={facts[rand].icon} categorie={facts[rand].categorie}/>;
 };
 const getRandom = (min, max) => {
   min = Math.ceil(min);
