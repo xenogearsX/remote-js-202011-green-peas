@@ -5,14 +5,13 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
-    height: 400px;
+    height: 500px;
     width: 500px;
     border-radius: 5px;
     background-color: rgb(21, 93, 21);
 }
 
 #imageEarth {
-    display: flex;
     position : absolute;
     top : 25px;
     right : 15px;
@@ -22,12 +21,11 @@
 }
 
 #titleRules {
-    display: flex;
-    position: absolute;
+    position: relative;
     margin: 0;
     top : 10px;
-    left : 10px;
-    right : 150px;
+    left : 15px;
+    margin-right : 150px;
     font-size: 78px;
     text-align: left;
     text-indent: 0px;
@@ -36,18 +34,39 @@
 }
 
 #rulesText {
-    display: flex;
-    position: absolute;
+    position: relative;
     margin: 0;
-    left : 10px;
-    margin-top: 20px;
     padding: 0;
-    bottom : 10px;
-    right : 20px;
+    margin-top: 20px;
+    margin : 20px;
     font-size: 20px;
-    text-align: left;
+    text-align: justify;
     text-indent: 0px;
     letter-spacing: 2px;
     color: ivory;
+}
 
+#startButton {
+    display: flex;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    padding: 0;
+    bottom: 20px;
+    text-align: center;
+    background-color: white;
+    color :rgb(21, 93, 21);
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+#startButton :hover {
+    display: flex;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    bottom: 20px;
+    text-align: center;
+    background-color: green;
 }
