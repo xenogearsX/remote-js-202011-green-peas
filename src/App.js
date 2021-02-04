@@ -1,5 +1,4 @@
 import Best from "./components/Best";
-import BounceIntro from './components/BounceIntro';
 import Food from "./components/Food";
 import Footer from './components/Footer';
 import Game from "./screen/Game";
@@ -8,16 +7,31 @@ import Home from './screen/Home'
 import Nav from './components/Nav';
 import React from 'react';
 import { Route, Switch } from "react-router-dom";
-
+import Intro from './screen/Intro';
 
 import './App.css';
 
 class App extends React.Component {
+  state = {
+    loading: true
+  }
+
+  componentDidMount () {
+    setTimeout(() => {
+      this.setState({loading: false})
+    }, 3000);
+  }
+
   render() {
+    if(this.state.loading) {
+      return (
+        <div><Intro /></div>
+      )
+    }
     return (
       <div className="App">
-        <BounceIntro />
-        <div className="homePage">
+        
+          <div className='homePage'>
           <Nav />
           <Header />
           <Switch>

@@ -1,4 +1,20 @@
-div.bubble {
+.citation {
+	display: flex;
+	flex-direction: column;
+	border: 5px solid #333;
+	margin-top: 20px; 
+	
+}
+.fact {
+	margin-top: 0px;
+}
+
+.fact-logo {
+	max-height: 100px;
+	max-width: 100px;
+	align-self: center;
+}
+/* div.bubble {
   position: relative;
   text-align: center;
   line-height: 1.4em;
@@ -55,4 +71,4 @@ div.thought:after {
 	div .bubble {
 	  display: flex;
 	}
-  }
+  } */
