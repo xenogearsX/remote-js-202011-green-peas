@@ -5,9 +5,9 @@ class FactCards extends React.Component {
     render() {
         const {props} = this
         return( 
-            <div className="bubble thought">
-                <img src={props.icon} />
-                <p>{props.texte}</p>
+            <div className="citation">
+                <img className="fact-logo" src={props.icon} />
+                <p className='fact'>{props.texte}</p>
             </div>
         )
     }

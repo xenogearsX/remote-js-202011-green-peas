@@ -1,58 +1,16 @@
-div.bubble {
-	position: relative;
-	width: 300px;
-	text-align: center;
-	line-height: 1.4em;
-	margin: 4rem auto;
-	background-color:none;
-	border: 4px solid #333;
-	border-radius: 30px;
-	font-family: sans-serif;
-	padding: 20px;
-	font-size: large;
+.citation {
 	display: flex;
+	flex-direction: column;
+	border: 5px solid #333;
+	margin-top: 20px; 
+	
+}
+.fact {
+	margin-top: 0px;
 }
 
-
-
-.bubble p {
-	text-align: left;
-}
-
-
-div.thought {
-	width: 500px;
-	border-radius: 200px;
-	padding: 15px;	
-}
-
-div.bubble:before,
-div.bubble:after {
-	content: ' ';
-	position: absolute;
-	width: 0;
-	height: 0;
-}
-
-div.thought:before,
-div.thought:after {
-	left: 10px;
-	bottom: -35px;
-	width: 40px;
-	height: 40px;
-	background-color: none;
-	border: 4px solid #333;
-	-webkit-border-radius: 28px;
-	-moz-border-radius: 28px;
-	border-radius: 28px;
-}
-
-div.thought:after {
-	width: 20px;
-	height: 20px;
-	left: -4px;
-	bottom: -50px;
-	-webkit-border-radius: 18px;
-	-moz-border-radius: 18px;
-	border-radius: 18px;
+.fact-logo {
+	max-height: 100px;
+	max-width: 100px;
+	align-self: center;
 }

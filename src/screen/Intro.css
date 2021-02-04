@@ -1,9 +1,10 @@
 .bgIntro {
 
-
-  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 812px;
   /* max-height: 600px; */
-  width: 1000px;
+  width: 100%;
   background-color: hsla(200,40%,30%,.4);
   background-image:   
     url('https://78.media.tumblr.com/cae86e76225a25b17332dfc9cf8b1121/tumblr_p7n8kqHMuD1uy4lhuo1_540.png'), 
@@ -39,13 +40,15 @@
   }
 
 html {
-    background-color: black;
+    background-image: url('../data/images/bgI.jpg');
+    overflow: hidden;
 }
 .earthAnim {
-    position: absolute;
-    left: -90px;
+    bottom: -300px;
     animation-iteration-count: infinite;
     animation-name: rotatearth;
+    transform: translate(40%, 330%);
+    overflow: hidden;
 
 }
 @keyframes rotatearth {
