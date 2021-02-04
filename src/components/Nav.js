@@ -1,25 +1,26 @@
 import React from "react";
-import './Nav.css';
+import "./Nav.css";
+import { Link } from "react-router-dom";
 
 class Nav extends React.Component {
   render() {
     return (
       <nav id="menu">
-        <ul>
+        <ul className="nav">
           <li>
-            <a href="index.html">Accueil</a>
+            <Link to="/">Accueil</Link>
           </li>
           <li>
-            <a href="#">Jeux</a>
+            <Link to="/jeux">Jeux</Link>
           </li>
           <li>
-            <a href="#">Aliments</a>
+            <Link to="/aliments">Aliments</Link>
           </li>
           <li>
-            <a href="#">Consommer mieux</a>
+            <Link to="/mieux">Consommer mieux</Link>
           </li>
           <li>
-            <a href="#">A propos</a>
+            <Link to="/about">A propos</Link>
           </li>
         </ul>
       </nav>

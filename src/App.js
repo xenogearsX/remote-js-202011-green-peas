@@ -1,13 +1,15 @@
-import React from 'react';
+import Best from "./components/Best";
+import Food from "./components/Food";
 import Footer from './components/Footer';
+import Game from "./screen/Game";
+import Header from './components/Header';
 import Home from './screen/Home'
 import Nav from './components/Nav';
-import Header from './components/Header';
+import React from 'react';
+import { Route, Switch } from "react-router-dom";
 import Intro from './screen/Intro';
-import ProgresBar from './components/ProgresBar';
-import Timer from './components/Timer';
+
 import './App.css';
-import FactsList from './components/FactsList';
 
 class App extends React.Component {
   state = {
@@ -17,7 +19,7 @@ class App extends React.Component {
   componentDidMount () {
     setTimeout(() => {
       this.setState({loading: false})
-    }, 160000);
+    }, 3000);
   }
 
   render() {
@@ -32,12 +34,15 @@ class App extends React.Component {
           <div className='homePage'>
           <Nav />
           <Header />
-          <Home />
-          <Timer />
-          <ProgresBar />
+          <Switch>
+            <Route exact path="/" component={Home} />
+            <Route path="/jeux" component={Game} />
+            <Route path="/mieux" component={Best} />
+            <Route path="/aliments" component={Food} />
+          </Switch>
           <Footer />
-         </div>     
-        </div>     
+        </div>
+      </div>
     );
   }
 }

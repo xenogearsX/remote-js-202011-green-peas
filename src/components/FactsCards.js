@@ -8,6 +8,9 @@ class FactCards extends React.Component {
             <div className="citation">
                 <img className="fact-logo" src={props.icon} />
                 <p className='fact'>{props.texte}</p>
+            {/* <div className="bubble thought">
+                <img src={props.icon} alt={props.categorie}/>
+                <p>{props.texte}</p> */}
             </div>
         )
     }

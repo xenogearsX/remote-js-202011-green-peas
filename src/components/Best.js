@@ -90,22 +90,11 @@ const facts = [
   },
 ];
 
-// peut être mettre un bouton pour afficher toutes les citation
-// const FactsList = () => {
-//         return (
-//             <div>
-//                 {facts.map((fact, index) => (<FactCards texte={fact.texte} icon={fact.icon} key={index} />))}
-//             </div> )
-// }
-
-const FactsList = () => {
-  const rand = getRandom(0, facts.length - 1);
-  return <FactCards texte={facts[rand].texte} icon={facts[rand].icon} categorie={facts[rand].categorie}/>;
-};
-const getRandom = (min, max) => {
-  min = Math.ceil(min);
-  max = Math.floor(max);
-  return Math.floor(Math.random() * (max - min + 1)) + min;
+const Best = () => {
+        return (
+            <div>
+                {facts.map((fact, index) => (<FactCards texte={fact.texte} icon={fact.icon} key={index} categorie={facts.categorie} />))}
+            </div> )
 }
 
-export default FactsList;
+export default Best;
