@@ -21,8 +21,8 @@ class App extends React.Component {
           <Nav />
           <Header />
           <Switch>
-            <Route path="/" exact component={Home} />
-            <Route path="/jeux" component={Game} /> {/*Timer*/}
+            <Route exact path="/" component={Home} />
+            <Route path="/jeux" component={Game} />
             <Route path="/mieux" component={Best} />
             <Route path="/aliments" component={Food} />
           </Switch>
