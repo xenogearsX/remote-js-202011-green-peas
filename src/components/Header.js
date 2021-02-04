@@ -17,7 +17,7 @@ class Header extends React.Component {
     let clickedEvent = "click";
     burgerMenu.addEventListener(
       clickedEvent,
-      function (event) {
+      function () {
         if (!this.getAttribute("class")) {
           this.setAttribute("class", "clicked");
         } else {
