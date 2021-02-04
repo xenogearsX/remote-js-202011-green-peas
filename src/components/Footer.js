@@ -10,9 +10,11 @@ class Footer extends React.Component {
       food: "Aucune recherche",
       loading: false,
       search: "",
+      className: "footer"
     };
     this.handleSearch = this.handleSearch.bind(this);
     this.getFood = this.getFood.bind(this);
+    this.changePos = this.changePos.bind(this);
   }
 
   getFood() {
@@ -36,16 +38,25 @@ class Footer extends React.Component {
       search: event.target.value,
     });
   }
+
+  changePos() {
+    this.setState({
+      className: 'not-fixed footer'
+    });
+  }
+
+
   render() {
     const { loading } = this.state;
     return (
-      <div className="footer">
+      <div className={this.state.className}>
         <div className="search">
           <input
             type="search"
             placeholder="Rechercher un aliment"
             id="search"
             onChange={this.handleSearch}
+            onClick={this.changePos}
           />
           <button onClick={this.getFood}>Recherchez</button>
           {this.state.food === "Aucune recherche" ? (
