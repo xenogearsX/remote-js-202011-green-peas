@@ -6,7 +6,7 @@ class Nav extends React.Component {
   render() {
     return (
       <nav id="menu">
-        <ul>
+        <ul className="nav">
           <li>
             <Link to="/">Accueil</Link>
           </li>

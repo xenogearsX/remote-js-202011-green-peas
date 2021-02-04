@@ -7,6 +7,9 @@ class Header extends React.Component {
   swipeMenu() {
     const mainMenu = document.querySelector("#menu");
     const burgerMenu = document.querySelector("#menu-burger");
+    const nav = document.querySelector(".nav");
+    
+    
     document.addEventListener("click", function (event) {
       if (mainMenu.className === "") {
         return;
@@ -31,7 +34,11 @@ class Header extends React.Component {
       },
       false
     );
-  };
+    nav.addEventListener("click", () => {
+      mainMenu.classList.add("invisible");
+      burgerMenu.removeAttribute("class", "clicked");
+    });
+  }
   render() {
     return (
       <header id="header" onLoad={this.swipeMenu}>
