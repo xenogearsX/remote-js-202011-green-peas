@@ -1,11 +1,13 @@
 import React from 'react';
+import BounceIntro from './components/BounceIntro';
 import Footer from './components/Footer';
+import GameAccess from './components/GameAccess';
+import Header from './components/Header';
 import Home from './screen/Home'
 import Nav from './components/Nav';
-import Header from './components/Header';
-import BounceIntro from './components/BounceIntro';
 import ProgresBar from './components/ProgresBar';
 import Timer from './components/Timer';
+
 import './App.css';
 
 class App extends React.Component {
@@ -19,6 +21,7 @@ class App extends React.Component {
           <Home />
           <Timer />
           <ProgresBar />
+          <GameAccess />
           <Footer />
          </div>     
         </div>     
