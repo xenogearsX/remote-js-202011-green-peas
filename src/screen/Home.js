@@ -15,7 +15,9 @@ const Home = () => {
                         <img src={earth} alt="earth" />
                         <figcaption></figcaption>
                     </figure>
-                    <p>La planète se réchauffe tu as une mission</p>
+                    <p>
+                        Sauve la planète et découvre ton pois &#128994; environnemental
+                    </p>
                     
                     
                     <Link to="/game" className="bouton">Sauve la planète</Link>
