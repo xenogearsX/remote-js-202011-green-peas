@@ -7,7 +7,7 @@
 .food ul {
   width: 100%;
   display: block;
-  justify-content: space-around;
+  justify-content: center;
   flex-wrap: wrap;
 }
 #page-numbers {
@@ -20,4 +20,8 @@
   color: blue;
   user-select: none;
   cursor: pointer;
+}
+.block {
+  width: 100%;
+  display: block;
 }

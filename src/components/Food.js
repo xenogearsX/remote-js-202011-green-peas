@@ -4373,23 +4373,53 @@ class Food extends React.Component {
       ],
       currentPage: 1,
       foodsPerPage: 52,
+      search: "",
     };
     this.handleClick = this.handleClick.bind(this);
+    this.handleFilter = this.handleFilter.bind(this);
+    this.removeDiacritics = this.removeDiacritics.bind(this);
   }
-
   handleClick(event) {
     this.setState({
       currentPage: Number(event.target.id),
     });
   }
-
+  handleFilter(e) {
+    if (e.key === "Enter") {
+      this.setState({
+        search: e.target.value,
+      });
+    }
+  }
+  removeDiacritics(s) {
+    let r = s.toLowerCase();
+    r = r.replace(new RegExp("\\s", "g"), "");
+    r = r.replace(new RegExp("[àáâãäå]", "g"), "a");
+    r = r.replace(new RegExp("æ", "g"), "ae");
+    r = r.replace(new RegExp("ç", "g"), "c");
+    r = r.replace(new RegExp("[èéêë]", "g"), "e");
+    r = r.replace(new RegExp("[ìíîï]", "g"), "i");
+    r = r.replace(new RegExp("ñ", "g"), "n");
+    r = r.replace(new RegExp("[òóôõö]", "g"), "o");
+    r = r.replace(new RegExp("œ", "g"), "oe");
+    r = r.replace(new RegExp("[ùúûü]", "g"), "u");
+    r = r.replace(new RegExp("[ýÿ]", "g"), "y");
+    r = r.replace(new RegExp("\\W", "g"), "");
+    return r;
+  }
   render() {
     const { foods, currentPage, foodsPerPage } = this.state;
 
     // Logic for displaying current foods
     const indexOfLastFood = currentPage * foodsPerPage;
     const indexOfFirstFood = indexOfLastFood - foodsPerPage;
-    const currentfoods = foods.slice(indexOfFirstFood, indexOfLastFood);
+    const currentfoods = foods
+      .filter((food) =>
+        this.removeDiacritics(food.nom).includes(
+          this.removeDiacritics(this.state.search)
+        )
+      )
+      .slice(indexOfFirstFood, indexOfLastFood);
 
     const renderfoods = currentfoods.map((food) => {
       return <Card key={food.nom} value={food.nom} result={food.ef} />;
@@ -4397,7 +4427,12 @@ class Food extends React.Component {
 
     // Logic for displaying page numbers
     const pageNumbers = [];
-    for (let i = 1; i <= Math.ceil(foods.length / foodsPerPage); i++) {
+    for (let i = 1; i <= Math.ceil(foods
+      .filter((food) =>
+        this.removeDiacritics(food.nom).includes(
+          this.removeDiacritics(this.state.search)
+        )
+      ).length / foodsPerPage); i++) {
       pageNumbers.push(i);
     }
 
@@ -4411,6 +4446,17 @@ class Food extends React.Component {
 
     return (
       <div className="food">
+        <input
+          type="search"
+          placeholder="Rechercher un aliment"
+          onKeyDown={this.handleFilter}
+          onChange={this.handleInput}
+        />
+        {this.state.search === "" ? (
+          <p className="block">Tous les aliments de la base de données.</p>
+        ) : (
+          <p className="block">Vous recherchez {this.state.search}.</p>
+        )}
         {renderfoods}
         <ul id="page-numbers">{renderPageNumbers}</ul>
       </div>
