@@ -17,7 +17,8 @@ class Footer extends React.Component {
     this.changePos = this.changePos.bind(this);
   }
 
-  getFood() {
+  getFood(e) {
+    if(e.key === 'Enter'){
     this.setState({ loading: true }, () => {
       axios
         .get(
@@ -30,7 +31,7 @@ class Footer extends React.Component {
             food: data.aggs.filter(food=>food.value.toLowerCase().includes(this.state.search.toLowerCase())|| food.results[0]["Sous-groupe_d'aliment"].toLowerCase().includes(this.state.search.toLowerCase())),
           });
         });
-    });
+    })};
   }
   
   handleSearch(event) {
@@ -57,8 +58,8 @@ class Footer extends React.Component {
             id="search"
             onChange={this.handleSearch}
             onClick={this.changePos}
+            onKeyDown={this.getFood}
           />
-          <button onClick={this.getFood}>Recherchez</button>
           {this.state.food === "Aucune recherche" ? (
             <div>Aucune recherche lancée</div>
           ) : loading ? (
