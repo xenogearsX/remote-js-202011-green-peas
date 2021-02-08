@@ -4377,7 +4377,6 @@ class Food extends React.Component {
     };
     this.handleClick = this.handleClick.bind(this);
     this.handleFilter = this.handleFilter.bind(this);
-    // this.removeDiacritics = this.removeDiacritics.bind(this);
   }
   handleClick(event) {
     this.setState({
@@ -4391,6 +4390,78 @@ class Food extends React.Component {
       });
     }
   }
+  prec() {
+    if (this.state.currentPage === 1) {
+      this.setState({
+        currentPage: Math.ceil(
+          this.state.foods.filter((food) =>
+            food.nom
+              .toLowerCase()
+              .normalize("NFD")
+              .replace(/[\u0300-\u036f]/g, "")
+              .includes(
+                this.state.search
+                  .toLowerCase()
+                  .normalize("NFD")
+                  .replace(/[\u0300-\u036f]/g, "")
+              )
+          ).length / this.state.foodsPerPage
+        ),
+      });
+    } else {
+      this.setState({
+        currentPage: -1 + this.state.currentPage,
+      });
+    }
+  }
+  suiv() {
+    if (
+      this.state.currentPage ===
+      Math.ceil(
+        this.state.foods.filter((food) =>
+          food.nom
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .includes(
+              this.state.search
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+            )
+        ).length / this.state.foodsPerPage
+      )
+    ) {
+      this.setState({
+        currentPage: 1,
+      });
+    } else {
+      this.setState({
+        currentPage: 1 + this.state.currentPage,
+      });
+    }
+  }
+  first() {
+    this.setState({ currentPage: 1 });
+  }
+  last() {
+    this.setState({
+      currentPage: Math.ceil(
+        this.state.foods.filter((food) =>
+          food.nom
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .includes(
+              this.state.search
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+            )
+        ).length / this.state.foodsPerPage
+      ),
+    });
+  }
   render() {
     const { foods, currentPage, foodsPerPage } = this.state;
 
@@ -4399,9 +4470,16 @@ class Food extends React.Component {
     const indexOfFirstFood = indexOfLastFood - foodsPerPage;
     const currentfoods = foods
       .filter((food) =>
-        (food.nom).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(
-          (this.state.search.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""))
-        )
+        food.nom
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .includes(
+            this.state.search
+              .toLowerCase()
+              .normalize("NFD")
+              .replace(/[\u0300-\u036f]/g, "")
+          )
       )
       .slice(indexOfFirstFood, indexOfLastFood);
 
@@ -4411,18 +4489,41 @@ class Food extends React.Component {
 
     // Logic for displaying page numbers
     const pageNumbers = [];
-    for (let i = 1; i <= Math.ceil(foods
-      .filter((food) =>
-        (food.nom).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").includes(
-          (this.state.search.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, ""))
-        )
-      ).length / foodsPerPage); i++) {
+    for (
+      let i = 1;
+      i <=
+      Math.ceil(
+        foods.filter((food) =>
+          food.nom
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .includes(
+              this.state.search
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+            )
+        ).length / foodsPerPage
+      );
+      i++
+    ) {
       pageNumbers.push(i);
     }
 
     const renderPageNumbers = pageNumbers.map((number) => {
       return (
-        <li key={number} id={number} onClick={this.handleClick} className={this.state.currentPage === number ? 'current': ''}>
+        <li
+          key={number}
+          id={number}
+          onClick={this.handleClick}
+          className={`${this.state.currentPage === number ? "current" : ""} ${
+            number < this.state.currentPage - 5 ||
+            number > this.state.currentPage + 5
+              ? "hidden"
+              : ""
+          }`}
+        >
           {number}
         </li>
       );
@@ -4434,7 +4535,6 @@ class Food extends React.Component {
           type="search"
           placeholder="Rechercher un aliment"
           onKeyDown={this.handleFilter}
-          onChange={this.handleInput}
         />
         {this.state.search === "" ? (
           <p className="block">Tous les aliments de la base de données.</p>
@@ -4442,7 +4542,13 @@ class Food extends React.Component {
           <p className="block">Vous recherchez {this.state.search}.</p>
         )}
         {renderfoods}
-        <ul id="page-numbers">{renderPageNumbers}</ul>
+        <ul id="page-numbers">
+          <li onClick={this.first.bind(this)}>First</li>
+          <li onClick={this.prec.bind(this)}>{"préc. <"}</li>
+          {renderPageNumbers}
+          <li onClick={this.suiv.bind(this)}>{"> suiv."}</li>
+          <li onClick={this.last.bind(this)}>Last</li>
+        </ul>
       </div>
     );
   }
