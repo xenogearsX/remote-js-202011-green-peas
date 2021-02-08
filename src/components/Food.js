@@ -4438,7 +4438,7 @@ class Food extends React.Component {
 
     const renderPageNumbers = pageNumbers.map((number) => {
       return (
-        <li key={number} id={number} onClick={this.handleClick}>
+        <li key={number} id={number} onClick={this.handleClick} className={this.state.currentPage === number ? 'current': ''}>
           {number}
         </li>
       );
