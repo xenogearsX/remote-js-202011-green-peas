@@ -4,12 +4,14 @@ import '../components/bouton.css'
 import '../screen/typo.css';
 import '../screen/screen.css';
 import earth from '../data/images/earth-2.svg'
+import Select from '../components/Select';
 
 
 const Home = () => {
     return(
         <div id="Page">
                 <section className='intro'>
+                <Select />
                     <h1>Sauve la planète</h1>
                     <figure className="figure">
                         <img src={earth} alt="earth" />
