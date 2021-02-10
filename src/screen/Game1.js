@@ -1,27 +1,41 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Footer from "../components/Footer";
+import {
+  Link,
+  Route,
+  Switch,
+  useParams,
+  useRouteMatch,
+} from "react-router-dom";
 import ProgresBar from "../components/ProgresBar";
 import Select from "../components/Select";
 import Timer from "../components/Timer";
+import Game2 from "./Game2";
 
-class Game1 extends React.Component {
-  state={
-      select: ""
-  }
-    render() {
-    return (
-      <>
-        <ProgresBar />
-        <h1>Choisi ton entrée</h1>
-        <Timer />
-        <img />
-        <Select />
-        <Link to="/game2">Etape suivante</Link>
-        <Footer />
-      </>
-    );
-  }
+const Game1 = () => {
+  const { path, url } = useRouteMatch();
+
+  return (
+    <div>
+      <Timer />
+      <Switch>
+        <Route exact path={path}>
+          <h1>Choix de l'entrée</h1>
+          <Select />
+          <img />
+          <Link to={`${url}/game2`}>Passer au choix du plat</Link>
+        </Route>
+        <Route path={`${path}/:topicId`}>
+          <Topic />
+        </Route>
+      </Switch>
+      <ProgresBar />
+      <Footer />
+    </div>
+  );
+};
+
+function Topic() {
+  return <Game2 />;
 }
-
 export default Game1;

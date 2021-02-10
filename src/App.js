@@ -10,6 +10,7 @@ import { Route, Switch } from "react-router-dom";
 import Intro from './screen/Intro';
 
 import './App.css';
+import Bilan from "./components/Bilan";
 
 class App extends React.Component {
   state = {
@@ -38,6 +39,7 @@ class App extends React.Component {
             <Route path="/mieux" component={Best} />
             <Route path="/aliments" component={Food} />
             <Route path="/game1" component={Game1} />
+            <Route path="/bilan" component={Bilan} />
           </Switch>
         </div>
       </div>
