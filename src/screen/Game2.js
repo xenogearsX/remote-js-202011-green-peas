@@ -17,7 +17,7 @@ const Game2 = () => {
         <Route exact path={path}>
           <h1>Choix du plat</h1>
           <Select />
-          <img />
+          <img alt='not yet' />
           <Link to={`${url}/game3`}>Passer au choix du dessert</Link>
         </Route>
         <Route path={`${path}/:topicId`}>

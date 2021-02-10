@@ -7,7 +7,7 @@ const Game3 = () => {
     <div>
       <h1>Choix du dessert</h1>
       <Select />
-      <img />
+      <img alt='not yet' />
       <Link to="/bilan">Passer au bilan</Link>
     </div>
   );
