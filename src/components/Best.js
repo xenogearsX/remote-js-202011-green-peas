@@ -7,6 +7,7 @@ import oil from "../data/images/oil.svg";
 import pesticide from "../data/images/pesticide.svg";
 import water from "../data/images/water.svg";
 import soil from "../data/images/soil_degradation.svg";
+import Footer from "./Footer";
 
 //Tableau de faits sur l'impact de l'agriculture sur l'environnement
 
@@ -91,10 +92,19 @@ const facts = [
 ];
 
 const Best = () => {
-        return (
-            <div>
-                {facts.map((fact, index) => (<FactCards texte={fact.texte} icon={fact.icon} key={index} categorie={facts.categorie} />))}
-            </div> )
-}
+  return (
+    <div>
+      {facts.map((fact, index) => (
+        <FactCards
+          texte={fact.texte}
+          icon={fact.icon}
+          key={index}
+          categorie={facts.categorie}
+        />
+      ))}
+      <Footer />
+    </div>
+  );
+};
 
 export default Best;
