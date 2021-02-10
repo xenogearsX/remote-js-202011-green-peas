@@ -1,7 +1,7 @@
 import Best from "./components/Best";
 import Food from "./components/Food";
-import Footer from './components/Footer';
 import Game from "./screen/Game";
+import Game1 from "./screen/Game1";
 import Header from './components/Header';
 import Home from './screen/Home'
 import Nav from './components/Nav';
@@ -37,8 +37,8 @@ class App extends React.Component {
             <Route path="/game" component={Game} />
             <Route path="/mieux" component={Best} />
             <Route path="/aliments" component={Food} />
+            <Route path="/game1" component={Game1} />
           </Switch>
-          <Footer />
         </div>
       </div>
     );
