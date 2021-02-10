@@ -1,0 +1,12 @@
+@mixin encart {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: 50px auto;
+    border-radius: 10px;
+    background: $colorBack;
+    padding: 3rem;
+    min-width:200px;
+    max-width: 360px;
+}

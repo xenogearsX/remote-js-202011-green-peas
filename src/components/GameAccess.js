@@ -1,32 +1,27 @@
-import React from 'react';
-import Timer from './Timer';
-import './GameAccess.css';
-import timer_earth from '../data/images/timer_earth.png';
+import React from "react";
+import "./GameAccess.scss";
+import {Link} from 'react-router-dom'
 
+const GameAccess = () => {
+  return (
+    <section id="encartJeux">
+      <h1>Règles du jeux</h1>
+      <p>
+        Tu as une faim de 🐺 ? Alors commence le jeu pour créer ton menu Entrée
+        + Plat + Dessert + Boisson 😋
+      </p>
 
-class GameAccess extends React.Component {
-    render (){
-        return (
-            <div className="BodyGame">
-                <div className="introRules">
-                    <div className="Rules"> 
-                         <div id="titleRules"> REGLES DU JEU </div>
-                         <p id="rulesTextIntro"> Tu as une faim de 🐺 ? Alors commence le jeu pour créer ton menu Entrée + Plat + Dessert + Boisson  😋 </p>
-                    </div>
-                    <div id="imageDiv"><img src={timer_earth} alt="timer-earth" id="imageEarth"/></div>
-                </div>       
-                <div className="Bar"></div>
-                <div className="AstuceParag">                   
-                    <div className="Astuce">💚 Astuces </div>
-                    <p id="rulesText">#1 Prends tes décisions rapidement car la 🌍 est déjà en danger ⚠️
-                    <br /> #2 Pense que chacun de tes choix à un impact 🔥 sur la planète 
-                    <br /> #3 N'oublie pas, les 🍅 ne poussent pas l'hiver ⛄ </p>
-                </div>
-                <div className="ButtonStart"><Timer /></div> 
-            </div>
-        )
-    }
-}
+      <h3 class="padBot-025rem">💚 Astuces</h3>
 
+      <ul>
+        <li>#1 Prends tes décisions rapidement car la 🌍 est déjà en danger</li>
+        <li>️#2 Pense que chacun de tes choix à un impact 🔥 sur la planète</li>
+        <li>#3 N'oublie pas, les 🍅 ne poussent pas l'hiver ⛄</li>
+      </ul>
 
-export default GameAccess; 
+      <Link className="bouton" to="/game1">Start </Link>
+    </section>
+  );
+};
+
+export default GameAccess;
