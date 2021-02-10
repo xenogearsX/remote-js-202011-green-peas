@@ -1,16 +1,13 @@
-import React from 'react';
 import FactsList from '../components/FactsList';
-import imgEarth from '../data/images/earth.svg'
+import React from 'react';
 import './Intro.css';
 
 const Intro = () => {
     return (
         <div className='bgIntro'>
             <div>
+                <h1>Green Peas</h1>
                 <FactsList />
-            </div>
-            <div>
-                <img src={imgEarth} className='earthAnim'></img>
             </div>
         </div>
 

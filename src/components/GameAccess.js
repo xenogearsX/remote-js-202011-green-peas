@@ -19,8 +19,8 @@ class GameAccess extends React.Component {
                 <div className="AstuceParag">                   
                     <div className="Astuce">💚 Astuces </div>
                     <p id="rulesText">#1 Prends tes décisions rapidement car la 🌍 est déjà en danger ⚠️
-                    <br></br> #2 Pense que chacun de tes choix à un impact 🔥 sur la planète 
-                    <br></br> #3 N'oublie pas, les 🍅 ne poussent pas l'hiver ⛄ </p>
+                    <br /> #2 Pense que chacun de tes choix à un impact 🔥 sur la planète 
+                    <br /> #3 N'oublie pas, les 🍅 ne poussent pas l'hiver ⛄ </p>
                 </div>
                 <div className="ButtonStart"><Timer /></div> 
             </div>

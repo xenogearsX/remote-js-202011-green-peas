@@ -19,24 +19,22 @@ class App extends React.Component {
   componentDidMount () {
     setTimeout(() => {
       this.setState({loading: false})
-    }, 3000);
+    }, 5000);
   }
 
   render() {
-    if(this.state.loading) {
-      return (
-        <div><Intro /></div>
-      )
-    }
-    return (
+    return this.state.loading ? (
+      <div>
+        <Intro />
+      </div>
+    ) : (
       <div className="App">
-        
-          <div className='homePage'>
+        <div className="homePage">
           <Nav />
           <Header />
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/jeux" component={Game} />
+            <Route path="/game" component={Game} />
             <Route path="/mieux" component={Best} />
             <Route path="/aliments" component={Food} />
           </Switch>

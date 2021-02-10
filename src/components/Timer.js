@@ -1,39 +1,34 @@
 import React from 'react'
 import './timer.css'
 
+let intervalId = null
+
 class Timer extends React.Component {
 
-timer = () =>{
-let counter = 30
-let intervalId = null
-let timer = document.getElementById("bip")
-let button = document.getElementById("button")
-button.disabled = true
-intervalId = setInterval(bip, 1000)
-
-function bip() {
-    counter--
-    if(counter === 0) finish()
-    else {	
-        timer.innerHTML = counter + " secondes restantes"
+    state = {
+        counter: 30 
     }
-  }	
-    function finish() {
-      clearInterval(intervalId)
-      timer.innerHTML = "TERMINE!"
-      button.disabled = false
-      counter = 30	
-  }
-}
-
-    render(){
-    return(
-        <div>
-            <button className="button" onClick={this.timer} id="button">Start Game</button>
-            <div id="bip" className="compteur"></div>
-        </div>
-        )
-    }
-}
+    
+            timer = () => {
+                this.setState({counter: 30})
+                document.getElementById('button').disabled = true
+                intervalId = setInterval(this.bip, 1000)
+            }
+            bip = () => {
+                this.setState({counter:this.state.counter - 1})
+                if(this.state.counter === 0){ 
+                    document.getElementById('button').disabled = false
+                    clearInterval(intervalId)
+                }
+            }	
+                render(){
+                return(
+                    <div>
+                        <button className="button" onClick={this.timer} id="button">Start Game</button>
+                        <div id="bip" className="compteur">{this.state.counter === 0 ? "TERMINE !" : this.state.counter + " secondes restantes."}</div>
+                    </div>
+                    )
+                }
+            }
 
 export default Timer
