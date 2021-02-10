@@ -11,7 +11,7 @@ const GameAccess = () => {
         + Plat + Dessert + Boisson 😋
       </p>
 
-      <h3 class="padBot-025rem">💚 Astuces</h3>
+      <h3 className="padBot-025rem">💚 Astuces</h3>
 
       <ul>
         <li>#1 Prends tes décisions rapidement car la 🌍 est déjà en danger</li>
