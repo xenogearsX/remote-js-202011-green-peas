@@ -1,34 +1,37 @@
-import React from 'react'
-import './timer.css'
+import React from "react";
+import { Redirect } from "react-router-dom";
 
-let intervalId = null
+let intervalId = null;
 
 class Timer extends React.Component {
-
-    state = {
-        counter: 30 
+  state = {
+    counter: null,
+  };
+  timer = () => {
+    this.setState({ counter: 30 });
+    intervalId = setInterval(this.bip, 1000);
+  };
+  bip = () => {
+    this.setState({ counter: this.state.counter - 1 });
+    if (this.state.counter === 0) {
+      clearInterval(intervalId);
     }
-    
-            timer = () => {
-                this.setState({counter: 30})
-                document.getElementById('button').disabled = true
-                intervalId = setInterval(this.bip, 1000)
-            }
-            bip = () => {
-                this.setState({counter:this.state.counter - 1})
-                if(this.state.counter === 0){ 
-                    document.getElementById('button').disabled = false
-                    clearInterval(intervalId)
-                }
-            }	
-                render(){
-                return(
-                    <div>
-                        <button className="button" onClick={this.timer} id="button">Start Game</button>
-                        <div id="bip" className="compteur">{this.state.counter === 0 ? "TERMINE !" : this.state.counter + " secondes restantes."}</div>
-                    </div>
-                    )
-                }
-            }
+  };
+  componentDidMount() {
+    this.timer();
+  }
+  render() {
+    return (
+      <div>
+        <div id="bip" className="compteur">
+          {this.state.counter === 0
+            ? "TERMINE !"
+            : this.state.counter + " secondes restantes."}
+        </div>
+        {this.state.counter === 0 ? <Redirect to="/" /> : null}
+      </div>
+    );
+  }
+}
 
-export default Timer
+export default Timer;
