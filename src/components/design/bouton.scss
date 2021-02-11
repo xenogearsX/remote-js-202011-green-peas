@@ -3,7 +3,6 @@
     font-weight: 400;
     font-size: 1.3em;
     padding: 1rem 2rem;
-    margin-top: 1rem;
     text-decoration: none;
     background-color: $colorPrimary;
     color: white;
@@ -12,6 +11,9 @@
     transition: all 0.2s ease-in;
     font-family:$typoSecondaire;
     text-align: center;
+    &.off{
+        opacity: 50%;
+    }
     &:focus{
         background:lighten($colorPrimary,15%);
     }

@@ -1,11 +1,11 @@
 .footer {
   position: fixed;
-  bottom: -1px;
+  bottom: 0px;
   background-color: white;
   max-width: 100%;
   box-shadow: rgb(231, 231, 231) 10px -5px 10px;
   width: 100%;
-  transition: position .2s ease-in;
+  transition: position 0.2s ease-in;
   margin-top: 50px;
 }
 
@@ -17,12 +17,16 @@ input {
   height: 50px;
   color: black;
   background-color: rgb(243, 243, 243);
-  border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 0px 0px 5px;
   width: 100%;
   padding: 1rem;
   border: 1px solid;
 }
-
+.searchbutton {
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid;
+  width: 2em;
+}
 ::placeholder {
   font-size: 1.2em;
 }
@@ -30,4 +34,7 @@ input {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+.search {
+  display: flex;
 }

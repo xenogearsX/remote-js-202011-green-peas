@@ -1,34 +1,24 @@
 import React from "react";
 import {
   Link,
-  Route,
-  Switch,
-  useRouteMatch,
 } from "react-router-dom";
 import Select from "../components/Select";
-import Game3 from "./Game3";
+import Timer from "../components/Timer";
+import ProgresBar from "../components/ProgresBar";
+import './Game.scss'
 
 const Game2 = () => {
-  const { path, url } = useRouteMatch();
-
   return (
     <div>
-      <Switch>
-        <Route exact path={path}>
-          <h1>Choix du plat</h1>
-          <Select />
-          <img alt='not yet' />
-          <Link to={`${url}/game3`}>Passer au choix du dessert</Link>
-        </Route>
-        <Route path={`${path}/:topicId`}>
-          <Topic />
-        </Route>
-      </Switch>
+      <ProgresBar indicator="75" width="75"/>
+      <section className="encart">
+      <Timer />
+        <h2 className="titreJeux">
+        <span>2</span> Choisi ton plat</h2>
+          <Select name="Plat" />
+          <Link to='/game3' className="bouton">Valider votre plat</Link>
+        </section>
     </div>
   );
 };
-
-function Topic() {
-  return <Game3 />
-}
 export default Game2;

@@ -28,7 +28,7 @@ class Timer extends React.Component {
             ? "TERMINE !"
             : this.state.counter + " secondes restantes."}
         </div>
-        {this.state.counter === 0 ? <Redirect to="/" /> : null}
+        {/* {this.state.counter === 0 ? <Redirect to="/gameover" /> : null} */}
       </div>
     );
   }

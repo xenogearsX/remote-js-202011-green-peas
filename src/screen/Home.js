@@ -1,21 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../components/bouton.css";
-import "../screen/typo.css";
-import "../screen/screen.css";
 import earth from "../data/images/earth-2.svg";
 import Footer from "../components/Footer";
+import '../screen/Home.scss'
 
 const Home = () => {
   return (
-    <div id="Page">
-      <section className="intro">
+    <div>
+      <section className="encart">
         <h1>Sauve la planète</h1>
         <figure className="figure">
           <img src={earth} alt="earth" />
           <figcaption></figcaption>
         </figure>
-        <p>Sauve la planète et découvre ton pois &#128994; environnemental</p>
+        <p>Découvre l'empreinte écologique de ton alimentation !</p>
+  
         <Link to="/game" className="bouton">
           Sauve la planète
         </Link>
