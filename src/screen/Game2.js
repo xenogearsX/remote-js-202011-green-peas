@@ -11,7 +11,7 @@ class Game2 extends React.Component {
   render() {
     return (
       <div>
-      <ProgresBar indicator="75" width="75"/>
+      <ProgresBar indicator={75} width={75}/>
       <section className="encart">
       <Timer />
         <h2 className="titreJeux">

@@ -9,7 +9,7 @@ class Game4 extends React.Component {
   render() {
     return (
       <div> 
-      <ProgresBar indicator="75" width="75"/>
+      <ProgresBar indicator={215} width={215}/>
       <section className="encart">
       <Timer />
       <h2 className="titreJeux">
