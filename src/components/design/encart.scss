@@ -8,5 +8,11 @@
     background: $colorBack;
     padding: 3rem;
     min-width:200px;
-    max-width: 360px;
+    max-width: 414px;
+    box-shadow: 0px 1px 3px grey;
+    .figure {
+        display: flex;
+    justify-content: center;
+    margin: 2rem;
+    }
 }

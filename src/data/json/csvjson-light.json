@@ -5,7 +5,8 @@
     "Nom du Produit en Français": "Pomme de terre, rôtie/cuite au four",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,63",
     "Score unique EF (mPt/kg de produit)": "0,14",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,91"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,91",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 4037,
@@ -13,7 +14,8 @@
     "Nom du Produit en Français": "Chips de pommes de terre, à l'ancienne",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,45",
     "Score unique EF (mPt/kg de produit)": "0,29",
-    "Changement climatique (kg CO2 eq/kg de produit)": "2,24"
+    "Changement climatique (kg CO2 eq/kg de produit)": "2,24",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 4039,
@@ -21,7 +23,8 @@
     "Nom du Produit en Français": "Rostis ou Galette de pomme de terre",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,81",
     "Score unique EF (mPt/kg de produit)": "0,19",
-    "Changement climatique (kg CO2 eq/kg de produit)": "1,03"
+    "Changement climatique (kg CO2 eq/kg de produit)": "1,03",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 4102,
@@ -29,7 +32,8 @@
     "Nom du Produit en Français": "Patate douce, cuite",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,00",
     "Score unique EF (mPt/kg de produit)": "0,12",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,80"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,80",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 9341,
@@ -37,7 +41,8 @@
     "Nom du Produit en Français": "Quinoa, bouilli/cuit à l'eau, non salé",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,30",
     "Score unique EF (mPt/kg de produit)": "0,15",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,68"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,68",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 25510,
@@ -45,7 +50,8 @@
     "Nom du Produit en Français": "Gnocchi à la pomme de terre, cuit",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "1,92",
     "Score unique EF (mPt/kg de produit)": "0,12",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,80"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,80",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 2011,
@@ -53,7 +59,8 @@
     "Nom du Produit en Français": "Jus multifruit - base orange, multivitaminé",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,68",
     "Score unique EF (mPt/kg de produit)": "0,15",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,80"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,80",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 2061,
@@ -61,7 +68,8 @@
     "Nom du Produit en Français": "Nectar multifruit, standard",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,68",
     "Score unique EF (mPt/kg de produit)": "0,15",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,80"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,80",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 2500,
@@ -69,7 +77,8 @@
     "Nom du Produit en Français": "Smoothie",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,07",
     "Score unique EF (mPt/kg de produit)": "0,11",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,68"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,68",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 18017,
@@ -77,7 +86,8 @@
     "Nom du Produit en Français": "Sirop à diluer, sucré",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,63",
     "Score unique EF (mPt/kg de produit)": "0,16",
-    "Changement climatique (kg CO2 eq/kg de produit)": "1,06"
+    "Changement climatique (kg CO2 eq/kg de produit)": "1,06",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 18030,
@@ -85,7 +95,8 @@
     "Nom du Produit en Français": "Boisson à l'eau minérale ou de source, aromatisée, non sucrée, avec édulcorants",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,97",
     "Score unique EF (mPt/kg de produit)": "0,04",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,40"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,40",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 18065,
@@ -93,7 +104,8 @@
     "Nom du Produit en Français": "Boisson au thé, aromatisée, non sucrée, avec édulcorants",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,02",
     "Score unique EF (mPt/kg de produit)": "0,09",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,61"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,61",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 18304,
@@ -101,7 +113,8 @@
     "Nom du Produit en Français": "Boisson plate aux fruits (10 à 50% de jus), à teneur réduite en sucres",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,56",
     "Score unique EF (mPt/kg de produit)": "0,08",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,61"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,61",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 18345,
@@ -109,7 +122,8 @@
     "Nom du Produit en Français": "Boisson gazeuse aux fruits (à moins de 10% de jus), non sucrée, sans édulcorant",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,97",
     "Score unique EF (mPt/kg de produit)": "0,04",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,40"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,40",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 18352,
@@ -117,7 +131,8 @@
     "Nom du Produit en Français": "Boisson énergisante, sucrée",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,20",
     "Score unique EF (mPt/kg de produit)": "0,06",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,51"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,51",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 18902,
@@ -125,27 +140,30 @@
     "Nom du Produit en Français": "Boisson au soja, aromatisée, sucrée",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,95",
     "Score unique EF (mPt/kg de produit)": "0,06",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,42"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,42",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 1001,
-    "Catégorie Jeux": "Dessert",
+    "Catégorie Jeux": "Boisson",
     "Nom du Produit en Français": "Eau de vie",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,30",
     "Score unique EF (mPt/kg de produit)": "0,12",
-    "Changement climatique (kg CO2 eq/kg de produit)": "1,15"
+    "Changement climatique (kg CO2 eq/kg de produit)": "1,15",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 1005,
-    "Catégorie Jeux": "Dessert",
+    "Catégorie Jeux": "Boisson",
     "Nom du Produit en Français": "Whisky",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,29",
     "Score unique EF (mPt/kg de produit)": "0,12",
-    "Changement climatique (kg CO2 eq/kg de produit)": "1,16"
+    "Changement climatique (kg CO2 eq/kg de produit)": "1,16",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 1026,
-    "Catégorie Jeux": "Dessert",
+    "Catégorie Jeux": "Boisson",
     "Nom du Produit en Français": "Saké ou Alcool de riz",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,29",
     "Score unique EF (mPt/kg de produit)": "0,12",
@@ -157,7 +175,8 @@
     "Nom du Produit en Français": "Figue, crue",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,90",
     "Score unique EF (mPt/kg de produit)": "0,23",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,58"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,58",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 13036,
@@ -165,7 +184,8 @@
     "Nom du Produit en Français": "Pastèque, pulpe, crue",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,68",
     "Score unique EF (mPt/kg de produit)": "0,12",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,59"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,59",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 13050,
@@ -173,7 +193,8 @@
     "Nom du Produit en Français": "Pomme, pulpe, crue",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,03",
     "Score unique EF (mPt/kg de produit)": "0,06",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,28"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,28",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 13082,
@@ -181,7 +202,8 @@
     "Nom du Produit en Français": "Clémentine, pulpe, crue",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,68",
     "Score unique EF (mPt/kg de produit)": "0,21",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,71"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,71",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 23020,
@@ -189,7 +211,8 @@
     "Nom du Produit en Français": "Baba au rhum, préemballé",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,14",
     "Score unique EF (mPt/kg de produit)": "0,12",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,87"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,87",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 23032,
@@ -197,7 +220,8 @@
     "Nom du Produit en Français": "Brownie au chocolat",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,19",
     "Score unique EF (mPt/kg de produit)": "0,82",
-    "Changement climatique (kg CO2 eq/kg de produit)": "8,96"
+    "Changement climatique (kg CO2 eq/kg de produit)": "8,96",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 23491,
@@ -205,7 +229,8 @@
     "Nom du Produit en Français": "Tarte aux fraises",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,88",
     "Score unique EF (mPt/kg de produit)": "0,63",
-    "Changement climatique (kg CO2 eq/kg de produit)": "2,38"
+    "Changement climatique (kg CO2 eq/kg de produit)": "2,38",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 23531,
@@ -213,7 +238,8 @@
     "Nom du Produit en Français": "Charlotte aux fruits",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,18",
     "Score unique EF (mPt/kg de produit)": "0,36",
-    "Changement climatique (kg CO2 eq/kg de produit)": "2,33"
+    "Changement climatique (kg CO2 eq/kg de produit)": "2,33",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 23802,
@@ -221,7 +247,8 @@
     "Nom du Produit en Français": "Gâteau basque, crème pâtissière",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,13",
     "Score unique EF (mPt/kg de produit)": "0,32",
-    "Changement climatique (kg CO2 eq/kg de produit)": "3,23"
+    "Changement climatique (kg CO2 eq/kg de produit)": "3,23",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 31002,
@@ -229,7 +256,8 @@
     "Nom du Produit en Français": "Barre à la noix de coco, enrobée de chocolat",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,28",
     "Score unique EF (mPt/kg de produit)": "0,41",
-    "Changement climatique (kg CO2 eq/kg de produit)": "4,73"
+    "Changement climatique (kg CO2 eq/kg de produit)": "4,73",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 31004,
@@ -237,7 +265,8 @@
     "Nom du Produit en Français": "Chocolat au lait, tablette",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,99",
     "Score unique EF (mPt/kg de produit)": "1,28",
-    "Changement climatique (kg CO2 eq/kg de produit)": "17,57"
+    "Changement climatique (kg CO2 eq/kg de produit)": "17,57",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 31074,
@@ -245,7 +274,8 @@
     "Nom du Produit en Français": "Chocolat noir à 70% cacao minimum, extra, dégustation, tablette",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,99",
     "Score unique EF (mPt/kg de produit)": "1,29",
-    "Changement climatique (kg CO2 eq/kg de produit)": "18,58"
+    "Changement climatique (kg CO2 eq/kg de produit)": "18,58",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 39524,
@@ -253,7 +283,8 @@
     "Nom du Produit en Français": "Sorbet, en bac",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,16",
     "Score unique EF (mPt/kg de produit)": "0,46",
-    "Changement climatique (kg CO2 eq/kg de produit)": "1,03"
+    "Changement climatique (kg CO2 eq/kg de produit)": "1,03",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 39529,
@@ -261,7 +292,8 @@
     "Nom du Produit en Français": "Nougat glacé",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,45",
     "Score unique EF (mPt/kg de produit)": "0,28",
-    "Changement climatique (kg CO2 eq/kg de produit)": "2,37"
+    "Changement climatique (kg CO2 eq/kg de produit)": "2,37",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 39532,
@@ -269,7 +301,8 @@
     "Nom du Produit en Français": "Coupe glacée type café ou chocolat liégeois",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,11",
     "Score unique EF (mPt/kg de produit)": "0,28",
-    "Changement climatique (kg CO2 eq/kg de produit)": "2,59"
+    "Changement climatique (kg CO2 eq/kg de produit)": "2,59",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 39533,
@@ -277,7 +310,8 @@
     "Nom du Produit en Français": "Bûche glacée",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,08",
     "Score unique EF (mPt/kg de produit)": "0,28",
-    "Changement climatique (kg CO2 eq/kg de produit)": "2,37"
+    "Changement climatique (kg CO2 eq/kg de produit)": "2,37",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 8026,
@@ -285,7 +319,8 @@
     "Nom du Produit en Français": "Rillettes de canard",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,78",
     "Score unique EF (mPt/kg de produit)": "0,77",
-    "Changement climatique (kg CO2 eq/kg de produit)": "4,84"
+    "Changement climatique (kg CO2 eq/kg de produit)": "4,84",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 8214,
@@ -293,7 +328,8 @@
     "Nom du Produit en Français": "Pâté breton",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,78",
     "Score unique EF (mPt/kg de produit)": "0,77",
-    "Changement climatique (kg CO2 eq/kg de produit)": "4,84"
+    "Changement climatique (kg CO2 eq/kg de produit)": "4,84",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 8391,
@@ -301,7 +337,8 @@
     "Nom du Produit en Français": "Pâté en croûte",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,32",
     "Score unique EF (mPt/kg de produit)": "1,67",
-    "Changement climatique (kg CO2 eq/kg de produit)": "13,71"
+    "Changement climatique (kg CO2 eq/kg de produit)": "13,71",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 13004,
@@ -309,7 +346,8 @@
     "Nom du Produit en Français": "Avocat, pulpe, cru",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,26",
     "Score unique EF (mPt/kg de produit)": "0,55",
-    "Changement climatique (kg CO2 eq/kg de produit)": "2,75"
+    "Changement climatique (kg CO2 eq/kg de produit)": "2,75",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 20000,
@@ -317,7 +355,8 @@
     "Nom du Produit en Français": "Artichaut, cuit",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,08",
     "Score unique EF (mPt/kg de produit)": "0,71",
-    "Changement climatique (kg CO2 eq/kg de produit)": "3,01"
+    "Changement climatique (kg CO2 eq/kg de produit)": "3,01",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 20051,
@@ -333,7 +372,8 @@
     "Nom du Produit en Français": "Laitue iceberg, crue",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,32",
     "Score unique EF (mPt/kg de produit)": "0,09",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,86"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,86",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 20210,
@@ -341,7 +381,8 @@
     "Nom du Produit en Français": "Concombre, pulpe, cru",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,53",
     "Score unique EF (mPt/kg de produit)": "0,43",
-    "Changement climatique (kg CO2 eq/kg de produit)": "4,86"
+    "Changement climatique (kg CO2 eq/kg de produit)": "4,86",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 20265,
@@ -349,7 +390,8 @@
     "Nom du Produit en Français": "Julienne ou brunoise de légumes, surgelée, crue",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,88",
     "Score unique EF (mPt/kg de produit)": "0,10",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,65"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,65",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 25601,
@@ -357,7 +399,8 @@
     "Nom du Produit en Français": "Salade de thon et légumes, appertisée, égouttée",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,59",
     "Score unique EF (mPt/kg de produit)": "0,91",
-    "Changement climatique (kg CO2 eq/kg de produit)": "5,15"
+    "Changement climatique (kg CO2 eq/kg de produit)": "5,15",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 25604,
@@ -365,7 +408,8 @@
     "Nom du Produit en Français": "Salade verte, crue, sans assaisonnement",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,60",
     "Score unique EF (mPt/kg de produit)": "0,13",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,88"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,88",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 25628,
@@ -373,7 +417,8 @@
     "Nom du Produit en Français": "Salade César au poulet (salade verte, fromage, croûtos, sauce)",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,22",
     "Score unique EF (mPt/kg de produit)": "0,37",
-    "Changement climatique (kg CO2 eq/kg de produit)": "2,81"
+    "Changement climatique (kg CO2 eq/kg de produit)": "2,81",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 25910,
@@ -381,7 +426,8 @@
     "Nom du Produit en Français": "Soupe à l'oignon, préemballée à réchauffer",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,01",
     "Score unique EF (mPt/kg de produit)": "0,12",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,85"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,85",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 25949,
@@ -389,7 +435,8 @@
     "Nom du Produit en Français": "Soupe à la tomate et aux vermicelles, déshydratée reconstituée",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,83",
     "Score unique EF (mPt/kg de produit)": "0,14",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,46"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,46",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 26259,
@@ -397,7 +444,8 @@
     "Nom du Produit en Français": "Salade de chou ou Coleslaw, avec sauce, préemballée",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,65",
     "Score unique EF (mPt/kg de produit)": "0,17",
-    "Changement climatique (kg CO2 eq/kg de produit)": "1,12"
+    "Changement climatique (kg CO2 eq/kg de produit)": "1,12",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 28844,
@@ -405,7 +453,8 @@
     "Nom du Produit en Français": "Jambon sec de Parme",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,51",
     "Score unique EF (mPt/kg de produit)": "2,41",
-    "Changement climatique (kg CO2 eq/kg de produit)": "15,91"
+    "Changement climatique (kg CO2 eq/kg de produit)": "15,91",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 30315,
@@ -413,7 +462,8 @@
     "Nom du Produit en Français": "Chorizo",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,53",
     "Score unique EF (mPt/kg de produit)": "0,87",
-    "Changement climatique (kg CO2 eq/kg de produit)": "5,46"
+    "Changement climatique (kg CO2 eq/kg de produit)": "5,46",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 20047,
@@ -421,7 +471,8 @@
     "Nom du Produit en Français": "Tomate de saison, crue",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,26",
     "Score unique EF (mPt/kg de produit)": "0,07",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,51"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,51",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 20047,
@@ -429,7 +480,8 @@
     "Nom du Produit en Français": "Tomate hors saison, crue",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,26",
     "Score unique EF (mPt/kg de produit)": "0,20",
-    "Changement climatique (kg CO2 eq/kg de produit)": "1,88"
+    "Changement climatique (kg CO2 eq/kg de produit)": "1,88",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 20047,
@@ -437,7 +489,8 @@
     "Nom du Produit en Français": "Tomate, crue",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,32",
     "Score unique EF (mPt/kg de produit)": "0,10",
-    "Changement climatique (kg CO2 eq/kg de produit)": "0,62"
+    "Changement climatique (kg CO2 eq/kg de produit)": "0,62",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 6230,
@@ -445,7 +498,8 @@
     "Nom du Produit en Français": "Boeuf, à bourguignon ou pot-au-feu, cuit",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,31",
     "Score unique EF (mPt/kg de produit)": "3,53",
-    "Changement climatique (kg CO2 eq/kg de produit)": "42,73"
+    "Changement climatique (kg CO2 eq/kg de produit)": "42,73",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 21507,
@@ -453,7 +507,8 @@
     "Nom du Produit en Français": "Agneau, épaule, maigre, rôtie/cuite au four",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,65",
     "Score unique EF (mPt/kg de produit)": "4,87",
-    "Changement climatique (kg CO2 eq/kg de produit)": "50,07"
+    "Changement climatique (kg CO2 eq/kg de produit)": "50,07",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 25111,
@@ -461,7 +516,8 @@
     "Nom du Produit en Français": "Chili con carne",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "1,97",
     "Score unique EF (mPt/kg de produit)": "1,90",
-    "Changement climatique (kg CO2 eq/kg de produit)": "22,40"
+    "Changement climatique (kg CO2 eq/kg de produit)": "22,40",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 25539,
@@ -469,7 +525,8 @@
     "Nom du Produit en Français": "Brochette de poisson",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,76",
     "Score unique EF (mPt/kg de produit)": "2,34",
-    "Changement climatique (kg CO2 eq/kg de produit)": "13,50"
+    "Changement climatique (kg CO2 eq/kg de produit)": "13,50",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 26230,
@@ -477,7 +534,8 @@
     "Nom du Produit en Français": "Saumon, élevage, rôti/cuit au four",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,56",
     "Score unique EF (mPt/kg de produit)": "1,62",
-    "Changement climatique (kg CO2 eq/kg de produit)": "6,13"
+    "Changement climatique (kg CO2 eq/kg de produit)": "6,13",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 34004,
@@ -485,7 +543,8 @@
     "Nom du Produit en Français": "Lapin de garenne, viande, cuite",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,11",
     "Score unique EF (mPt/kg de produit)": "1,13",
-    "Changement climatique (kg CO2 eq/kg de produit)": "7,58"
+    "Changement climatique (kg CO2 eq/kg de produit)": "7,58",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 36033,
@@ -493,7 +552,8 @@
     "Nom du Produit en Français": "Poulet, aile, viande et peau, rôti/cuit au four",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,67",
     "Score unique EF (mPt/kg de produit)": "1,13",
-    "Changement climatique (kg CO2 eq/kg de produit)": "7,58"
+    "Changement climatique (kg CO2 eq/kg de produit)": "7,58",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 36051,
@@ -501,7 +561,8 @@
     "Nom du Produit en Français": "Chapon, viande et peau, rôti/cuit au four",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "2,67",
     "Score unique EF (mPt/kg de produit)": "1,13",
-    "Changement climatique (kg CO2 eq/kg de produit)": "7,56"
+    "Changement climatique (kg CO2 eq/kg de produit)": "7,56",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 36205,
@@ -509,7 +570,8 @@
     "Nom du Produit en Français": "Canard, magret, grillé/poêlé",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,11",
     "Score unique EF (mPt/kg de produit)": "1,11",
-    "Changement climatique (kg CO2 eq/kg de produit)": "7,31"
+    "Changement climatique (kg CO2 eq/kg de produit)": "7,31",
+    "Image": "https://via.placeholder.com/150"
   },
   {
     "Code CIQUAL": 36308,
@@ -517,6 +579,8 @@
     "Nom du Produit en Français": "Dinde, escalope, rôtie/cuite au four",
     "DQR - Note de qualité de la donnée (1 excellente ; 5 très faible)": "3,11",
     "Score unique EF (mPt/kg de produit)": "1,11",
-    "Changement climatique (kg CO2 eq/kg de produit)": "7,31"
+    "Changement climatique (kg CO2 eq/kg de produit)": "7,31",
+    "Image": "https://via.placeholder.com/150"
   }
 ]
+

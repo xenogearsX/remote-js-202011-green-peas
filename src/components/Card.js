@@ -1,15 +1,15 @@
 import React from "react";
-import './Card.css'
+import "./Card.scss";
 
 class Card extends React.Component {
   render() {
     return (
       <div className="card">
-        <p>{this.props.value}</p>
+        <p className="titreCard">{this.props.value}</p>
         <p>
-          Pois environnementale :
+          Score environnemental : {this.props.result}
         </p>
-        {this.props.result < 1 ? <p>🟢 🟢 🟢</p> : this.props.result < 4 ? <p>🟡 🟡</p> : <p>🔴 🔴 🔴</p>}
+        {this.props.result < 1 ? <p className="pea">🟢</p> : this.props.result < 4 ? <p className="pea">🟡</p> : <p className="pea">🔴</p>}
       </div>
     );
   }

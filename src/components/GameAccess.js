@@ -1,9 +1,11 @@
 import React from "react";
 import "./GameAccess.scss";
 import {Link} from 'react-router-dom'
+import Footer from './Footer'
 
 const GameAccess = () => {
   return (
+  <>  
     <section id="encartJeux">
       <h1>Règles du jeux</h1>
       <p>
@@ -21,6 +23,8 @@ const GameAccess = () => {
 
       <Link className="bouton" to="/game1">Start </Link>
     </section>
+    <Footer />
+  </>
   );
 };
 

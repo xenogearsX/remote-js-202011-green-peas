@@ -1,0 +1,29 @@
+body {
+    font-size: 100%;
+  }
+ 
+  h1 {
+    font-family: $typoPrimary;
+    font-size: $typoXXL;
+    color: $colorSecondary;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.8rem;
+    text-align: center;
+  }
+
+  p,
+  h3 {
+    color: $colorSecondary;
+    font-family: $typoSecondaire;
+    font-size: $typoM;
+    line-height: 1.3em;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 2rem;
+  }
+
+  h3 {
+    font-size:$typoXL;
+  }
+

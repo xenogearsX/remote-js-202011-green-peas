@@ -1,6 +1,8 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
 
+
+
 let intervalId = null;
 
 class Timer extends React.Component {
@@ -8,7 +10,7 @@ class Timer extends React.Component {
     counter: null,
   };
   timer = () => {
-    this.setState({ counter: 30 });
+    this.setState({ counter: 10 });
     intervalId = setInterval(this.bip, 1000);
   };
   bip = () => {
@@ -28,7 +30,7 @@ class Timer extends React.Component {
             ? "TERMINE !"
             : this.state.counter + " secondes restantes."}
         </div>
-        {this.state.counter === 0 ? <Redirect to="/" /> : null}
+        {this.state.counter === 0 ? <Redirect to="/gameover" /> : null}
       </div>
     );
   }

@@ -1,0 +1,21 @@
+@import '../components/design/ui.scss';
+
+
+.bouton {
+  @include boutonSite;
+}
+
+
+.encartBilan {
+  @include encart; // texte ul and li inside encart jeux
+  p{
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  .Score {
+      background-color: red;
+      align-self: center;
+      color:white;
+  }
+}
