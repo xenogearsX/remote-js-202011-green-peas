@@ -4390,6 +4390,12 @@ class Food extends React.Component {
       });
     }
   }
+  handleGlass() {
+    const glass= document.getElementById('searchfood');
+    this.setState({
+      search: glass.value,
+    });
+  }
   prec() {
     if (this.state.currentPage === 1) {
       this.setState({
@@ -4531,11 +4537,21 @@ class Food extends React.Component {
 
     return (
       <div className="food">
-        <input
-          type="search"
-          placeholder="Rechercher un aliment"
-          onKeyDown={this.handleFilter}
-        />
+        <div className="search">
+          <input
+            id="searchfood"
+            type="search"
+            placeholder="Rechercher un aliment"
+            onKeyDown={this.handleFilter}
+          />
+          <button
+            type="submit"
+            className="searchbutton"
+            onClick={this.handleGlass.bind(this)}
+          >
+            🔎
+          </button>
+        </div>
         {this.state.search === "" ? (
           <p className="block">Tous les aliments de la base de données.</p>
         ) : (

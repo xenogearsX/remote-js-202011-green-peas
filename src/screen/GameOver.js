@@ -6,11 +6,11 @@ class GameOver extends React.Component {
     return (
       <div className="gameover">
         <section className="encart">
-            <h1>Game Over</h1>
+          <h1>Game Over</h1>
           <h2 className="titreJeux">
-        Tu as mis trop de temps !
-        <br />
-        La planète n'attend pas !
+            Tu as mis trop de temps !
+            <br />
+            La planète n'attend pas !
           </h2>
           <Link to="/game1" className="bouton">
             Rejoue

@@ -37,4 +37,5 @@ input {
 }
 .search {
   display: flex;
+  width: 100%;
 }
