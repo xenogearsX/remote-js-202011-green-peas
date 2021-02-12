@@ -13,7 +13,7 @@ class Game5 extends React.Component {
       <section className="encart">
       <Timer />
       <h2 className="titreJeux">
-      <span>5</span> Choisi ta boisson</h2>
+      <span>5</span> Choisis ta boisson</h2>
         <Select name="Boisson" />
         <Link to="/bilan" className="bouton">Passer au bilan</Link>
     </section>
