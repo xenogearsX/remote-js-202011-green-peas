@@ -4,9 +4,10 @@ import ProgresBar from "../components/ProgresBar";
 import Select from "../components/Select";
 import Timer from "../components/Timer";
 
-const Game3 = () => {
-  return (
-    <div> 
+class Game3 extends React.Component {
+  render() {
+    return (
+      <div> 
       <ProgresBar indicator="75" width="75"/>
       <section className="encart">
         <Timer />
@@ -16,7 +17,8 @@ const Game3 = () => {
           <Link to="/game4" className="bouton">Valider ton accompagnement</Link>
       </section>
     </div>
-  );
-};
+    );
+  }
+}
 
 export default Game3;

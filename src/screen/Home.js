@@ -4,9 +4,10 @@ import earth from "../data/images/earth-2.svg";
 import Footer from "../components/Footer";
 import '../screen/Home.scss'
 
-const Home = () => {
-  return (
-    <div>
+class Home extends React.Component {
+  render() {
+    return (
+      <div>
       <section className="encart">
         <h1>Sauve la planète</h1>
         <figure className="figure">
@@ -21,7 +22,8 @@ const Home = () => {
       </section>
       <Footer/>
     </div>
-  );
-};
+    );
+  }
+}
 
 export default Home;

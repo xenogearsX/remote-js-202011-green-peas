@@ -7,9 +7,10 @@ import Timer from "../components/Timer";
 import ProgresBar from "../components/ProgresBar";
 import './Game.scss'
 
-const Game2 = () => {
-  return (
-    <div>
+class Game2 extends React.Component {
+  render() {
+    return (
+      <div>
       <ProgresBar indicator="75" width="75"/>
       <section className="encart">
       <Timer />
@@ -19,6 +20,8 @@ const Game2 = () => {
           <Link to='/game3' className="bouton">Valider votre plat</Link>
         </section>
     </div>
-  );
-};
+    );
+  }
+}
+
 export default Game2;

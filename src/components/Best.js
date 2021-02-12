@@ -91,9 +91,10 @@ const facts = [
   },
 ];
 
-const Best = () => {
-  return (
-    <div>
+class Best extends React.Component {
+  render() {
+    return (
+      <div>
       {facts.map((fact, index) => (
         <FactCards
           texte={fact.texte}
@@ -104,7 +105,8 @@ const Best = () => {
       ))}
       <Footer />
     </div>
-  );
-};
+    );
+  }
+}
 
 export default Best;
