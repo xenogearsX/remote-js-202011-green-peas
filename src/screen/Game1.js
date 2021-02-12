@@ -12,11 +12,11 @@ import Timer from "../components/Timer";
 
 import './Game.scss'
 
-const Game1 = () => {
-
-  return (
-    <div>
-      <ProgresBar indicator="5" width="5"/>
+class Game1 extends React.Component {
+  render() {
+    return (
+      <div>
+      <ProgresBar indicator={5} width={5}/>
       <section className="encart">
       <Timer />
         <h2 className="titreJeux">
@@ -26,6 +26,8 @@ const Game1 = () => {
       </section>
       <Footer />
     </div>
-  );
-};
+    );
+  }
+}
+
 export default Game1;
