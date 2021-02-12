@@ -7,7 +7,7 @@ class Card extends React.Component {
       <div className="card">
         <p className="titreCard">{this.props.value}</p>
         <p>
-          Score environnemental : {this.props.result}
+        <span>Score environnemental :</span> {this.props.result}
         </p>
         {this.props.result < 1 ? <p className="pea">🟢</p> : this.props.result < 4 ? <p className="pea">🟡</p> : <p className="pea">🔴</p>}
       </div>
