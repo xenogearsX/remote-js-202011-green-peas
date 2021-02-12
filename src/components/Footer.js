@@ -19,6 +19,7 @@ class Footer extends React.Component {
 
   getFood(e) {
     if (e.key === "Enter") {
+      this.changePos();
       this.setState({ loading: true }, () => {
         axios
           .get(
@@ -43,6 +44,7 @@ class Footer extends React.Component {
   }
   handleClick() {
     this.setState({ loading: true }, () => {
+      this.changePos();
       axios
         .get(
           `https://koumoul.com/s/data-fair/api/v1/datasets/agribalyse-synthese/values_agg?field=Nom_du_Produit_en_Fran%C3%A7ais&format=json&agg_size=100&q=${this.state.search}&q_mode=simple&sort=Nom_du_Produit_en_Fran%C3%A7ais&size=100&select=%2A&sampling=neighbors`
@@ -86,7 +88,6 @@ class Footer extends React.Component {
             placeholder="Rechercher un aliment"
             id="search"
             onChange={this.handleSearch}
-            onClick={this.changePos}
             onKeyDown={this.getFood}
           />
           <button
