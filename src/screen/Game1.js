@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "../components/Footer";
-import Starters from "../data/images/starters.svg";
 import {
   Link,
 } from "react-router-dom"; 
