@@ -1,4 +1,6 @@
 import Best from "./components/Best";
+import Bilan from "./components/Bilan";
+import Details from "./screen/Details";
 import Food from "./components/Food";
 import Game from "./screen/Game";
 import Game1 from "./screen/Game1";
@@ -15,7 +17,6 @@ import { Route, Switch } from "react-router-dom";
 import Intro from './screen/Intro';
 
 import './App.css';
-import Bilan from "./components/Bilan";
 
 class App extends React.Component {
   state = {
@@ -43,6 +44,7 @@ class App extends React.Component {
             <Route path="/game" component={Game} />
             <Route path="/mieux" component={Best} />
             <Route path="/aliments" component={Food} />
+            <Route path="/details" component={Details} />
             <Route path="/game1" component={Game1} />
             <Route path="/bilan" component={Bilan} />
             <Route path="/game2" component={Game2} />
