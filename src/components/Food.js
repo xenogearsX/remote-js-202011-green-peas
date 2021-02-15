@@ -184,7 +184,7 @@ class Food extends React.Component {
           />
           <button
             type="submit"
-            className="searchbutton"
+            className="noradius"
             onClick={this.handleGlass.bind(this)}
           >
             🔎
