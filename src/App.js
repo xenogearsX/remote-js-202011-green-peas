@@ -20,7 +20,8 @@ import './App.css';
 
 class App extends React.Component {
   state = {
-    loading: true
+    loading: true,
+    scoreglobal: 0,
   }
 
   componentDidMount () {
@@ -28,7 +29,8 @@ class App extends React.Component {
       this.setState({loading: false})
     }, 4000);
   }
-
+  resetScore = () => this.setState({scoreglobal: 0})
+  handleScoreGlobal = (number) => this.setState({scoreglobal: number+this.state.scoreglobal})
   render() {
     return this.state.loading ? (
       <div>
@@ -45,8 +47,8 @@ class App extends React.Component {
             <Route path="/mieux" component={Best} />
             <Route path="/aliments" component={Food} />
             <Route path="/details" component={Details} />
-            <Route path="/game1" component={Game1} />
-            <Route path="/bilan" component={Bilan} />
+            <Route path="/game1" render={props => (<Game1 {...props} handleScoreGlobal={this.handleScoreGlobal} />)} />
+            <Route path="/bilan" render={props => (<Bilan {...props} score={this.state.scoreglobal} />)} />
             <Route path="/game2" component={Game2} />
             <Route path="/game3" component={Game3} />
             <Route path="/game4" component={Game4} />

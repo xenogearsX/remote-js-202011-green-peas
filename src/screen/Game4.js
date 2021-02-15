@@ -8,16 +8,30 @@ import Timer from "../components/Timer";
 class Game4 extends React.Component {
   render() {
     return (
-      <div> 
-      <ProgresBar indicator={215} width={215}/>
-      <section className="encart">
-      <Timer />
-      <h2 className="titreJeux">
-      <span>4</span> Choisis ton dessert</h2>
-        <Select name="Dessert" />
-        <Link to="/game5" className="bouton">Valider ton dessert</Link>
-    </section>
-  </div>
+      <div>
+        <ProgresBar indicator={215} width={215} />
+        <section className="encart">
+          <Timer />
+          <h2 className="titreJeux">
+            <span>4</span> Choisis ton dessert
+          </h2>
+          <Select
+            name="Dessert"
+            handleScoreGlobal={this.props.location.data.handleScoreGlobal}
+          />
+          <Link
+            to={{
+              pathname: "/game5",
+              data: {
+                handleScoreGlobal: this.props.location.data.handleScoreGlobal,
+              },
+            }}
+            className="bouton"
+          >
+            Valider ton dessert
+          </Link>
+        </section>
+      </div>
     );
   }
 }

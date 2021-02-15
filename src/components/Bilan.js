@@ -11,7 +11,7 @@ class Bilan extends React.Component {
             <section className="encartBilan">
               <h1>Bilan</h1>
               <p>Voici ton score !</p>
-              <p className="Score">30/100</p>
+              <p className="Score">{this.props.score.toFixed(2)}</p>
               <figure className="figure">
                 <img src={earthfoutu} alt="earth" />
               </figure>
