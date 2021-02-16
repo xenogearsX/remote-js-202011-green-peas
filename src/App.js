@@ -47,7 +47,7 @@ class App extends React.Component {
             <Route path="/mieux" component={Best} />
             <Route path="/aliments" component={Food} />
             <Route path="/details" component={Details} />
-            <Route path="/game1" render={props => (<Game1 {...props} handleScoreGlobal={this.handleScoreGlobal} />)} />
+            <Route path="/game1" render={props => (<Game1 {...props} handleScoreGlobal={this.handleScoreGlobal} resetScore={this.resetScore}/>)} />
             <Route path="/bilan" render={props => (<Bilan {...props} score={this.state.scoreglobal} />)} />
             <Route path="/game2" component={Game2} />
             <Route path="/game3" component={Game3} />

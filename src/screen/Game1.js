@@ -9,6 +9,9 @@ import Timer from "../components/Timer";
 import "./Game.scss";
 
 class Game1 extends React.Component {
+  componentDidMount() {
+    this.props.resetScore()
+  }
   render() {
     return (
       <div>
