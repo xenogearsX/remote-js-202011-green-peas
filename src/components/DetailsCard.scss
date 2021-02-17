@@ -1,19 +1,18 @@
 @import './design/ui.scss';
 
 
-.card {
+.carddetail {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 210px;
     border-radius: 10px;
     margin: 20px;
-    height: 250px;
     box-shadow: 0px 1px 3px grey;
     background-color: $colorBack;
     padding:1.3rem;
 }
-.card p {
+.carddetail p {
     margin: 0px;
     padding: 0px;
     font-size: $typoS;
@@ -27,6 +26,6 @@
 .pea {
     font-size: 3rem;
 }
-.card span {
+.carddetail span {
     white-space: nowrap;
 }

@@ -1,14 +1,15 @@
-import Card from "./Card";
 import React from "react";
-import "./Food.css";
-import simplefood from "../data/json/simplefood.json"
+import details from "../data/json/detailjson.json";
+import DetailsCard from "../components/DetailsCard";
 import { Link } from "react-router-dom";
-
-class Food extends React.Component {
+import "../components/Food.css";
+import "./Detail.css";
+import Explanation from "../components/Explanation";
+class Details extends React.Component {
   constructor() {
     super();
     this.state = {
-      foods: simplefood,
+      foods: details,
       currentPage: 1,
       foodsPerPage: 52,
       search: "",
@@ -29,7 +30,7 @@ class Food extends React.Component {
     }
   }
   handleGlass() {
-    const glass= document.getElementById('searchfood');
+    const glass = document.getElementById("searchfood");
     this.setState({
       search: glass.value,
     });
@@ -106,6 +107,7 @@ class Food extends React.Component {
       ),
     });
   }
+
   render() {
     const { foods, currentPage, foodsPerPage } = this.state;
 
@@ -128,7 +130,27 @@ class Food extends React.Component {
       .slice(indexOfFirstFood, indexOfLastFood);
 
     const renderfoods = currentfoods.map((food) => {
-      return <Card key={food.nom} value={food.nom} result={food.ef} />;
+      return (
+        <DetailsCard
+          key={food.nom}
+          value={food.nom}
+          ef={food.ef}
+          changeclim={food.changementclim}
+          appozone={food.appauvozone}
+          rayion={food.rayonion}
+          formozone={food.formphotoozone}
+          part={food.particule}
+          acid={food.acidterreau}
+          eut={food.euterre}
+          eue={food.eueaudouce}
+          eum={food.eumarine}
+          sol={food.utilsol}
+          eco={food.ecotoxeau}
+          ee={food.epuieau}
+          een={food.epuienerg}
+          em={food.epuimine}
+        />
+      );
     });
 
     // Logic for displaying page numbers
@@ -175,6 +197,7 @@ class Food extends React.Component {
 
     return (
       <div className="food">
+        <Explanation />
         <div className="search">
           <input
             id="searchfood"
@@ -184,12 +207,18 @@ class Food extends React.Component {
           />
           <button
             type="submit"
-            className="noradius"
+            className="searchbutton"
             onClick={this.handleGlass.bind(this)}
           >
             🔎
           </button>
-          <Link to="/details" className="button">Aliments détaillés</Link>
+          <Link
+            to="/aliments"
+            className="button"
+            searchvalue={this.state.search}
+          >
+            Aliments simplifiés
+          </Link>
         </div>
         {this.state.search === "" ? (
           <p className="block">Tous les aliments de la base de données.</p>
@@ -208,4 +237,4 @@ class Food extends React.Component {
     );
   }
 }
-export default Food;
+export default Details;

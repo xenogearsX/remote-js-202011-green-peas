@@ -1,0 +1,16 @@
+.reduce {
+    font-size: 0.6em;
+    background-color: #38b858;
+    border-radius: 5px;
+    font-family: 'Robot' , sans-serif;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 5px;
+}
+.reduce:hover{
+    cursor: pointer;
+}
+#encart{
+    display: none;
+}

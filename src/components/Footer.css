@@ -37,4 +37,9 @@ input {
 }
 .search {
   display: flex;
+  width: 100%;
+}
+.noradius {
+  border: 1px solid;
+  width: 2em;
 }
