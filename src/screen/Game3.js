@@ -17,12 +17,14 @@ class Game3 extends React.Component {
           <Select
             name="Accompagnement"
             handleScoreGlobal={this.props.location.data.handleScoreGlobal}
+            addMenu={this.props.location.data.addMenu}
           />
           <Link
             to={{
               pathname: "/game4",
               data: {
                 handleScoreGlobal: this.props.location.data.handleScoreGlobal,
+                addMenu: this.props.location.data.addMenu
               },
             }}
             className="bouton"

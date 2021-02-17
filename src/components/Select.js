@@ -9,17 +9,15 @@ export default class Select extends Component {
     classBt: "bouton off",
     value: "",
   };
+  // addMenu
   componentDidMount() {
     const selectvalue=document.querySelector('.select')
     this.setState({ value: selectvalue.value})
   }
   componentWillUnmount() {
     this.props.handleScoreGlobal(parseFloat(document.querySelector('.select').value))
-    // this.props.handleScoreGlobal(this.state.value)  
-    }
-  // this.props.function(e.target.value);
-  // console.log(e.target.value)
-  // console.log(this.state)
+    this.props.addMenu(document.querySelector('.select').options[document.querySelector('.select').selectedIndex].text)
+     }
   render() {
     const gameFood = test.filter((data) =>
       data["Catégorie Jeux"].includes(this.props.name)
@@ -37,7 +35,7 @@ export default class Select extends Component {
       <>
         <select className="select">
           {randomTen.map((item, index) => (
-            <option key={index} value={item["Score unique EF (mPt/kg de produit)"]}>
+            <option key={index} value={item["Score unique EF (mPt/kg de produit)"]} >
               {item["Nom du Produit en Français"]}
             </option>
           ))}
