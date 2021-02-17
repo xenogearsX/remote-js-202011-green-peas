@@ -6,6 +6,7 @@ import earthfoutu from "../data/images/dead_earth.svg";
 class Bilan extends React.Component {
 
     render(){
+      console.log(this.props)
         return(
             <div>
             <section className="encartBilan">
@@ -16,7 +17,8 @@ class Bilan extends React.Component {
                 <img src={earthfoutu} alt="earth" />
               </figure>
               <p>Désolé avec un score pareil on va pas aller loin</p>
-        
+              {this.props.menu.map(aliment => (
+              <p>{aliment}</p>))}
               <Link to="/game" className="bouton">
                 Rejouer
               </Link>
