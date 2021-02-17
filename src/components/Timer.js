@@ -10,7 +10,7 @@ class Timer extends React.Component {
     counter: null,
   };
   timer = () => {
-    this.setState({ counter: 10 });
+    this.setState({ counter: 20 });
     intervalId = setInterval(this.bip, 1000);
   };
   bip = () => {

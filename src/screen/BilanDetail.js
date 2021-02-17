@@ -13,8 +13,7 @@ class BilanDetail extends React.Component {
             <div className="">
                 <section className="encart">
                     <h1>Détail du bilan de votre menu</h1>
-                    <h2>Score props - 30/100</h2>
-                    <h3>Empreinte carbone : props - 1t. CO2</h3>
+                    <p className="Score">{this.props.score.toFixed(2)} kg CO2 </p>
                 </section>
 
 {/* Section choix du plat avec empreinte néfaste */}
@@ -24,6 +23,7 @@ class BilanDetail extends React.Component {
                     Le plat X (maj props à mettre ici) avec ce score ef est celui qui a l'impact le plus néfaste 
                     sur l'environnement  
                 </h3>
+                {this.props.menu.map(food=><p>{food.name + " " + food.carbone}</p>)}
                 <div className="platNefaste">
                 <img
                         className="dish"
