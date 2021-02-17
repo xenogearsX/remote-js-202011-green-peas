@@ -16,7 +16,12 @@ class Bilan extends React.Component {
                 <img src={earthfoutu} alt="earth" />
               </figure>
               <p>Désolé avec un score pareil on va pas aller loin</p>
+
+              <Link to="/bilanDetail" className="bouton mb_1rem"> 
+                Voir le détail de votre bilan
+            </Link>
         
+
               <Link to="/game" className="bouton">
                 Rejouer
               </Link>

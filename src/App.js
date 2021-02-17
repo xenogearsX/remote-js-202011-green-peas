@@ -8,6 +8,7 @@ import Game2 from "./screen/Game2";
 import Game3 from "./screen/Game3";
 import Game4 from "./screen/Game4";
 import Game5 from "./screen/Game5";
+import BilanDetail from "./screen/Game5";
 import GameOver from "./screen/GameOver";
 import Header from './components/Header';
 import Home from './screen/Home'
@@ -54,6 +55,7 @@ class App extends React.Component {
             <Route path="/game4" component={Game4} />
             <Route path="/game5" component={Game5} />
             <Route path="/gameover" component={GameOver} />
+            <Route path="/bilanDetail" component={BilanDetail} />
           </Switch>
         </div>
       </div>

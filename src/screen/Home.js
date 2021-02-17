@@ -15,7 +15,7 @@ class Home extends React.Component {
           <figcaption></figcaption>
         </figure>
         <p>Découvre l'empreinte écologique de ton alimentation !</p>
-  
+
         <Link to="/game" className="bouton">
           Sauve la planète
         </Link>
