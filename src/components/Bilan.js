@@ -6,17 +6,23 @@ import earthfoutu from "../data/images/dead_earth.svg";
 class Bilan extends React.Component {
 
     render(){
+      console.log(this.props)
         return(
             <div>
             <section className="encartBilan">
               <h1>Bilan</h1>
               <p>Voici ton score !</p>
-              <p className="Score">{this.props.score.toFixed(2)}</p>
+              <p className="Score">{this.props.score.toFixed(2)} kg CO2 </p>
               <figure className="figure">
                 <img src={earthfoutu} alt="earth" />
               </figure>
               <p>Désolé avec un score pareil on va pas aller loin</p>
-        
+              
+
+
+              <Link to="/bilanDetail" className="bouton mb_1rem"> 
+                  Voir le détail de votre bilan
+                </Link>
               <Link to="/game" className="bouton">
                 Rejouer
               </Link>

@@ -10,16 +10,26 @@ export default class Select extends Component {
     value: "",
   };
   componentDidMount() {
-    const selectvalue=document.querySelector('.select')
-    this.setState({ value: selectvalue.value})
+    const select=document.querySelector('.select')
+    this.setState({ value: select.value})
   }
   componentWillUnmount() {
-    this.props.handleScoreGlobal(parseFloat(document.querySelector('.select').value))
-    // this.props.handleScoreGlobal(this.state.value)  
-    }
-  // this.props.function(e.target.value);
-  // console.log(e.target.value)
-  // console.log(this.state)
+      const select= document.querySelector('.select');
+
+      const objselect = (obj) => {
+        const rObj ={};
+        rObj["name"] = obj.options[obj.selectedIndex].text;
+        rObj["carbone"] = obj.value;
+        return rObj;
+      }
+
+      this.props.handleScoreGlobal(parseFloat(select.value))
+      this.props.addMenu(objselect(select))
+      
+     }
+
+
+  
   render() {
     const gameFood = test.filter((data) =>
       data["Catégorie Jeux"].includes(this.props.name)
@@ -37,7 +47,7 @@ export default class Select extends Component {
       <>
         <select className="select">
           {randomTen.map((item, index) => (
-            <option key={index} value={item["Score unique EF (mPt/kg de produit)"]}>
+            <option key={index} value={item["Changement climatique (kg CO2 eq/kg de produit)"]}>
               {item["Nom du Produit en Français"]}
             </option>
           ))}

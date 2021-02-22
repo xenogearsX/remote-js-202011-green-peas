@@ -3,6 +3,9 @@
 
 .bouton {
   @include boutonSite;
+  &.mb_1rem {
+    margin-bottom: 1rem;
+  }
 }
 
 
