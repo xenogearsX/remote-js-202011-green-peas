@@ -45,7 +45,7 @@ export default class Select extends Component {
       );
     return (
       <>
-        <select className="select">
+        <select className="select" onChange={this.props.changeClass}>
           {randomTen.map((item, index) => (
             <option key={index} value={item["Changement climatique (kg CO2 eq/kg de produit)"]}>
               {item["Nom du Produit en Français"]}
