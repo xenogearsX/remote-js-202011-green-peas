@@ -46,24 +46,3 @@ export default function Carousel () {
         </div>
     )
   }
-
-
-
-
-    // const handleDragStart = (e) => e.preventDefault();
-
-    // const items = [
-    //     <img src={janvier} onDragStart={handleDragStart} />,
-    //     <img src={février} onDragStart={handleDragStart} />,
-    //     <img src={mars} onDragStart={handleDragStart} />,
-    //     <img src={avril} onDragStart={handleDragStart} />,
-    //     <img src={mai} onDragStart={handleDragStart} />,
-    //     <img src={juin} onDragStart={handleDragStart} />,
-    //     <img src={juillet} onDragStart={handleDragStart} />,
-    //     <img src={aout} onDragStart={handleDragStart} />,
-    //     <img src={septembre} onDragStart={handleDragStart} />,
-    //     <img src={octobre} onDragStart={handleDragStart} />,
-    //     <img src={novembre} onDragStart={handleDragStart} />,
-    //     <img src={décembre} onDragStart={handleDragStart} />,
-    //   ];
-    
