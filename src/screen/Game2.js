@@ -6,6 +6,12 @@ import ProgresBar from "../components/ProgresBar";
 import "./Game.scss";
 
 class Game2 extends React.Component {
+  state = {
+    activeLink: false,
+  };
+  changeClass=() =>{
+    this.setState({ activeLink: true });
+  }
   render() {
     return (
       <div>
@@ -17,21 +23,15 @@ class Game2 extends React.Component {
           </h2>
           <Select
             name="Plat"
-            handleScoreGlobal={this.props.location.data.handleScoreGlobal}
-            addMenu={this.props.location.data.addMenu}
+            handleScoreGlobal={this.props.handleScoreGlobal}
+            addMenu={this.props.addMenu}
+            changeClass={this.changeClass}
           />
-          <Link
-            to={{
-              pathname: "/game3",
-              data: {
-                handleScoreGlobal: this.props.location.data.handleScoreGlobal,
-                addMenu: this.props.location.data.addMenu
-              },
-            }}
-            className="bouton"
-          >
+          {this.state.activeLink ?
+          <Link to="/game3" className="bouton">
             Valider ton plat
-          </Link>
+          </Link> :
+          <div className="bouton off">Valider ton plat</div>}
         </section>
       </div>
     );
