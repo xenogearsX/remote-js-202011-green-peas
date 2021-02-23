@@ -97,14 +97,14 @@ class Best extends React.Component {
     return (
       <div>
         <Carousel />
-      {facts.map((fact, index) => (
+      {/* {facts.map((fact, index) => (
         <FactCards
           texte={fact.texte}
           icon={fact.icon}
           key={index}
           categorie={facts.categorie}
         />
-      ))}
+      ))} */}
       <Footer />
     </div>
     );
