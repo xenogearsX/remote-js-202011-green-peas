@@ -17,19 +17,10 @@ class Game2 extends React.Component {
           </h2>
           <Select
             name="Plat"
-            handleScoreGlobal={this.props.location.data.handleScoreGlobal}
-            addMenu={this.props.location.data.addMenu}
+            handleScoreGlobal={this.props.handleScoreGlobal}
+            addMenu={this.props.addMenu}
           />
-          <Link
-            to={{
-              pathname: "/game3",
-              data: {
-                handleScoreGlobal: this.props.location.data.handleScoreGlobal,
-                addMenu: this.props.location.data.addMenu
-              },
-            }}
-            className="bouton"
-          >
+          <Link to="/game3" className="bouton">
             Valider ton plat
           </Link>
         </section>

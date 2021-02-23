@@ -1,5 +1,5 @@
 .bgIntro {
-  padding-top: 30px;
+  padding-top: 100px;
   margin-left: auto;
   margin-right: auto;
   height: 812px;
@@ -24,7 +24,7 @@
     500px 200px,
     1000px,
     400px 260px;
-  animation: 50s para infinite linear;
+  animation: 200s para infinite linear;
 }
 
 @keyframes para {

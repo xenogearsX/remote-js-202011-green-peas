@@ -17,8 +17,8 @@ class Game5 extends React.Component {
           </h2>
           <Select
             name="Boisson"
-            handleScoreGlobal={this.props.location.data.handleScoreGlobal}
-            addMenu={this.props.location.data.addMenu}
+            handleScoreGlobal={this.props.handleScoreGlobal}
+            addMenu={this.props.addMenu}
           />
           <Link to="/bilan" className="bouton">
             Valider ta boisson

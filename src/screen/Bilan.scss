@@ -20,5 +20,26 @@
       background-color: red;
       align-self: center;
       color:white;
+      margin-bottom: 1rem;
+      &.Good {
+        background-color: $colorPrimary;
+      }
   }
 }
+
+
+.encart {
+  .Score {
+    background-color: red;
+    align-self: center;
+    color: white;
+    display: block;
+    width: 37%;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    margin: 1rem auto;
+  }
+}
+
+

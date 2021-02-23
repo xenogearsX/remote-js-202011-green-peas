@@ -10,14 +10,14 @@ import Game4 from "./screen/Game4";
 import Game5 from "./screen/Game5";
 import BilanDetail from "./screen/BilanDetail";
 import GameOver from "./screen/GameOver";
-import Header from './components/Header';
-import Home from './screen/Home'
-import Nav from './components/Nav';
-import React from 'react';
+import Header from "./components/Header";
+import Home from "./screen/Home";
+import Nav from "./components/Nav";
+import React from "react";
 import { Route, Switch } from "react-router-dom";
-import Intro from './screen/Intro';
+import Intro from "./screen/Intro";
 
-import './App.css';
+import "./App.css";
 
 class App extends React.Component {
   // les s
@@ -25,18 +25,20 @@ class App extends React.Component {
     loading: true,
     scoreglobal: 0,
     menu: [],
-  }
+    moyenne:26.93
+  };
   addMenu = (item) => {
-    this.setState({menu: [...this.state.menu, item] })
-  }
-  resetMenu = () => this.setState({menu : []})
-  resetScore = () => this.setState({scoreglobal: 0})
-  handleScoreGlobal = (number) => this.setState({scoreglobal: number+this.state.scoreglobal})
+    this.setState({ menu: [...this.state.menu, item] });
+  };
+  resetMenu = () => this.setState({ menu: [] });
+  resetScore = () => this.setState({ scoreglobal: 0 });
+  handleScoreGlobal = (number) =>
+    this.setState({ scoreglobal: number + this.state.scoreglobal });
 
-  componentDidMount () {
+  componentDidMount() {
     setTimeout(() => {
-      this.setState({loading: false})
-    }, 4000);
+      this.setState({ loading: false });
+    }, 5000);
   }
   render() {
     return this.state.loading ? (
@@ -54,14 +56,81 @@ class App extends React.Component {
             <Route path="/mieux" component={Best} />
             <Route path="/aliments" component={Food} />
             <Route path="/details" component={Details} />
-            <Route path="/game1" render={props => (<Game1 {...props} handleScoreGlobal={this.handleScoreGlobal} addMenu={this.addMenu} resetScore={this.resetScore} resetMenu={this.resetMenu}/>)} />
-            <Route path="/bilan" render={props => (<Bilan {...props} score={this.state.scoreglobal} menu={this.state.menu} />)} />
-            <Route path="/game2" component={Game2} />
-            <Route path="/game3" component={Game3} />
-            <Route path="/game4" component={Game4} />
-            <Route path="/game5" component={Game5} />
+            <Route
+              path="/game1"
+              render={(props) => (
+                <Game1
+                  {...props}
+                  handleScoreGlobal={this.handleScoreGlobal}
+                  addMenu={this.addMenu}
+                  resetScore={this.resetScore}
+                  resetMenu={this.resetMenu}
+                />
+              )}
+            />
+            <Route
+              path="/bilan"
+              render={(props) => (
+                <Bilan
+                  {...props}
+                  score={this.state.scoreglobal}
+                  menu={this.state.menu}
+                  scoreMoyenne={this.state.moyenne}
+                />
+              )}
+            />
+            <Route
+              path="/game2"
+              render={(props) => (
+                <Game2
+                  {...props}
+                  handleScoreGlobal={this.handleScoreGlobal}
+                  addMenu={this.addMenu}
+                />
+              )}
+            />
+            <Route
+              path="/game3"
+              render={(props) => (
+                <Game3
+                  {...props}
+                  handleScoreGlobal={this.handleScoreGlobal}
+                  addMenu={this.addMenu}
+                />
+              )}
+            />
+            <Route
+              path="/game4"
+              render={(props) => (
+                <Game4
+                  {...props}
+                  handleScoreGlobal={this.handleScoreGlobal}
+                  addMenu={this.addMenu}
+                />
+              )}
+            />
+            <Route
+              path="/game5"
+              render={(props) => (
+                <Game5
+                  {...props}
+                  handleScoreGlobal={this.handleScoreGlobal}
+                  addMenu={this.addMenu}
+                />
+              )}
+            />
             <Route path="/gameover" component={GameOver} />
-            <Route path="/bilanDetail" render={props => (<BilanDetail {...props} score={this.state.scoreglobal} menu={this.state.menu} />)} />
+            <Route
+              path="/bilanDetail"
+              render={(props) => (
+                <BilanDetail
+                  {...props}
+                  score={this.state.scoreglobal}
+                  menu={this.state.menu}
+                  scoreMoyenne={this.state.moyenne}
+                />
+              )}
+            />
           </Switch>
         </div>
       </div>
