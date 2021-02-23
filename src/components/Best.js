@@ -8,6 +8,7 @@ import pesticide from "../data/images/pesticide.svg";
 import water from "../data/images/water.svg";
 import soil from "../data/images/soil_degradation.svg";
 import Footer from "./Footer";
+import Carousel from "./Carousel";
 
 //Tableau de faits sur l'impact de l'agriculture sur l'environnement
 
@@ -95,6 +96,7 @@ class Best extends React.Component {
   render() {
     return (
       <div>
+        <Carousel />
       {facts.map((fact, index) => (
         <FactCards
           texte={fact.texte}
