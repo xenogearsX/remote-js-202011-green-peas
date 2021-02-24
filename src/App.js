@@ -25,6 +25,7 @@ class App extends React.Component {
     loading: true,
     scoreglobal: 0,
     menu: [],
+    moyenne:26.93
   };
   addMenu = (item) => {
     this.setState({ menu: [...this.state.menu, item] });
@@ -74,6 +75,7 @@ class App extends React.Component {
                   {...props}
                   score={this.state.scoreglobal}
                   menu={this.state.menu}
+                  scoreMoyenne={this.state.moyenne}
                 />
               )}
             />
@@ -125,6 +127,7 @@ class App extends React.Component {
                   {...props}
                   score={this.state.scoreglobal}
                   menu={this.state.menu}
+                  scoreMoyenne={this.state.moyenne}
                 />
               )}
             />

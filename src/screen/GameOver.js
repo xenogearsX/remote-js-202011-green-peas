@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Footer from '../components/Footer'
 
 class GameOver extends React.Component {
   render() {
     return (
+      <>
       <div className="gameover">
         <section className="encart">
           <h1>Game Over</h1>
@@ -17,6 +19,8 @@ class GameOver extends React.Component {
           </Link>
         </section>
       </div>
+      <Footer/>
+      </>
     );
   }
 }

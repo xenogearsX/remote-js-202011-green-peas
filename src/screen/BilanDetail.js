@@ -1,79 +1,83 @@
-import React from "react";
-import Footer from "../components/Footer";
+import React from 'react'
+import Footer from '../components/Footer'
+// Import images
 import defaultImgDish from "../data/images/dish.svg";
-
-import "./BilanDetail.scss";
+import lamp from '../data/images/lamp.png';
+import suvcar from '../data/images/suvcar.png';
+// Import css
+import './BilanDetail.scss'
+import './Bilan.scss'
 
 class BilanDetail extends React.Component {
-  state = {
-    imgDefault: defaultImgDish,
-  };
-  render() {
-    return (
-      <div className="">
-        <section className="encart">
-          <h1>Détail du bilan de votre menu</h1>
-          <p className="Score">{this.props.score.toFixed(2)} kg CO2 </p>
-        </section>
+    state = {
+        imgDefault: defaultImgDish,
+      };
+    render(){
 
-        {/* Section choix du plat avec empreinte néfaste */}
+    const ScoreMenu  = this.props.score.toFixed(2)
+    const ScoreMoyenne = this.props.scoreMoyenne
+    
+    return(
+            <div className="">
+ 
+            <section className="encart">
+                    <h1>Bilan de ton menu</h1>
+                    {/* Score total affiché sur la barre de score */}
+                    <p className="ScoreDetail" style={{marginLeft:this.props.score.toFixed(2)*(320/80)}}>
+                    {((this.props.score)*10/80).toFixed(2)}
+                    </p>
+                    {/* barre de score */}
+                    <div className="scoreVulgEchelle"></div>
+                    {/* container pour mettre en page valeurs minimales et maximales sur barre de score */}
+                    <div className="EchelleValeurs">
+                    <p className="valeursEch">0</p>
+                    <p className="valeursEch">10</p>
+                    </div>
+                    {/* texte explication données min et max */}
+                    <p className="explications">* Echelle d'impact selon les choix effectués pour le menu</p>
 
-        <section className="encart">
-          <h3>
-            Le plat X (maj props à mettre ici) avec ce score ef est celui qui a
-            l'impact le plus néfaste sur l'environnement
-          </h3>
-          {this.props.menu.map((food) => (
-            <p>{food.name + " " + food.carbone}</p>
-          ))}
+                    <p>
+                    {ScoreMenu > ScoreMoyenne 
+                    ? 'Désolé avec un score pareil on va pas aller loin' 
+                    : 'Bravo grâce à toi il neige encore un peu en hiver' 
+                    }
+                    </p>
 
-          {this.props.menu
-            .sort(function (a, b) {
-              return a.carbone - b.carbone;
-            })
-            .map((food) => (
-              <p>{food.name + " " + food.carbone}</p>
-            ))}
+                    <h3>
+                    Mais l'aliment<br/>
+                    {this.props.menu.sort(function(a, b){ return b.carbone - a.carbone })[0].name} 
+                    <span className="koCo2">({this.props.menu[0].carbone} kg CO2)</span> {" "}
+                    est le plus néfaste pour l'environnement.
+                    </h3>
+            </section>
+
+ 
             
-          <div className="platNefaste">
-            <img
-              className="dish"
-              src={this.state.imgDefault}
-              alt={this.state.imgDefaultAlt}
-            />
-            <div>
-              <h4>Empreinte carbone : 2t. CO2</h4>
-              <p>
-                Props texte infos Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo c
-              </p>
-            </div>
-          </div>
-        </section>
 
-        {/* Sections des alternatives */}
+                <section className="encartBilan">
+                    <h3>Tes choix</h3>
+                    <ul>
+                    {this.props.menu.map(food=><li>{food.name + " " + food.carbone}</li>)}
+                </ul>
 
-        <section className="encart">
-          <h3>Nos conseils avec des alternatives</h3>
-          <div className="platNefaste">
-            <img
-              className="dish"
-              src={this.state.imgDefault}
-              alt={this.state.imgDefaultAlt}
-            />
-            <div>
-              <h4>Empreinte carbone : 2t. CO2</h4>
-              <p>
-                Props texte infos Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo c
-              </p>
-            </div>
-          </div>
-        </section>
+
+                <h3>
+                              Tout ça a l'air très appétissant mais tes {(this.props.score.toFixed(2))}kg de Co2 générés sont équivalents à : 
+                          </h3>
+
+           
+                    <div className="textVulg">
+                       
+                          <img className='imgicon' image src={lamp} alt='lamp.png'/>
+                          <p>
+                          <span className='nbjours'>{(this.props.score.toFixed(0))*2}</span>  jours d'éclairage d'1 ampoule</p>
+                            <h3>OU</h3>
+                            <img className='imgicon' src={suvcar} alt='suv-car'/>
+                            <p><span className='nbjours'>{(this.props.score*9).toFixed(0)}</span>  km en SUV </p>
+                    </div>  
+                </section>
+
+       
 
         <Footer />
       </div>

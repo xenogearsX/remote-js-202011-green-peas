@@ -27,7 +27,7 @@ export default function Carousel () {
 
       <div className="carousel">
         <h1>Consommer de saison</h1>
-            <AliceCarousel activeIndex={test()} autoPlay autoPlayInterval="4000" infinite>
+            <AliceCarousel activeIndex={test()}>
                 <img src={janvier} className="sliderimg" alt="janvier" />
                 <img src={février} className="sliderimg" alt="février" />
                 <img src={mars} className="sliderimg" alt="" />
