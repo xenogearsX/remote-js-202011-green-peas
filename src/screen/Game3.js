@@ -15,7 +15,7 @@ class Game3 extends React.Component {
     return (
       <div>
         <ProgresBar indicator={145} width={145} />
-        <section className="encart">
+        <section className="encart menu">
           <Timer />
           <h2 className="titreJeux">
             <span>3</span>Choisis ton accompagnement

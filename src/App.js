@@ -38,7 +38,7 @@ class App extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ loading: false });
-    }, 4000);
+    }, 50);
   }
   render() {
     return this.state.loading ? (

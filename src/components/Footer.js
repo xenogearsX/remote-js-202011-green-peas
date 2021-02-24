@@ -3,6 +3,8 @@ import React from "react";
 import Card from "./Card";
 import "./Footer.css";
 
+
+
 class Footer extends React.Component {
   constructor(props) {
     super(props);
@@ -68,16 +70,21 @@ class Footer extends React.Component {
     });
   }
 
-  changePos() {
-    this.setState({
-      className: "not-fixed footer",
-    });
-  }
+
+  changePos = async () => {     
+    await this.setState({       
+      className: "not-fixed footer",     
+    });     
+      
+      document.getElementById("footer").scrollIntoView({behavior: 'smooth'}); 
+    }
+
+
 
   render() {
     const { loading } = this.state;
     return (
-      <div className={this.state.className}>
+      <div className={this.state.className} id="footer">
         <div className="search">
           <input
             type="search"

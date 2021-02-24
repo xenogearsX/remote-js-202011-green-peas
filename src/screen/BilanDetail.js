@@ -44,7 +44,7 @@ class BilanDetail extends React.Component {
                     </p>
 
                     <h3>
-                    Mais l'aliment<br/>
+                    L'aliment {" "}
                     {this.props.menu.sort(function(a, b){ return b.carbone - a.carbone })[0].name} 
                     <span className="koCo2">({this.props.menu[0].carbone} kg CO2)</span> {" "}
                     est le plus néfaste pour l'environnement.
@@ -55,7 +55,7 @@ class BilanDetail extends React.Component {
             
 
                 <section className="encartBilan">
-                    <h3>Tes choix</h3>
+                    <h2>Tes choix</h2>
                     <ul>
                     {this.props.menu.map(food=><li>{food.name + " " + food.carbone}</li>)}
                 </ul>

@@ -9,7 +9,7 @@ class GameOver extends React.Component {
       <div className="gameover">
         <section className="encart">
           <h1>Game Over</h1>
-          <h2 className="titreJeux">
+          <h2 className="titreJeux gameOver">
             Tu as mis trop de temps !
             <br />
             La planète n'attend pas !
