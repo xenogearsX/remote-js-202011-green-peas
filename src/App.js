@@ -18,9 +18,9 @@ import { Route, Switch } from "react-router-dom";
 import Intro from "./screen/Intro";
 
 import "./App.css";
+import About from "./screen/About";
 
 class App extends React.Component {
-  // les s
   state = {
     loading: true,
     scoreglobal: 0,
@@ -38,7 +38,7 @@ class App extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ loading: false });
-    }, 5000);
+    }, 4000);
   }
   render() {
     return this.state.loading ? (
@@ -131,6 +131,7 @@ class App extends React.Component {
                 />
               )}
             />
+            <Route path="/about" component={About} />
           </Switch>
         </div>
       </div>

@@ -20,22 +20,20 @@ class BilanDetail extends React.Component {
     return(
             <div className="">
  
-
-
- <section className="encart">
+            <section className="encart">
                     <h1>Bilan de ton menu</h1>
-{/* Score total affiché sur la barre de score */}
+                    {/* Score total affiché sur la barre de score */}
                     <p className="ScoreDetail" style={{marginLeft:this.props.score.toFixed(2)*(320/80)}}>
-                        {((this.props.score)*10/80).toFixed(2)}
+                    {((this.props.score)*10/80).toFixed(2)}
                     </p>
-{/* barre de score */}
+                    {/* barre de score */}
                     <div className="scoreVulgEchelle"></div>
-{/* container pour mettre en page valeurs minimales et maximales sur barre de score */}
+                    {/* container pour mettre en page valeurs minimales et maximales sur barre de score */}
                     <div className="EchelleValeurs">
                     <p className="valeursEch">0</p>
                     <p className="valeursEch">10</p>
                     </div>
-{/* texte explication données min et max */}
+                    {/* texte explication données min et max */}
                     <p className="explications">* Echelle d'impact selon les choix effectués pour le menu</p>
 
                     <p>
@@ -43,20 +41,17 @@ class BilanDetail extends React.Component {
                     ? 'Désolé avec un score pareil on va pas aller loin' 
                     : 'Bravo grâce à toi il neige encore un peu en hiver' 
                     }
-              </p>
+                    </p>
 
                     <h3>
-                       Mais l'aliment<br/>
-                        {this.props.menu.sort(function(a, b){ return b.carbone - a.carbone })[0].name} 
-                        <span className="koCo2">({this.props.menu[0].carbone} kg CO2)</span> {" "}
-                        est le plus néfaste pour l'environnement.
+                    Mais l'aliment<br/>
+                    {this.props.menu.sort(function(a, b){ return b.carbone - a.carbone })[0].name} 
+                    <span className="koCo2">({this.props.menu[0].carbone} kg CO2)</span> {" "}
+                    est le plus néfaste pour l'environnement.
                     </h3>
+            </section>
 
-
-
-                </section>
-
-
+ 
             
 
                 <section className="encartBilan">
@@ -82,11 +77,12 @@ class BilanDetail extends React.Component {
                     </div>  
                 </section>
 
-                
-                <Footer />
-            </div>
-        )
-    }
+       
+
+        <Footer />
+      </div>
+    );
+  }
 }
 
-export default BilanDetail
+export default BilanDetail;

@@ -6,6 +6,12 @@ import Select from "../components/Select";
 import Timer from "../components/Timer";
 
 class Game4 extends React.Component {
+  state = {
+    activeLink: false,
+  };
+  changeClass=() =>{
+    this.setState({ activeLink: true });
+  }
   render() {
     return (
       <div>
@@ -19,10 +25,13 @@ class Game4 extends React.Component {
             name="Dessert"
             handleScoreGlobal={this.props.handleScoreGlobal}
             addMenu={this.props.addMenu}
+            changeClass={this.changeClass}
           />
+          {this.state.activeLink ?
           <Link to="/game5" className="bouton">
             Valider ton dessert
-          </Link>
+          </Link> :
+          <div className="bouton off">Valider ton dessert</div>}
         </section>
       </div>
     );

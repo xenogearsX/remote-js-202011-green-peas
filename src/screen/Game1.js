@@ -7,9 +7,15 @@ import Timer from "../components/Timer";
 import "./Game.scss";
 
 class Game1 extends React.Component {
+  state = {
+    activeLink: false,
+  };
+  changeClass=() =>{
+    this.setState({ activeLink: true });
+  }
   componentDidMount() {
-    this.props.resetScore()
-    this.props.resetMenu()
+    this.props.resetScore();
+    this.props.resetMenu();
   }
   render() {
     return (
@@ -20,10 +26,17 @@ class Game1 extends React.Component {
           <h2 className="titreJeux">
             <span>1</span>Choisis ton entrée
           </h2>
-          <Select name="Entrée" handleScoreGlobal={this.props.handleScoreGlobal} addMenu={this.props.addMenu}/>
+          <Select
+            name="Entrée"
+            handleScoreGlobal={this.props.handleScoreGlobal}
+            addMenu={this.props.addMenu}
+            changeClass={this.changeClass}
+          />
+          {this.state.activeLink?
           <Link to="/game2" className="bouton">
             Valider ton entrée
-          </Link>
+          </Link> :
+          <div className="bouton off">Valider ton entrée</div>}
         </section>
         <Footer />
       </div>
