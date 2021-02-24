@@ -46,9 +46,7 @@ class Footer extends React.Component {
     this.setState({ loading: true }, () => {
       this.changePos();
       axios
-        .get(
-          `https://koumoul.com/s/data-fair/api/v1/datasets/agribalyse-synthese/values_agg?field=Nom_du_Produit_en_Fran%C3%A7ais&format=json&agg_size=100&q=${this.state.search}&q_mode=simple&sort=Nom_du_Produit_en_Fran%C3%A7ais&size=100&select=%2A&sampling=neighbors`
-        )
+        .get(`https://koumoul.com/s/data-fair/api/v1/datasets/agribalyse-synthese/values_agg?field=Nom_du_Produit_en_Fran%C3%A7ais&format=json&agg_size=100&q=${this.state.search}&q_mode=simple&sort=Nom_du_Produit_en_Fran%C3%A7ais&size=100&select=%2A&sampling=neighbors`)
         .then((res) =>
           this.setState({
             loading: false,
@@ -57,9 +55,7 @@ class Footer extends React.Component {
               (food) =>
                 food.value
                   .toLowerCase()
-                  .includes(this.state.search.toLowerCase()) ||
-                food.results[0]["Sous-groupe_d'aliment"]
-                  .toLowerCase()
+                  .includes(this.state.search.toLowerCase()) || food.results[0]["Sous-groupe_d'aliment"].toLowerCase()
                   .includes(this.state.search.toLowerCase())
             ),
           })
