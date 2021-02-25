@@ -211,25 +211,21 @@ class Food extends React.Component {
           <p className="block">Vous recherchez {this.state.search}.</p>
         )}
 
-<ul id="page-numbers">
-          <li onClick={this.first.bind(this)}>First</li>
-          <li onClick={this.prec.bind(this)}>{"préc. <"}</li>
-          {renderPageNumbers}
-          <li onClick={this.suiv.bind(this)}>{"> suiv."}</li>
-          <li onClick={this.last.bind(this)}>Last</li>
-        </ul>
-
+{renderfoods.length === 0 ? null : (<ul id="page-numbers">
+            <li onClick={this.first.bind(this)}>First</li>
+            <li onClick={this.prec.bind(this)}>{"préc. <"}</li>
+            {renderPageNumbers}
+            <li onClick={this.suiv.bind(this)}>{"> suiv."}</li>
+            <li onClick={this.last.bind(this)}>Last</li>
+        </ul>)}
         {renderfoods}
-
-
-<ul id="page-numbers">
-          <li onClick={this.first.bind(this)}>First</li>
-          <li onClick={this.prec.bind(this)}>{"préc. <"}</li>
-          {console.log(renderfoods)}{renderfoods.length === 0 ? null : renderPageNumbers}
-          <li onClick={this.suiv.bind(this)}>{"> suiv."}</li>
-          <li onClick={this.last.bind(this)}>Last</li>
-        </ul>
-        
+        {renderfoods.length === 0 ? null : (<ul id="page-numbers">
+            <li onClick={this.first.bind(this)}>First</li>
+            <li onClick={this.prec.bind(this)}>{"préc. <"}</li>
+            {renderPageNumbers}
+            <li onClick={this.suiv.bind(this)}>{"> suiv."}</li>
+            <li onClick={this.last.bind(this)}>Last</li>
+        </ul>)}
       </div>
 
       </>

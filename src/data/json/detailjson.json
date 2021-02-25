@@ -2178,7 +2178,7 @@
     "epuimine": "3.50"
   },
   {
-    "nom": "Beurre à 39-41% MG, léger, doux",
+    "nom": "Beurre à 39-41 MG, léger, doux",
     "ef": "1.15",
     "changementclim": "15.49",
     "appauvozone": "0.51",
@@ -2196,7 +2196,7 @@
     "epuimine": "17.74"
   },
   {
-    "nom": "Beurre à 60-62% MG, à teneur réduite en matière grasse, demi-sel",
+    "nom": "Beurre à 60-62 MG, à teneur réduite en matière grasse, demi-sel",
     "ef": "1.15",
     "changementclim": "15.49",
     "appauvozone": "0.51",
@@ -2214,7 +2214,7 @@
     "epuimine": "17.84"
   },
   {
-    "nom": "Beurre à 60-62% MG, à teneur réduite en matière grasse, doux",
+    "nom": "Beurre à 60-62 MG, à teneur réduite en matière grasse, doux",
     "ef": "1.15",
     "changementclim": "15.49",
     "appauvozone": "0.51",
@@ -2232,7 +2232,7 @@
     "epuimine": "17.74"
   },
   {
-    "nom": "Beurre à 80% MG, demi-sel",
+    "nom": "Beurre à 80 MG, demi-sel",
     "ef": "1.15",
     "changementclim": "15.49",
     "appauvozone": "0.51",
@@ -2250,7 +2250,7 @@
     "epuimine": "17.84"
   },
   {
-    "nom": "Beurre à 80% MG, salé",
+    "nom": "Beurre à 80 MG, salé",
     "ef": "1.15",
     "changementclim": "15.49",
     "appauvozone": "0.51",
@@ -2268,7 +2268,7 @@
     "epuimine": "17.84"
   },
   {
-    "nom": "Beurre à 82% MG, doux",
+    "nom": "Beurre à 82 MG, doux",
     "ef": "1.15",
     "changementclim": "15.49",
     "appauvozone": "0.51",
@@ -2286,7 +2286,7 @@
     "epuimine": "17.74"
   },
   {
-    "nom": "Beurre à 82% MG, doux, tendre",
+    "nom": "Beurre à 82 MG, doux, tendre",
     "ef": "1.15",
     "changementclim": "15.49",
     "appauvozone": "0.51",
@@ -4788,7 +4788,7 @@
     "epuimine": "1.89"
   },
   {
-    "nom": "Boisson gazeuse aux fruits (à moins de 10% de jus), non sucrée, avec édulcorants",
+    "nom": "Boisson gazeuse aux fruits (à moins de 10 de jus), non sucrée, avec édulcorants",
     "ef": "0.04",
     "changementclim": "0.40",
     "appauvozone": "0.08",
@@ -4806,7 +4806,7 @@
     "epuimine": "1.33"
   },
   {
-    "nom": "Boisson gazeuse aux fruits (à moins de 10% de jus), non sucrée, sans édulcorant",
+    "nom": "Boisson gazeuse aux fruits (à moins de 10 de jus), non sucrée, sans édulcorant",
     "ef": "0.04",
     "changementclim": "0.40",
     "appauvozone": "0.08",
@@ -4824,7 +4824,7 @@
     "epuimine": "1.33"
   },
   {
-    "nom": "Boisson gazeuse aux fruits (à moins de 10% de jus), sucrée",
+    "nom": "Boisson gazeuse aux fruits (à moins de 10 de jus), sucrée",
     "ef": "0.05",
     "changementclim": "0.45",
     "appauvozone": "0.08",
@@ -4842,7 +4842,7 @@
     "epuimine": "1.80"
   },
   {
-    "nom": "Boisson gazeuse aux fruits (à moins de 10% de jus), sucrée, avec édulcorants",
+    "nom": "Boisson gazeuse aux fruits (à moins de 10 de jus), sucrée, avec édulcorants",
     "ef": "0.05",
     "changementclim": "0.45",
     "appauvozone": "0.08",
@@ -4860,7 +4860,7 @@
     "epuimine": "1.80"
   },
   {
-    "nom": "Boisson gazeuse aux fruits (de 10 à 50% de jus), sucrée",
+    "nom": "Boisson gazeuse aux fruits (de 10 à 50 de jus), sucrée",
     "ef": "0.05",
     "changementclim": "0.45",
     "appauvozone": "0.08",
@@ -5148,7 +5148,7 @@
     "epuimine": "4.71"
   },
   {
-    "nom": "Boisson plate aux fruits (10 à 50% de jus), à teneur réduite en sucres",
+    "nom": "Boisson plate aux fruits (10 à 50 de jus), à teneur réduite en sucres",
     "ef": "0.08",
     "changementclim": "0.61",
     "appauvozone": "0.09",
@@ -5166,7 +5166,7 @@
     "epuimine": "2.12"
   },
   {
-    "nom": "Boisson plate aux fruits (10 à 50% de jus), sucrée",
+    "nom": "Boisson plate aux fruits (10 à 50 de jus), sucrée",
     "ef": "0.08",
     "changementclim": "0.61",
     "appauvozone": "0.09",
@@ -5184,7 +5184,7 @@
     "epuimine": "2.12"
   },
   {
-    "nom": "Boisson plate aux fruits (à moins de 10% de jus), sucrée",
+    "nom": "Boisson plate aux fruits (à moins de 10 de jus), sucrée",
     "ef": "0.08",
     "changementclim": "0.61",
     "appauvozone": "0.09",
@@ -5220,7 +5220,7 @@
     "epuimine": "2.12"
   },
   {
-    "nom": "Boisson plate aux fruits, (à moins de 10% de jus), non sucrée, avec édulcorants",
+    "nom": "Boisson plate aux fruits, (à moins de 10 de jus), non sucrée, avec édulcorants",
     "ef": "0.04",
     "changementclim": "0.40",
     "appauvozone": "0.08",
@@ -6192,7 +6192,7 @@
     "epuimine": "6.51"
   },
   {
-    "nom": "Bœuf, steak haché 10% MG, cru",
+    "nom": "Bœuf, steak haché 10 MG, cru",
     "ef": "3.42",
     "changementclim": "41.43",
     "appauvozone": "0.82",
@@ -6210,7 +6210,7 @@
     "epuimine": "15.16"
   },
   {
-    "nom": "Bœuf, steak haché 10% MG, cuit",
+    "nom": "Bœuf, steak haché 10 MG, cuit",
     "ef": "4.34",
     "changementclim": "52.44",
     "appauvozone": "1.05",
@@ -6228,7 +6228,7 @@
     "epuimine": "19.35"
   },
   {
-    "nom": "Bœuf, steak haché 15% MG, cru",
+    "nom": "Bœuf, steak haché 15 MG, cru",
     "ef": "3.42",
     "changementclim": "41.43",
     "appauvozone": "0.82",
@@ -6246,7 +6246,7 @@
     "epuimine": "15.16"
   },
   {
-    "nom": "Bœuf, steak haché 15% MG, cuit",
+    "nom": "Bœuf, steak haché 15 MG, cuit",
     "ef": "4.34",
     "changementclim": "52.44",
     "appauvozone": "1.05",
@@ -6264,7 +6264,7 @@
     "epuimine": "19.35"
   },
   {
-    "nom": "Bœuf, steak haché 20% MG, cru",
+    "nom": "Bœuf, steak haché 20 MG, cru",
     "ef": "3.42",
     "changementclim": "41.43",
     "appauvozone": "0.82",
@@ -6282,7 +6282,7 @@
     "epuimine": "15.16"
   },
   {
-    "nom": "Bœuf, steak haché 20% MG, cuit",
+    "nom": "Bœuf, steak haché 20 MG, cuit",
     "ef": "4.34",
     "changementclim": "52.44",
     "appauvozone": "1.05",
@@ -6300,7 +6300,7 @@
     "epuimine": "19.35"
   },
   {
-    "nom": "Bœuf, steak haché 5% MG, cru",
+    "nom": "Bœuf, steak haché 5 MG, cru",
     "ef": "3.42",
     "changementclim": "41.43",
     "appauvozone": "0.82",
@@ -6318,7 +6318,7 @@
     "epuimine": "15.16"
   },
   {
-    "nom": "Bœuf, steak haché 5% MG, cuit",
+    "nom": "Bœuf, steak haché 5 MG, cuit",
     "ef": "4.34",
     "changementclim": "52.44",
     "appauvozone": "1.05",
@@ -9090,7 +9090,7 @@
     "epuimine": "14.36"
   },
   {
-    "nom": "Chocolat noir à 40% de cacao minimum, à pâtisser, tablette",
+    "nom": "Chocolat noir à 40 de cacao minimum, à pâtisser, tablette",
     "ef": "1.29",
     "changementclim": "18.58",
     "appauvozone": "0.78",
@@ -9108,7 +9108,7 @@
     "epuimine": "15.53"
   },
   {
-    "nom": "Chocolat noir à 70% cacao minimum, extra, dégustation, tablette",
+    "nom": "Chocolat noir à 70 cacao minimum, extra, dégustation, tablette",
     "ef": "1.29",
     "changementclim": "18.58",
     "appauvozone": "0.78",
@@ -9126,7 +9126,7 @@
     "epuimine": "15.53"
   },
   {
-    "nom": "Chocolat noir à moins de 70% de cacao, à croquer, tablette",
+    "nom": "Chocolat noir à moins de 70 de cacao, à croquer, tablette",
     "ef": "1.29",
     "changementclim": "18.58",
     "appauvozone": "0.78",
@@ -10134,7 +10134,7 @@
     "epuimine": "2.85"
   },
   {
-    "nom": "Cocktail type punch, 16% alcool",
+    "nom": "Cocktail type punch, 16 alcool",
     "ef": "0.14",
     "changementclim": "1.08",
     "appauvozone": "0.19",
@@ -11592,7 +11592,7 @@
     "epuimine": "14.17"
   },
   {
-    "nom": "Crème de lait, 15 à 20% MG, légère, épaisse, rayon frais",
+    "nom": "Crème de lait, 15 à 20 MG, légère, épaisse, rayon frais",
     "ef": "0.34",
     "changementclim": "3.68",
     "appauvozone": "0.27",
@@ -11610,7 +11610,7 @@
     "epuimine": "9.69"
   },
   {
-    "nom": "Crème de lait, 15 à 20% MG, légère, semi-épaisse, UHT",
+    "nom": "Crème de lait, 15 à 20 MG, légère, semi-épaisse, UHT",
     "ef": "0.34",
     "changementclim": "3.68",
     "appauvozone": "0.27",
@@ -11628,7 +11628,7 @@
     "epuimine": "9.69"
   },
   {
-    "nom": "Crème de lait, 30% MG, épaisse, rayon frais",
+    "nom": "Crème de lait, 30 MG, épaisse, rayon frais",
     "ef": "0.34",
     "changementclim": "3.68",
     "appauvozone": "0.27",
@@ -11646,7 +11646,7 @@
     "epuimine": "9.69"
   },
   {
-    "nom": "Crème de lait, 30% MG, semi-épaisse, UHT",
+    "nom": "Crème de lait, 30 MG, semi-épaisse, UHT",
     "ef": "0.34",
     "changementclim": "3.68",
     "appauvozone": "0.27",
@@ -15516,7 +15516,7 @@
     "epuimine": "12.04"
   },
   {
-    "nom": "Faisselle, 6% MG environ",
+    "nom": "Faisselle, 6 MG environ",
     "ef": "0.49",
     "changementclim": "5.43",
     "appauvozone": "0.25",
@@ -17154,7 +17154,7 @@
     "epuimine": "3.27"
   },
   {
-    "nom": "Fromage à pâte ferme environ 14% MG type Masdaam à teneur réduite en MG",
+    "nom": "Fromage à pâte ferme environ 14 MG type Masdaam à teneur réduite en MG",
     "ef": "0.57",
     "changementclim": "6.27",
     "appauvozone": "0.29",
@@ -17172,7 +17172,7 @@
     "epuimine": "4.69"
   },
   {
-    "nom": "Fromage à pâte ferme environ 27% MG type Maasdam",
+    "nom": "Fromage à pâte ferme environ 27 MG type Maasdam",
     "ef": "0.57",
     "changementclim": "6.27",
     "appauvozone": "0.29",
@@ -17208,7 +17208,7 @@
     "epuimine": "4.15"
   },
   {
-    "nom": "Fromage à pâte molle double crème environ 30% MG",
+    "nom": "Fromage à pâte molle double crème environ 30 MG",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -17244,7 +17244,7 @@
     "epuimine": "4.15"
   },
   {
-    "nom": "Fromage à pâte molle et croûte lavée, allégé environ 13% MG",
+    "nom": "Fromage à pâte molle et croûte lavée, allégé environ 13 MG",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -17280,7 +17280,7 @@
     "epuimine": "4.15"
   },
   {
-    "nom": "Fromage à pâte molle triple crème environ 40% MG",
+    "nom": "Fromage à pâte molle triple crème environ 40 MG",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -17316,7 +17316,7 @@
     "epuimine": "4.69"
   },
   {
-    "nom": "Fromage blanc nature, 0% MG",
+    "nom": "Fromage blanc nature, 0 MG",
     "ef": "0.34",
     "changementclim": "3.68",
     "appauvozone": "0.27",
@@ -17334,7 +17334,7 @@
     "epuimine": "9.69"
   },
   {
-    "nom": "Fromage blanc nature, 3% MG environ",
+    "nom": "Fromage blanc nature, 3 MG environ",
     "ef": "0.34",
     "changementclim": "3.68",
     "appauvozone": "0.27",
@@ -17352,7 +17352,7 @@
     "epuimine": "9.69"
   },
   {
-    "nom": "Fromage blanc nature, gourmand, 8% MG environ",
+    "nom": "Fromage blanc nature, gourmand, 8 MG environ",
     "ef": "0.34",
     "changementclim": "3.68",
     "appauvozone": "0.27",
@@ -17370,7 +17370,7 @@
     "epuimine": "9.69"
   },
   {
-    "nom": "Fromage blanc ou spécialité laitière, aux fruits, sucré, gourmand, 7% MG environ",
+    "nom": "Fromage blanc ou spécialité laitière, aux fruits, sucré, gourmand, 7 MG environ",
     "ef": "0.20",
     "changementclim": "1.87",
     "appauvozone": "0.16",
@@ -17442,7 +17442,7 @@
     "epuimine": "4.15"
   },
   {
-    "nom": "Fromage bleu de Bresse allegé environ 15% MG",
+    "nom": "Fromage bleu de Bresse allegé environ 15 MG",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -17784,7 +17784,7 @@
     "epuimine": "5.53"
   },
   {
-    "nom": "Fromage fondu double crème, environ 31% MG",
+    "nom": "Fromage fondu double crème, environ 31 MG",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -17802,7 +17802,7 @@
     "epuimine": "4.15"
   },
   {
-    "nom": "Fromage fondu en portions ou en cubes environ 20% MG",
+    "nom": "Fromage fondu en portions ou en cubes environ 20 MG",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -17838,7 +17838,7 @@
     "epuimine": "4.15"
   },
   {
-    "nom": "Fromage frais type petit suisse, aromatisé aux fruits, 2-3% MG, enrichi en calcium et vitamine D",
+    "nom": "Fromage frais type petit suisse, aromatisé aux fruits, 2-3 MG, enrichi en calcium et vitamine D",
     "ef": "0.26",
     "changementclim": "2.82",
     "appauvozone": "0.23",
@@ -17856,7 +17856,7 @@
     "epuimine": "7.38"
   },
   {
-    "nom": "Fromage frais type petit suisse, aux fruits, 2-3% MG",
+    "nom": "Fromage frais type petit suisse, aux fruits, 2-3 MG",
     "ef": "0.26",
     "changementclim": "2.82",
     "appauvozone": "0.23",
@@ -17874,7 +17874,7 @@
     "epuimine": "7.38"
   },
   {
-    "nom": "Fromage frais type petit suisse, aux fruits, 2-3% MG, enrichi en calcium et vitamine D",
+    "nom": "Fromage frais type petit suisse, aux fruits, 2-3 MG, enrichi en calcium et vitamine D",
     "ef": "0.26",
     "changementclim": "2.82",
     "appauvozone": "0.23",
@@ -17892,7 +17892,7 @@
     "epuimine": "7.38"
   },
   {
-    "nom": "Fromage frais type petit suisse, nature, 0% MG",
+    "nom": "Fromage frais type petit suisse, nature, 0 MG",
     "ef": "0.34",
     "changementclim": "3.68",
     "appauvozone": "0.27",
@@ -17910,7 +17910,7 @@
     "epuimine": "9.69"
   },
   {
-    "nom": "Fromage frais type petit suisse, nature, 10% MG environ",
+    "nom": "Fromage frais type petit suisse, nature, 10 MG environ",
     "ef": "0.34",
     "changementclim": "3.68",
     "appauvozone": "0.27",
@@ -17928,7 +17928,7 @@
     "epuimine": "9.69"
   },
   {
-    "nom": "Fromage frais type petit suisse, nature, 4% MG environ",
+    "nom": "Fromage frais type petit suisse, nature, 4 MG environ",
     "ef": "0.34",
     "changementclim": "3.68",
     "appauvozone": "0.27",
@@ -17964,7 +17964,7 @@
     "epuimine": "4.68"
   },
   {
-    "nom": "Fromage rond à pâte molle et croûte fleurie 5 à 11% MG type camembert allégé en matière grasse",
+    "nom": "Fromage rond à pâte molle et croûte fleurie 5 à 11 MG type camembert allégé en matière grasse",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -17982,7 +17982,7 @@
     "epuimine": "4.15"
   },
   {
-    "nom": "Fromage rond à pâte molle et croûte fleurie environ 11% MG type coulommiers allégé en matière grasse",
+    "nom": "Fromage rond à pâte molle et croûte fleurie environ 11 MG type coulommiers allégé en matière grasse",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -18000,7 +18000,7 @@
     "epuimine": "4.15"
   },
   {
-    "nom": "Fromage rond à pâte molle et croûte fleurie environ 5% MG type camembert allégé en matière grasse",
+    "nom": "Fromage rond à pâte molle et croûte fleurie environ 5 MG type camembert allégé en matière grasse",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -19872,7 +19872,7 @@
     "epuimine": "2.56"
   },
   {
-    "nom": "Haché à base de bœuf ou Préparation de viande hachée de boeuf, 15% MG, cru",
+    "nom": "Haché à base de bœuf ou Préparation de viande hachée de boeuf, 15 MG, cru",
     "ef": "1.72",
     "changementclim": "20.24",
     "appauvozone": "0.50",
@@ -24678,7 +24678,7 @@
     "epuimine": "12.13"
   },
   {
-    "nom": "Matière grasse laitière à 20% MG, légère, \"à tartiner\", doux",
+    "nom": "Matière grasse laitière à 20 MG, légère, \"à tartiner\", doux",
     "ef": "1.15",
     "changementclim": "15.49",
     "appauvozone": "0.51",
@@ -24696,7 +24696,7 @@
     "epuimine": "17.74"
   },
   {
-    "nom": "Matière grasse laitière à 25% MG, légère, \"à tartiner\", doux",
+    "nom": "Matière grasse laitière à 25 MG, légère, \"à tartiner\", doux",
     "ef": "1.15",
     "changementclim": "15.49",
     "appauvozone": "0.51",
@@ -24714,7 +24714,7 @@
     "epuimine": "17.74"
   },
   {
-    "nom": "Matière grasse mélangée (végétale et laitière) à 50-63% MG",
+    "nom": "Matière grasse mélangée (végétale et laitière) à 50-63 MG",
     "ef": "0.48",
     "changementclim": "5.33",
     "appauvozone": "0.24",
@@ -24732,7 +24732,7 @@
     "epuimine": "7.27"
   },
   {
-    "nom": "Matière grasse mélangée (végétale et laitière) à 50-63% MG, demi-sel",
+    "nom": "Matière grasse mélangée (végétale et laitière) à 50-63 MG, demi-sel",
     "ef": "0.48",
     "changementclim": "5.33",
     "appauvozone": "0.24",
@@ -24750,7 +24750,7 @@
     "epuimine": "7.27"
   },
   {
-    "nom": "Matière grasse mélangée (végétale et laitière), à tartiner, à 30-40% MG",
+    "nom": "Matière grasse mélangée (végétale et laitière), à tartiner, à 30-40 MG",
     "ef": "0.48",
     "changementclim": "5.33",
     "appauvozone": "0.24",
@@ -24768,7 +24768,7 @@
     "epuimine": "7.27"
   },
   {
-    "nom": "Matière grasse mélangée (végétale et laitière), à tartiner, à 30-40% MG, demi-sel",
+    "nom": "Matière grasse mélangée (végétale et laitière), à tartiner, à 30-40 MG, demi-sel",
     "ef": "0.48",
     "changementclim": "5.33",
     "appauvozone": "0.24",
@@ -24804,7 +24804,7 @@
     "epuimine": "6.65"
   },
   {
-    "nom": "Matière grasse végétale (type margarine) à 30-40% MG, légère, demi-sel, aux esters de stérol végétal",
+    "nom": "Matière grasse végétale (type margarine) à 30-40 MG, légère, demi-sel, aux esters de stérol végétal",
     "ef": "0.21",
     "changementclim": "1.91",
     "appauvozone": "0.13",
@@ -24822,7 +24822,7 @@
     "epuimine": "2.66"
   },
   {
-    "nom": "Matière grasse végétale (type margarine) à 50-63% MG, allégée, demi-sel",
+    "nom": "Matière grasse végétale (type margarine) à 50-63 MG, allégée, demi-sel",
     "ef": "0.30",
     "changementclim": "2.66",
     "appauvozone": "0.16",
@@ -24840,7 +24840,7 @@
     "epuimine": "3.42"
   },
   {
-    "nom": "Matière grasse végétale (type margarine) à 50-63% MG, allégée, demi-sel, riche en oméga 3",
+    "nom": "Matière grasse végétale (type margarine) à 50-63 MG, allégée, demi-sel, riche en oméga 3",
     "ef": "0.29",
     "changementclim": "2.55",
     "appauvozone": "0.15",
@@ -24858,7 +24858,7 @@
     "epuimine": "3.31"
   },
   {
-    "nom": "Matière grasse végétale (type margarine) à 50-63% MG, allégée, doux",
+    "nom": "Matière grasse végétale (type margarine) à 50-63 MG, allégée, doux",
     "ef": "0.33",
     "changementclim": "1.43",
     "appauvozone": "0.17",
@@ -24876,7 +24876,7 @@
     "epuimine": "4.34"
   },
   {
-    "nom": "Matière grasse végétale (type margarine) à 50-63% MG, allégée, doux, aux esters de stérol végétal",
+    "nom": "Matière grasse végétale (type margarine) à 50-63 MG, allégée, doux, aux esters de stérol végétal",
     "ef": "0.35",
     "changementclim": "1.50",
     "appauvozone": "0.18",
@@ -24894,7 +24894,7 @@
     "epuimine": "4.58"
   },
   {
-    "nom": "Matière grasse végétale (type margarine) à 50-63% MG, allégée, doux, riche en oméga 3",
+    "nom": "Matière grasse végétale (type margarine) à 50-63 MG, allégée, doux, riche en oméga 3",
     "ef": "0.34",
     "changementclim": "1.44",
     "appauvozone": "0.17",
@@ -24912,7 +24912,7 @@
     "epuimine": "4.36"
   },
   {
-    "nom": "Matière grasse végétale (type margarine) à 60% de MG, allégée, au tournesol, doux",
+    "nom": "Matière grasse végétale (type margarine) à 60 de MG, allégée, au tournesol, doux",
     "ef": "0.36",
     "changementclim": "1.58",
     "appauvozone": "0.18",
@@ -24930,7 +24930,7 @@
     "epuimine": "4.65"
   },
   {
-    "nom": "Matière grasse végétale (type margarine) à 70% MG, doux",
+    "nom": "Matière grasse végétale (type margarine) à 70 MG, doux",
     "ef": "0.40",
     "changementclim": "1.72",
     "appauvozone": "0.20",
@@ -24948,7 +24948,7 @@
     "epuimine": "5.16"
   },
   {
-    "nom": "Matière grasse végétale (type margarine) à 80% MG, salé",
+    "nom": "Matière grasse végétale (type margarine) à 80 MG, salé",
     "ef": "0.38",
     "changementclim": "3.38",
     "appauvozone": "0.18",
@@ -24966,7 +24966,7 @@
     "epuimine": "4.14"
   },
   {
-    "nom": "Matière grasse végétale (type margarine), à tartiner, à 30-40% MG, légère, demi-sel",
+    "nom": "Matière grasse végétale (type margarine), à tartiner, à 30-40 MG, légère, demi-sel",
     "ef": "0.23",
     "changementclim": "2.01",
     "appauvozone": "0.14",
@@ -24984,7 +24984,7 @@
     "epuimine": "2.76"
   },
   {
-    "nom": "Matière grasse végétale (type margarine), à tartiner, à 30-40% MG, légère, doux",
+    "nom": "Matière grasse végétale (type margarine), à tartiner, à 30-40 MG, légère, doux",
     "ef": "0.25",
     "changementclim": "1.25",
     "appauvozone": "0.15",
@@ -25002,7 +25002,7 @@
     "epuimine": "3.45"
   },
   {
-    "nom": "Matière grasse végétale (type margarine), à tartiner, à 30-40% MG, légère, doux, aux esters de stérol végétal",
+    "nom": "Matière grasse végétale (type margarine), à tartiner, à 30-40 MG, légère, doux, aux esters de stérol végétal",
     "ef": "0.23",
     "changementclim": "1.11",
     "appauvozone": "0.14",
@@ -25020,7 +25020,7 @@
     "epuimine": "3.15"
   },
   {
-    "nom": "Matière grasse végétale (type margarine), à tartiner, à 30-40% MG, légère, doux, riche en oméga 3",
+    "nom": "Matière grasse végétale (type margarine), à tartiner, à 30-40 MG, légère, doux, riche en oméga 3",
     "ef": "0.25",
     "changementclim": "1.16",
     "appauvozone": "0.14",
@@ -25038,7 +25038,7 @@
     "epuimine": "3.35"
   },
   {
-    "nom": "Matière grasse végétale ou margarine, 80% MG, doux",
+    "nom": "Matière grasse végétale ou margarine, 80 MG, doux",
     "ef": "0.44",
     "changementclim": "1.77",
     "appauvozone": "0.20",
@@ -25056,7 +25056,7 @@
     "epuimine": "5.57"
   },
   {
-    "nom": "Mayonnaise (70% MG min.)",
+    "nom": "Mayonnaise (70 MG min.)",
     "ef": "0.57",
     "changementclim": "2.21",
     "appauvozone": "0.30",
@@ -38772,7 +38772,7 @@
     "epuimine": "5.45"
   },
   {
-    "nom": "Sauce vinaigrette (50 à 75% d'huile), préemballée",
+    "nom": "Sauce vinaigrette (50 à 75 d'huile), préemballée",
     "ef": "0.50",
     "changementclim": "2.04",
     "appauvozone": "0.30",
@@ -40842,7 +40842,7 @@
     "epuimine": "1.61"
   },
   {
-    "nom": "Spécialité à base de crème légère 8% MG, fluide ou épaisse",
+    "nom": "Spécialité à base de crème légère 8 MG, fluide ou épaisse",
     "ef": "0.34",
     "changementclim": "3.68",
     "appauvozone": "0.27",
@@ -40896,7 +40896,7 @@
     "epuimine": "5.26"
   },
   {
-    "nom": "Spécialité fromagère non affinée à tartiner environ 30-40 % MG aromatisée (ex: ail et fines herbes)",
+    "nom": "Spécialité fromagère non affinée à tartiner environ 30-40  MG aromatisée (ex: ail et fines herbes)",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -40914,7 +40914,7 @@
     "epuimine": "4.15"
   },
   {
-    "nom": "Spécialité fromagère non affinée environ 20% MG, type fromage en barquette à tartiner ou coque fromagère",
+    "nom": "Spécialité fromagère non affinée environ 20 MG, type fromage en barquette à tartiner ou coque fromagère",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -40932,7 +40932,7 @@
     "epuimine": "4.15"
   },
   {
-    "nom": "Spécialité fromagère non affinée environ 25% MG, type fromage en barquette à tartiner ou coque fromagère",
+    "nom": "Spécialité fromagère non affinée environ 25 MG, type fromage en barquette à tartiner ou coque fromagère",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -42498,7 +42498,7 @@
     "epuimine": "3.64"
   },
   {
-    "nom": "Tomate, coulis, appertisé (purée de tomates mi-réduite à 11%)",
+    "nom": "Tomate, coulis, appertisé (purée de tomates mi-réduite à 11)",
     "ef": "0.12",
     "changementclim": "0.64",
     "appauvozone": "0.17",
@@ -42714,7 +42714,7 @@
     "epuimine": "4.15"
   },
   {
-    "nom": "Tomme ou tome, allégée en matière grasse, environ 13% MG",
+    "nom": "Tomme ou tome, allégée en matière grasse, environ 13 MG",
     "ef": "0.50",
     "changementclim": "5.49",
     "appauvozone": "0.25",
@@ -43704,7 +43704,7 @@
     "epuimine": "16.51"
   },
   {
-    "nom": "Veau, steak haché 15% MG, cru",
+    "nom": "Veau, steak haché 15 MG, cru",
     "ef": "2.21",
     "changementclim": "24.38",
     "appauvozone": "0.86",
@@ -43722,7 +43722,7 @@
     "epuimine": "12.64"
   },
   {
-    "nom": "Veau, steak haché 20% MG, cru",
+    "nom": "Veau, steak haché 20 MG, cru",
     "ef": "2.21",
     "changementclim": "24.38",
     "appauvozone": "0.86",
@@ -44226,7 +44226,7 @@
     "epuimine": "5.02"
   },
   {
-    "nom": "Yaourt au lait de chèvre, nature, 5% MG environ",
+    "nom": "Yaourt au lait de chèvre, nature, 5 MG environ",
     "ef": "0.27",
     "changementclim": "1.87",
     "appauvozone": "0.16",
@@ -44244,7 +44244,7 @@
     "epuimine": "1.99"
   },
   {
-    "nom": "Yaourt, lait fermenté ou spécialité laitière, aromatisé, avec édulcorants, 0% MG",
+    "nom": "Yaourt, lait fermenté ou spécialité laitière, aromatisé, avec édulcorants, 0 MG",
     "ef": "0.18",
     "changementclim": "1.67",
     "appauvozone": "0.15",
@@ -44316,7 +44316,7 @@
     "epuimine": "2.16"
   },
   {
-    "nom": "Yaourt, lait fermenté ou spécialité laitière, aux céréales, 0% MG",
+    "nom": "Yaourt, lait fermenté ou spécialité laitière, aux céréales, 0 MG",
     "ef": "0.27",
     "changementclim": "2.50",
     "appauvozone": "0.16",
@@ -44352,7 +44352,7 @@
     "epuimine": "4.80"
   },
   {
-    "nom": "Yaourt, lait fermenté ou spécialité laitière, aux fruits, avec édulcorants, 0% MG",
+    "nom": "Yaourt, lait fermenté ou spécialité laitière, aux fruits, avec édulcorants, 0 MG",
     "ef": "0.35",
     "changementclim": "2.44",
     "appauvozone": "0.79",
@@ -44370,7 +44370,7 @@
     "epuimine": "5.02"
   },
   {
-    "nom": "Yaourt, lait fermenté ou spécialité laitière, aux fruits, avec édulcorants, 0% MG, enrichi en vitamine D",
+    "nom": "Yaourt, lait fermenté ou spécialité laitière, aux fruits, avec édulcorants, 0 MG, enrichi en vitamine D",
     "ef": "0.35",
     "changementclim": "2.44",
     "appauvozone": "0.79",
@@ -44460,7 +44460,7 @@
     "epuimine": "1.84"
   },
   {
-    "nom": "Yaourt, lait fermenté ou spécialité laitière, nature, 0% MG",
+    "nom": "Yaourt, lait fermenté ou spécialité laitière, nature, 0 MG",
     "ef": "0.24",
     "changementclim": "2.44",
     "appauvozone": "0.16",
