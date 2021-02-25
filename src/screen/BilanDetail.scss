@@ -9,7 +9,6 @@
     font-style: italic;
 }
 
-
 .nbjours {
     font-size: 30px;
     font-weight: bold;
@@ -26,6 +25,9 @@
     background: linear-gradient(to right,rgb(22, 192, 31),orange,  red);
     border-radius: 10px;
     display: flex;
+    animation: slideRight 2s;
+    animation-iteration-count: infinite;
+    animation-direction : normal;
 }
 
 .ScoreDetail {
@@ -52,4 +54,101 @@
 
 .textVulg {
     text-align: center;
+}
+
+.encartBilan {
+    animation: slideDown 1s;
+}
+
+@keyframes slideDown {
+    from {
+        transform:translateY(20px);
+        opacity:0; 
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.imgiconLamp {
+    animation: animIcon1 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animIcon1 {
+    0% {
+        opacity:0; 
+    }
+    50% {
+        opacity: 2;
+    }
+    100% {
+        opacity: 4;
+    }
+}
+
+.imgiconSuv {
+    z-index: 1;
+    position: absolute;
+    animation: animIcon2 0.3s;
+    animation-iteration-count: infinite;
+    padding: 0;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+@keyframes animIcon2 {
+    from {
+        transform:translateY(-2px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.animSuv {
+    display: flex;
+}
+
+.contRoad {   
+    z-index: 2;
+    color: black;     
+    padding: 0px;
+    margin-top: 75px;
+    overflow: hidden;  
+    font-size: 50px;
+    font-weight: bold;                   
+}
+
+.road {
+    display: inline-block;                /* modèle de boîte en ligne */
+    padding-right: 2em;                   /* un peu d'espace pour la transition */
+    padding-left: 100%;                   /* placement à droite du conteneur */
+    white-space: nowrap;                  /* pas de passage à la ligne */
+    animation: defilement-rtl 50s infinite linear;
+}
+
+@keyframes defilement-rtl {
+    0% {
+      transform: translate3d(0,0,0);      /* position initiale à droite */
+    }
+    100% {
+      transform: translate3d(-100%,0,0);  /* position finale à gauche */
+    }
+  }
+
+.chicken {
+    font-size: 25px;
+    vertical-align: 15px;
+    
+}
+
+.barre1 {
+    font-size: 30px;
+    color: rgb(139, 134, 134);
+    vertical-align: 15px;
 }
