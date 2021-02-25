@@ -1,6 +1,6 @@
 [
   {
-    "Nom du Produit en Français": "Agneau épaule au four",
+    "Nom du Produit en Français": "Agneau rôtie",
     "Score unique EF (mPt/kg de produit)": "4.87",
     "Changement climatique (kg CO2 eq/kg de produit)": "50.07",
     "Catégorie Jeux": "Plat"
@@ -24,7 +24,7 @@
     "Catégorie Jeux": "Dessert"
   },
   {
-    "Nom du Produit en Français": "Barre à la noix de coco/chocolat",
+    "Nom du Produit en Français": "Barre à la noix de coco/choco",
     "Score unique EF (mPt/kg de produit)": "0.41",
     "Changement climatique (kg CO2 eq/kg de produit)": "4.73",
     "Catégorie Jeux": "Dessert"
@@ -36,19 +36,19 @@
     "Catégorie Jeux": "Plat"
   },
   {
-    "Nom du Produit en Français": "Eau minérale/source, aromatisée",
+    "Nom du Produit en Français": "Eau minérale/source aromatisée",
     "Score unique EF (mPt/kg de produit)": "0.04",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.40",
     "Catégorie Jeux": "Boisson"
   },
   {
-    "Nom du Produit en Français": "Boisson au soja aromatisée, sucrée",
+    "Nom du Produit en Français": "Boisson au soja sucrée",
     "Score unique EF (mPt/kg de produit)": "0.06",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.42",
     "Catégorie Jeux": "Boisson"
   },
   {
-    "Nom du Produit en Français": "Boisson au thé aromatisée",
+    "Nom du Produit en Français": "Boisson au thé aromatisée non sucrée",
     "Score unique EF (mPt/kg de produit)": "0.09",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.61",
     "Catégorie Jeux": "Boisson"
@@ -66,7 +66,7 @@
     "Catégorie Jeux": "Boisson"
   },
   {
-    "Nom du Produit en Français": "Boisson plate aux fruits",
+    "Nom du Produit en Français": "Boisson plates aux fruits",
     "Score unique EF (mPt/kg de produit)": "0.08",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.61",
     "Catégorie Jeux": "Boisson"
@@ -90,7 +90,7 @@
     "Catégorie Jeux": "Dessert"
   },
   {
-    "Nom du Produit en Français": "Canard magret poêlé",
+    "Nom du Produit en Français": "Canard poêlé",
     "Score unique EF (mPt/kg de produit)": "1.11",
     "Changement climatique (kg CO2 eq/kg de produit)": "7.31",
     "Catégorie Jeux": "Plat"
@@ -114,19 +114,19 @@
     "Catégorie Jeux": "Plat"
   },
   {
-    "Nom du Produit en Français": "Chips de pommes de terre à l'ancienne",
+    "Nom du Produit en Français": "Chips à l'ancienne",
     "Score unique EF (mPt/kg de produit)": "0.29",
     "Changement climatique (kg CO2 eq/kg de produit)": "2.24",
     "Catégorie Jeux": "Accompagnement"
   },
   {
-    "Nom du Produit en Français": "Chocolat au lait tablette",
+    "Nom du Produit en Français": "Choco au lait tablette",
     "Score unique EF (mPt/kg de produit)": "1.28",
     "Changement climatique (kg CO2 eq/kg de produit)": "17.57",
     "Catégorie Jeux": "Dessert"
   },
   {
-    "Nom du Produit en Français": "Chocolat noir à 70% cacao tablette",
+    "Nom du Produit en Français": "Choco noir à 70% tablette",
     "Score unique EF (mPt/kg de produit)": "1.29",
     "Changement climatique (kg CO2 eq/kg de produit)": "18.58",
     "Catégorie Jeux": "Dessert"
@@ -138,7 +138,7 @@
     "Catégorie Jeux": "Entrée"
   },
   {
-    "Nom du Produit en Français": "Clémentine crue",
+    "Nom du Produit en Français": "Clémentine",
     "Score unique EF (mPt/kg de produit)": "0.21",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.71",
     "Catégorie Jeux": "Dessert"
@@ -150,13 +150,13 @@
     "Catégorie Jeux": "Entrée"
   },
   {
-    "Nom du Produit en Français": "Coupe glacée type café/chocolat liégeois",
+    "Nom du Produit en Français": "Glace café/chocolat liégeois",
     "Score unique EF (mPt/kg de produit)": "0.28",
     "Changement climatique (kg CO2 eq/kg de produit)": "2.59",
     "Catégorie Jeux": "Dessert"
   },
   {
-    "Nom du Produit en Français": "Dinde escalope cuite au four",
+    "Nom du Produit en Français": "Dinde, escalope rôtie",
     "Score unique EF (mPt/kg de produit)": "1.11",
     "Changement climatique (kg CO2 eq/kg de produit)": "7.31",
     "Catégorie Jeux": "Plat"
@@ -165,7 +165,7 @@
     "Nom du Produit en Français": "Eau de vie",
     "Score unique EF (mPt/kg de produit)": "0.12",
     "Changement climatique (kg CO2 eq/kg de produit)": "1.15",
-    "Catégorie Jeux": "Dessert"
+    "Catégorie Jeux": "Boisson"
   },
   {
     "Nom du Produit en Français": "Figue crue",
@@ -204,13 +204,13 @@
     "Catégorie Jeux": "Boisson"
   },
   {
-    "Nom du Produit en Français": "Laitue iceberg crue",
+    "Nom du Produit en Français": "Laitue iceberg",
     "Score unique EF (mPt/kg de produit)": "0.09",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.86",
     "Catégorie Jeux": "Entrée"
   },
   {
-    "Nom du Produit en Français": "Lapin de garenne cuit",
+    "Nom du Produit en Français": "Lapin de garenne",
     "Score unique EF (mPt/kg de produit)": "1.13",
     "Changement climatique (kg CO2 eq/kg de produit)": "7.58",
     "Catégorie Jeux": "Plat"
@@ -240,7 +240,7 @@
     "Catégorie Jeux": "Dessert"
   },
   {
-    "Nom du Produit en Français": "Patate douce cuite",
+    "Nom du Produit en Français": "Patate douce",
     "Score unique EF (mPt/kg de produit)": "0.12",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.80",
     "Catégorie Jeux": "Accompagnement"
@@ -258,7 +258,7 @@
     "Catégorie Jeux": "Entrée"
   },
   {
-    "Nom du Produit en Français": "Pomme de terre rôtie/cuite au four",
+    "Nom du Produit en Français": "Pomme de terre rôtie",
     "Score unique EF (mPt/kg de produit)": "0.14",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.91",
     "Catégorie Jeux": "Accompagnement"
@@ -270,13 +270,13 @@
     "Catégorie Jeux": "Dessert"
   },
   {
-    "Nom du Produit en Français": "Poulet aile rôtie/cuite au four",
+    "Nom du Produit en Français": "Poulet rôti",
     "Score unique EF (mPt/kg de produit)": "1.13",
     "Changement climatique (kg CO2 eq/kg de produit)": "7.58",
     "Catégorie Jeux": "Plat"
   },
   {
-    "Nom du Produit en Français": "Quinoa",
+    "Nom du Produit en Français": "Quinoa cuit à l'eau",
     "Score unique EF (mPt/kg de produit)": "0.15",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.68",
     "Catégorie Jeux": "Accompagnement"
@@ -294,7 +294,7 @@
     "Catégorie Jeux": "Accompagnement"
   },
   {
-    "Nom du Produit en Français": "Saké / Alcool de riz",
+    "Nom du Produit en Français": "Saké ou Alcool de riz",
     "Score unique EF (mPt/kg de produit)": "0.12",
     "Changement climatique (kg CO2 eq/kg de produit)": "1.16",
     "Catégorie Jeux": "Boisson"
@@ -318,19 +318,19 @@
     "Catégorie Jeux": "Entrée"
   },
   {
-    "Nom du Produit en Français": "Salade verte, crue",
+    "Nom du Produit en Français": "Salade verte",
     "Score unique EF (mPt/kg de produit)": "0.13",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.88",
     "Catégorie Jeux": "Entrée"
   },
   {
-    "Nom du Produit en Français": "Saumon d'élevage rôti/cuit au four",
+    "Nom du Produit en Français": "Saumon rôti",
     "Score unique EF (mPt/kg de produit)": "1.62",
     "Changement climatique (kg CO2 eq/kg de produit)": "6.13",
     "Catégorie Jeux": "Plat"
   },
   {
-    "Nom du Produit en Français": "Sirop à diluer",
+    "Nom du Produit en Français": "Sirop",
     "Score unique EF (mPt/kg de produit)": "0.16",
     "Changement climatique (kg CO2 eq/kg de produit)": "1.06",
     "Catégorie Jeux": "Boisson"
@@ -354,7 +354,7 @@
     "Catégorie Jeux": "Entrée"
   },
   {
-    "Nom du Produit en Français": "Soupe à la tomate et aux vermicelles",
+    "Nom du Produit en Français": "Soupe à la tomate",
     "Score unique EF (mPt/kg de produit)": "0.14",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.46",
     "Catégorie Jeux": "Entrée"
@@ -366,19 +366,19 @@
     "Catégorie Jeux": "Dessert"
   },
   {
-    "Nom du Produit en Français": "Tomate de saison crue",
+    "Nom du Produit en Français": "Tomate de saison",
     "Score unique EF (mPt/kg de produit)": "0.07",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.51",
     "Catégorie Jeux": "Entrée"
   },
   {
-    "Nom du Produit en Français": "Tomate hors saison crue",
+    "Nom du Produit en Français": "Tomate hors saison",
     "Score unique EF (mPt/kg de produit)": "0.20",
     "Changement climatique (kg CO2 eq/kg de produit)": "1.88",
     "Catégorie Jeux": "Entrée"
   },
   {
-    "Nom du Produit en Français": "Tomate crue",
+    "Nom du Produit en Français": "Tomate",
     "Score unique EF (mPt/kg de produit)": "0.10",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.62",
     "Catégorie Jeux": "Entrée"

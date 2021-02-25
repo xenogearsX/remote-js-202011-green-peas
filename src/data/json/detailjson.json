@@ -198,7 +198,7 @@
     "epuimine": "17.50"
   },
   {
-    "nom": "Agneau, côte filet, grillée/poêlée",
+    "nom": "Agneau, côte filet, grillée, poêlée",
     "ef": "6.07",
     "changementclim": "62.73",
     "appauvozone": "1.25",
@@ -234,7 +234,7 @@
     "epuimine": "17.50"
   },
   {
-    "nom": "Agneau, côte première, grillée/poêlée",
+    "nom": "Agneau, côte première, grillée, poêlée",
     "ef": "6.07",
     "changementclim": "62.73",
     "appauvozone": "1.25",
@@ -324,7 +324,7 @@
     "epuimine": "14.00"
   },
   {
-    "nom": "Agneau, épaule, maigre, rôtie/cuite au four",
+    "nom": "Agneau, épaule, maigre, rôtie, cuite au four",
     "ef": "4.87",
     "changementclim": "50.07",
     "appauvozone": "1.04",
@@ -342,7 +342,7 @@
     "epuimine": "18.23"
   },
   {
-    "nom": "Agneau, épaule, rôtie/cuite au four",
+    "nom": "Agneau, épaule, rôtie, cuite au four",
     "ef": "4.87",
     "changementclim": "50.07",
     "appauvozone": "1.04",
@@ -396,7 +396,7 @@
     "epuimine": "17.50"
   },
   {
-    "nom": "Agneau, gigot, grillé/poêlé",
+    "nom": "Agneau, gigot, grillé, poêlé",
     "ef": "6.07",
     "changementclim": "62.73",
     "appauvozone": "1.25",
@@ -414,7 +414,7 @@
     "epuimine": "22.31"
   },
   {
-    "nom": "Agneau, gigot, rôti/cuit au four",
+    "nom": "Agneau, gigot, rôti, cuit au four",
     "ef": "6.09",
     "changementclim": "62.69",
     "appauvozone": "1.29",
@@ -450,7 +450,7 @@
     "epuimine": "17.50"
   },
   {
-    "nom": "Agneau, selle, partie maigre, grillée/poêlée",
+    "nom": "Agneau, selle, partie maigre, grillée, poêlée",
     "ef": "6.07",
     "changementclim": "62.73",
     "appauvozone": "1.25",
@@ -468,7 +468,7 @@
     "epuimine": "22.31"
   },
   {
-    "nom": "Agneau, selle, partie maigre, rôtie/cuite au four",
+    "nom": "Agneau, selle, partie maigre, rôtie, cuite au four",
     "ef": "6.09",
     "changementclim": "62.69",
     "appauvozone": "1.29",
@@ -936,7 +936,7 @@
     "epuimine": "14.72"
   },
   {
-    "nom": "Andouillette, sautée/poêlée",
+    "nom": "Andouillette, sautée, poêlée",
     "ef": "2.09",
     "changementclim": "16.05",
     "appauvozone": "1.04",
@@ -1008,7 +1008,7 @@
     "epuimine": "3.71"
   },
   {
-    "nom": "Arachide, bouillie/cuite à l'eau, salée",
+    "nom": "Arachide, bouillie, cuite à l'eau, salée",
     "ef": "1.28",
     "changementclim": "9.76",
     "appauvozone": "0.51",
@@ -1206,7 +1206,7 @@
     "epuimine": "5.90"
   },
   {
-    "nom": "Asperge, bouillie/cuite à l'eau",
+    "nom": "Asperge, bouillie, cuite à l'eau",
     "ef": "0.39",
     "changementclim": "2.25",
     "appauvozone": "0.34",
@@ -1548,7 +1548,7 @@
     "epuimine": "11.52"
   },
   {
-    "nom": "Bar commun ou loup, rôti/cuit au four",
+    "nom": "Bar commun ou loup, rôti, cuit au four",
     "ef": "2.33",
     "changementclim": "14.54",
     "appauvozone": "2.27",
@@ -3744,7 +3744,7 @@
     "epuimine": "12.08"
   },
   {
-    "nom": "Boeuf, bavette d'aloyau, grillée/poêlée",
+    "nom": "Boeuf, bavette d'aloyau, grillée, poêlée",
     "ef": "3.51",
     "changementclim": "42.76",
     "appauvozone": "0.80",
@@ -3780,7 +3780,7 @@
     "epuimine": "15.11"
   },
   {
-    "nom": "Boeuf, boule de macreuse, grillée/poêlée",
+    "nom": "Boeuf, boule de macreuse, grillée, poêlée",
     "ef": "4.39",
     "changementclim": "53.56",
     "appauvozone": "1.00",
@@ -3798,7 +3798,7 @@
     "epuimine": "19.29"
   },
   {
-    "nom": "Boeuf, boule de macreuse, rôtie/cuite au four",
+    "nom": "Boeuf, boule de macreuse, rôtie, cuite au four",
     "ef": "4.41",
     "changementclim": "53.52",
     "appauvozone": "1.04",
@@ -3906,7 +3906,7 @@
     "epuimine": "12.30"
   },
   {
-    "nom": "Boeuf, entrecôte, partie maigre, grillée/poêlée",
+    "nom": "Boeuf, entrecôte, partie maigre, grillée, poêlée",
     "ef": "3.52",
     "changementclim": "43.03",
     "appauvozone": "0.83",
@@ -3960,7 +3960,7 @@
     "epuimine": "12.08"
   },
   {
-    "nom": "Boeuf, faux-filet, grillé/poêlé",
+    "nom": "Boeuf, faux-filet, grillé, poêlé",
     "ef": "3.51",
     "changementclim": "42.76",
     "appauvozone": "0.80",
@@ -3996,7 +3996,7 @@
     "epuimine": "12.08"
   },
   {
-    "nom": "Boeuf, faux-filet, rôti/cuit au four",
+    "nom": "Boeuf, faux-filet, rôti, cuit au four",
     "ef": "3.53",
     "changementclim": "42.73",
     "appauvozone": "0.84",
@@ -4068,7 +4068,7 @@
     "epuimine": "12.08"
   },
   {
-    "nom": "Boeuf, hampe, grillée/poêlée",
+    "nom": "Boeuf, hampe, grillée, poêlée",
     "ef": "3.51",
     "changementclim": "42.76",
     "appauvozone": "0.80",
@@ -4086,7 +4086,7 @@
     "epuimine": "15.46"
   },
   {
-    "nom": "Boeuf, jarret, bouilli/cuit à l'eau",
+    "nom": "Boeuf, jarret, bouilli, cuit à l'eau",
     "ef": "3.54",
     "changementclim": "43.15",
     "appauvozone": "0.85",
@@ -4266,7 +4266,7 @@
     "epuimine": "12.30"
   },
   {
-    "nom": "Boeuf, queue, bouillie/cuite à l'eau",
+    "nom": "Boeuf, queue, bouillie, cuite à l'eau",
     "ef": "3.54",
     "changementclim": "43.15",
     "appauvozone": "0.85",
@@ -4284,7 +4284,7 @@
     "epuimine": "15.86"
   },
   {
-    "nom": "Boeuf, rosbif, rôti/cuit au four",
+    "nom": "Boeuf, rosbif, rôti, cuit au four",
     "ef": "3.53",
     "changementclim": "42.73",
     "appauvozone": "0.84",
@@ -4392,7 +4392,7 @@
     "epuimine": "12.08"
   },
   {
-    "nom": "Boeuf, tende de tranche, grillée/poêlée",
+    "nom": "Boeuf, tende de tranche, grillée, poêlée",
     "ef": "3.51",
     "changementclim": "42.76",
     "appauvozone": "0.80",
@@ -4410,7 +4410,7 @@
     "epuimine": "15.46"
   },
   {
-    "nom": "Boeuf, tende de tranche, rôtie/cuite au four",
+    "nom": "Boeuf, tende de tranche, rôtie, cuite au four",
     "ef": "3.53",
     "changementclim": "42.73",
     "appauvozone": "0.84",
@@ -4698,7 +4698,7 @@
     "epuimine": "2.04"
   },
   {
-    "nom": "Boisson aux fruits pour bébé dès 4/6mois",
+    "nom": "Boisson aux fruits pour bébé dès 4, 6mois",
     "ef": "0.15",
     "changementclim": "0.78",
     "appauvozone": "0.11",
@@ -4932,7 +4932,7 @@
     "epuimine": "2.12"
   },
   {
-    "nom": "Boisson infantile céréales lactées aux fruits pour le goûter dès 4/6 mois",
+    "nom": "Boisson infantile céréales lactées aux fruits pour le goûter dès 4, 6 mois",
     "ef": "0.25",
     "changementclim": "1.69",
     "appauvozone": "0.54",
@@ -4950,7 +4950,7 @@
     "epuimine": "3.67"
   },
   {
-    "nom": "Boisson infantile céréales lactées aux légumes pour dîner dès 4/6 mois",
+    "nom": "Boisson infantile céréales lactées aux légumes pour dîner dès 4, 6 mois",
     "ef": "0.26",
     "changementclim": "1.70",
     "appauvozone": "0.55",
@@ -5004,7 +5004,7 @@
     "epuimine": "3.74"
   },
   {
-    "nom": "Boisson infantile céréales lactées pour le petit déjeuner dès 4/6 mois",
+    "nom": "Boisson infantile céréales lactées pour le petit déjeuner dès 4, 6 mois",
     "ef": "0.26",
     "changementclim": "1.70",
     "appauvozone": "0.55",
@@ -5022,7 +5022,7 @@
     "epuimine": "3.74"
   },
   {
-    "nom": "Boisson infantile céréales lactées pour le petit déjeuner dès 8/9 mois",
+    "nom": "Boisson infantile céréales lactées pour le petit déjeuner dès 8, 9 mois",
     "ef": "0.26",
     "changementclim": "1.70",
     "appauvozone": "0.55",
@@ -5058,7 +5058,7 @@
     "epuimine": "2.36"
   },
   {
-    "nom": "Boisson lactée aromatisée au chocolat, sucrée, au lait partiellement écrémé, enrichie et/ou restaurée en vitamines et/ou minéraux",
+    "nom": "Boisson lactée aromatisée au chocolat, sucrée, au lait partiellement écrémé, enrichie et, ou restaurée en vitamines et, ou minéraux",
     "ef": "0.15",
     "changementclim": "1.64",
     "appauvozone": "0.11",
@@ -5256,7 +5256,7 @@
     "epuimine": "0.42"
   },
   {
-    "nom": "Bonbon / bouchée au chocolat fourrage gaufrettes / biscuit",
+    "nom": "Bonbon ,  bouchée au chocolat fourrage gaufrettes ,  biscuit",
     "ef": "1.21",
     "changementclim": "13.16",
     "appauvozone": "0.64",
@@ -5364,7 +5364,7 @@
     "epuimine": "12.25"
   },
   {
-    "nom": "Bouchée à la reine, à la viande/volaille/quenelle",
+    "nom": "Bouchée à la reine, à la viande, volaille, quenelle",
     "ef": "0.39",
     "changementclim": "3.00",
     "appauvozone": "0.33",
@@ -5400,7 +5400,7 @@
     "epuimine": "15.34"
   },
   {
-    "nom": "Bouchée chocolat fourrage fruits à coques et/ou praliné",
+    "nom": "Bouchée chocolat fourrage fruits à coques et, ou praliné",
     "ef": "1.21",
     "changementclim": "13.16",
     "appauvozone": "0.64",
@@ -5454,7 +5454,7 @@
     "epuimine": "5.10"
   },
   {
-    "nom": "Boudin noir, sauté/poêlé",
+    "nom": "Boudin noir, sauté, poêlé",
     "ef": "0.86",
     "changementclim": "9.62",
     "appauvozone": "0.33",
@@ -6372,7 +6372,7 @@
     "epuimine": "25.05"
   },
   {
-    "nom": "Cabillaud, rôti/cuit au four",
+    "nom": "Cabillaud, rôti, cuit au four",
     "ef": "2.31",
     "changementclim": "13.36",
     "appauvozone": "3.05",
@@ -6786,7 +6786,7 @@
     "epuimine": "9.69"
   },
   {
-    "nom": "Calmar ou calamar ou encornet, bouilli/cuit à l'eau",
+    "nom": "Calmar ou calamar ou encornet, bouilli, cuit à l'eau",
     "ef": "1.09",
     "changementclim": "6.61",
     "appauvozone": "1.44",
@@ -6948,7 +6948,7 @@
     "epuimine": "11.85"
   },
   {
-    "nom": "Canard, magret, grillé/poêlé",
+    "nom": "Canard, magret, grillé, poêlé",
     "ef": "1.11",
     "changementclim": "7.31",
     "appauvozone": "0.71",
@@ -6984,7 +6984,7 @@
     "epuimine": "8.76"
   },
   {
-    "nom": "Canard, viande et peau, rôti/cuit au four",
+    "nom": "Canard, viande et peau, rôti, cuit au four",
     "ef": "1.13",
     "changementclim": "7.58",
     "appauvozone": "0.73",
@@ -7020,7 +7020,7 @@
     "epuimine": "8.76"
   },
   {
-    "nom": "Canard, viande, rôtie/cuite au four",
+    "nom": "Canard, viande, rôtie, cuite au four",
     "ef": "1.13",
     "changementclim": "7.58",
     "appauvozone": "0.73",
@@ -7398,7 +7398,7 @@
     "epuimine": "8.72"
   },
   {
-    "nom": "Carpe, rôtie/cuite au four",
+    "nom": "Carpe, rôtie, cuite au four",
     "ef": "1.69",
     "changementclim": "6.93",
     "appauvozone": "1.09",
@@ -7722,7 +7722,7 @@
     "epuimine": "3.91"
   },
   {
-    "nom": "Céréales instantanées, poudre à reconstituer, dès 4/6 mois",
+    "nom": "Céréales instantanées, poudre à reconstituer, dès 4, 6 mois",
     "ef": "0.51",
     "changementclim": "5.10",
     "appauvozone": "0.92",
@@ -8370,7 +8370,7 @@
     "epuimine": "8.87"
   },
   {
-    "nom": "Chapon, viande et peau, rôti/cuit au four",
+    "nom": "Chapon, viande et peau, rôti, cuit au four",
     "ef": "1.13",
     "changementclim": "7.56",
     "appauvozone": "0.74",
@@ -8424,7 +8424,7 @@
     "epuimine": "6.40"
   },
   {
-    "nom": "Châtaigne, bouillie/cuite à l'eau",
+    "nom": "Châtaigne, bouillie, cuite à l'eau",
     "ef": "0.51",
     "changementclim": "2.25",
     "appauvozone": "0.37",
@@ -9558,7 +9558,7 @@
     "epuimine": "1.60"
   },
   {
-    "nom": "Chou rouge, bouilli/cuit à l'eau",
+    "nom": "Chou rouge, bouilli, cuit à l'eau",
     "ef": "0.23",
     "changementclim": "2.06",
     "appauvozone": "0.28",
@@ -9702,7 +9702,7 @@
     "epuimine": "3.20"
   },
   {
-    "nom": "Chou-rave, bouilli/cuit à l'eau",
+    "nom": "Chou-rave, bouilli, cuit à l'eau",
     "ef": "0.15",
     "changementclim": "1.39",
     "appauvozone": "0.19",
@@ -11970,7 +11970,7 @@
     "epuimine": "5.32"
   },
   {
-    "nom": "Crêpe ou Galette fourrée au poisson et / ou fruits de mer",
+    "nom": "Crêpe ou Galette fourrée au poisson et ,  ou fruits de mer",
     "ef": "0.54",
     "changementclim": "3.05",
     "appauvozone": "0.39",
@@ -13032,7 +13032,7 @@
     "epuimine": "8.54"
   },
   {
-    "nom": "Dinde, escalope, rôtie/cuite au four",
+    "nom": "Dinde, escalope, rôtie, cuite au four",
     "ef": "1.11",
     "changementclim": "7.31",
     "appauvozone": "0.71",
@@ -13050,7 +13050,7 @@
     "epuimine": "11.85"
   },
   {
-    "nom": "Dinde, escalope, sautée/poêlée",
+    "nom": "Dinde, escalope, sautée, poêlée",
     "ef": "1.09",
     "changementclim": "7.35",
     "appauvozone": "0.68",
@@ -13104,7 +13104,7 @@
     "epuimine": "7.00"
   },
   {
-    "nom": "Dinde, viande, rôtie/cuite au four",
+    "nom": "Dinde, viande, rôtie, cuite au four",
     "ef": "0.90",
     "changementclim": "5.97",
     "appauvozone": "0.60",
@@ -13158,7 +13158,7 @@
     "epuimine": "211.33"
   },
   {
-    "nom": "Dorade grise, ou daurade grise, ou griset, rôtie/cuite au four",
+    "nom": "Dorade grise, ou daurade grise, ou griset, rôtie, cuite au four",
     "ef": "1.63",
     "changementclim": "8.25",
     "appauvozone": "1.76",
@@ -15066,7 +15066,7 @@
     "epuimine": "25.05"
   },
   {
-    "nom": "Églefin, grillé/poêlé",
+    "nom": "Églefin, grillé, poêlé",
     "ef": "2.29",
     "changementclim": "13.39",
     "appauvozone": "3.02",
@@ -15462,7 +15462,7 @@
     "epuimine": "64.63"
   },
   {
-    "nom": "Espadon, rôti/cuit au four",
+    "nom": "Espadon, rôti, cuit au four",
     "ef": "0.89",
     "changementclim": "5.15",
     "appauvozone": "1.05",
@@ -15498,7 +15498,7 @@
     "epuimine": "2.05"
   },
   {
-    "nom": "Faisan, viande, rôtie/cuite au four",
+    "nom": "Faisan, viande, rôtie, cuite au four",
     "ef": "1.10",
     "changementclim": "7.09",
     "appauvozone": "0.72",
@@ -15552,7 +15552,7 @@
     "epuimine": "5.39"
   },
   {
-    "nom": "Falafel ou Boulette de pois-chiche et/ou fève, frite",
+    "nom": "Falafel ou Boulette de pois-chiche et, ou fève, frite",
     "ef": "0.15",
     "changementclim": "0.86",
     "appauvozone": "0.17",
@@ -15930,7 +15930,7 @@
     "epuimine": "2.73"
   },
   {
-    "nom": "Fenouil, bouilli/cuit à l'eau",
+    "nom": "Fenouil, bouilli, cuit à l'eau",
     "ef": "0.22",
     "changementclim": "1.76",
     "appauvozone": "0.26",
@@ -16020,7 +16020,7 @@
     "epuimine": "3.44"
   },
   {
-    "nom": "Feuilleté au poisson et / ou fruits de mer",
+    "nom": "Feuilleté au poisson et ,  ou fruits de mer",
     "ef": "0.89",
     "changementclim": "5.56",
     "appauvozone": "0.56",
@@ -16506,7 +16506,7 @@
     "epuimine": "4.29"
   },
   {
-    "nom": "Flocons d'avoine, bouillis/cuits à l'eau",
+    "nom": "Flocons d'avoine, bouillis, cuits à l'eau",
     "ef": "0.25",
     "changementclim": "1.11",
     "appauvozone": "0.14",
@@ -17118,7 +17118,7 @@
     "epuimine": "2.79"
   },
   {
-    "nom": "Frites de pommes de terre, surgelées, pour cuisson rôtie/ au four",
+    "nom": "Frites de pommes de terre, surgelées, pour cuisson rôtie,  au four",
     "ef": "0.17",
     "changementclim": "1.05",
     "appauvozone": "0.24",
@@ -17136,7 +17136,7 @@
     "epuimine": "3.27"
   },
   {
-    "nom": "Frites de pommes de terre, surgelées, rôties/cuites au four",
+    "nom": "Frites de pommes de terre, surgelées, rôties, cuites au four",
     "ef": "0.17",
     "changementclim": "1.05",
     "appauvozone": "0.24",
@@ -19602,7 +19602,7 @@
     "epuimine": "15.81"
   },
   {
-    "nom": "Gratin ou cassolette de poisson et / ou fruits de mer, à cuire",
+    "nom": "Gratin ou cassolette de poisson et ,  ou fruits de mer, à cuire",
     "ef": "1.41",
     "changementclim": "8.98",
     "appauvozone": "1.78",
@@ -19620,7 +19620,7 @@
     "epuimine": "17.32"
   },
   {
-    "nom": "Gratin ou cassolette de poisson et / ou fruits de mer, cuit",
+    "nom": "Gratin ou cassolette de poisson et ,  ou fruits de mer, cuit",
     "ef": "1.36",
     "changementclim": "8.62",
     "appauvozone": "1.73",
@@ -20106,7 +20106,7 @@
     "epuimine": "7.34"
   },
   {
-    "nom": "Hareng, grillé/poêlé",
+    "nom": "Hareng, grillé, poêlé",
     "ef": "0.37",
     "changementclim": "2.83",
     "appauvozone": "0.67",
@@ -21150,7 +21150,7 @@
     "epuimine": "12.58"
   },
   {
-    "nom": "Igname, épluchée, bouillie/cuite à l'eau",
+    "nom": "Igname, épluchée, bouillie, cuite à l'eau",
     "ef": "0.14",
     "changementclim": "1.03",
     "appauvozone": "0.20",
@@ -21492,7 +21492,7 @@
     "epuimine": "8.54"
   },
   {
-    "nom": "Jambon de porc à cuire ou Jambon à rôtir/cuire au four",
+    "nom": "Jambon de porc à cuire ou Jambon à rôtir, cuire au four",
     "ef": "0.95",
     "changementclim": "6.34",
     "appauvozone": "0.54",
@@ -23922,7 +23922,7 @@
     "epuimine": "20.02"
   },
   {
-    "nom": "Lotte ou baudroie, grillée/poêlée",
+    "nom": "Lotte ou baudroie, grillée, poêlée",
     "ef": "2.31",
     "changementclim": "13.36",
     "appauvozone": "3.05",
@@ -24552,7 +24552,7 @@
     "epuimine": "5.67"
   },
   {
-    "nom": "Maquereau, rôti/cuit au four",
+    "nom": "Maquereau, rôti, cuit au four",
     "ef": "0.38",
     "changementclim": "2.73",
     "appauvozone": "0.70",
@@ -25902,7 +25902,7 @@
     "epuimine": "10.93"
   },
   {
-    "nom": "Morue, salée, bouillie/cuite à l'eau",
+    "nom": "Morue, salée, bouillie, cuite à l'eau",
     "ef": "2.31",
     "changementclim": "13.36",
     "appauvozone": "3.05",
@@ -25992,7 +25992,7 @@
     "epuimine": "48.82"
   },
   {
-    "nom": "Moule, bouillie/cuite à l'eau",
+    "nom": "Moule, bouillie, cuite à l'eau",
     "ef": "0.64",
     "changementclim": "7.02",
     "appauvozone": "0.91",
@@ -26406,7 +26406,7 @@
     "epuimine": "2.63"
   },
   {
-    "nom": "Muesli croustillant aux fruits et/ou fruits secs, graines (non enrichi en vitamines et minéraux)",
+    "nom": "Muesli croustillant aux fruits et, ou fruits secs, graines (non enrichi en vitamines et minéraux)",
     "ef": "0.19",
     "changementclim": "1.88",
     "appauvozone": "0.16",
@@ -26586,7 +26586,7 @@
     "epuimine": "20.02"
   },
   {
-    "nom": "Mulet, rôti/cuit au four",
+    "nom": "Mulet, rôti, cuit au four",
     "ef": "2.31",
     "changementclim": "13.36",
     "appauvozone": "3.05",
@@ -26946,7 +26946,7 @@
     "epuimine": "5.87"
   },
   {
-    "nom": "Nem ou Pâté impérial, aux crevettes et/ou au crabe, cuit",
+    "nom": "Nem ou Pâté impérial, aux crevettes et, ou au crabe, cuit",
     "ef": "0.45",
     "changementclim": "2.57",
     "appauvozone": "0.35",
@@ -27360,7 +27360,7 @@
     "epuimine": "2.29"
   },
   {
-    "nom": "Nouilles sautées/poêlées aux crevettes",
+    "nom": "Nouilles sautées, poêlées aux crevettes",
     "ef": "0.26",
     "changementclim": "1.70",
     "appauvozone": "0.24",
@@ -27702,7 +27702,7 @@
     "epuimine": "8.76"
   },
   {
-    "nom": "Oie, viande et peau, rôtie/cuite au four",
+    "nom": "Oie, viande et peau, rôtie, cuite au four",
     "ef": "1.13",
     "changementclim": "7.58",
     "appauvozone": "0.73",
@@ -27720,7 +27720,7 @@
     "epuimine": "12.14"
   },
   {
-    "nom": "Oie, viande, rôtie/cuite au four",
+    "nom": "Oie, viande, rôtie, cuite au four",
     "ef": "1.13",
     "changementclim": "7.58",
     "appauvozone": "0.73",
@@ -27990,7 +27990,7 @@
     "epuimine": "2.69"
   },
   {
-    "nom": "Orge perlée, bouilli/cuite à l'eau, non salée",
+    "nom": "Orge perlée, bouilli, cuite à l'eau, non salée",
     "ef": "0.13",
     "changementclim": "0.81",
     "appauvozone": "0.09",
@@ -30528,7 +30528,7 @@
     "epuimine": "7.93"
   },
   {
-    "nom": "Perche, rôtie/cuite au four",
+    "nom": "Perche, rôtie, cuite au four",
     "ef": "3.79",
     "changementclim": "5.91",
     "appauvozone": "1.06",
@@ -30762,7 +30762,7 @@
     "epuimine": "2.13"
   },
   {
-    "nom": "Petit pot légumes, avec féculent, dès 4/6 mois",
+    "nom": "Petit pot légumes, avec féculent, dès 4, 6 mois",
     "ef": "0.16",
     "changementclim": "1.13",
     "appauvozone": "0.15",
@@ -31032,7 +31032,7 @@
     "epuimine": "4.24"
   },
   {
-    "nom": "Pigeon, viande, rôtie/cuite au four",
+    "nom": "Pigeon, viande, rôtie, cuite au four",
     "ef": "1.13",
     "changementclim": "7.58",
     "appauvozone": "0.73",
@@ -31572,7 +31572,7 @@
     "epuimine": "5.28"
   },
   {
-    "nom": "Plat légumes, avec féculent et lait/crème, dès 12 mois",
+    "nom": "Plat légumes, avec féculent et lait, crème, dès 12 mois",
     "ef": "0.16",
     "changementclim": "1.00",
     "appauvozone": "0.15",
@@ -31590,7 +31590,7 @@
     "epuimine": "2.50"
   },
   {
-    "nom": "Plat légumes, avec féculent et lait/crème, dès 18 mois",
+    "nom": "Plat légumes, avec féculent et lait, crème, dès 18 mois",
     "ef": "0.16",
     "changementclim": "1.00",
     "appauvozone": "0.15",
@@ -31608,7 +31608,7 @@
     "epuimine": "2.50"
   },
   {
-    "nom": "Plat légumes, avec féculent et lait/crème, dès 6-8 mois",
+    "nom": "Plat légumes, avec féculent et lait, crème, dès 6-8 mois",
     "ef": "0.16",
     "changementclim": "1.00",
     "appauvozone": "0.15",
@@ -31626,7 +31626,7 @@
     "epuimine": "2.50"
   },
   {
-    "nom": "Plat légumes, avec féculent et lait/crème, dès 8-12 mois",
+    "nom": "Plat légumes, avec féculent et lait, crème, dès 8-12 mois",
     "ef": "0.16",
     "changementclim": "1.00",
     "appauvozone": "0.15",
@@ -31644,7 +31644,7 @@
     "epuimine": "2.50"
   },
   {
-    "nom": "Plat légumes, avec féculent et viande/poisson, dès 12 mois",
+    "nom": "Plat légumes, avec féculent et viande, poisson, dès 12 mois",
     "ef": "0.33",
     "changementclim": "1.80",
     "appauvozone": "0.38",
@@ -31662,7 +31662,7 @@
     "epuimine": "3.72"
   },
   {
-    "nom": "Plat légumes, avec féculent et viande/poisson, dès 18 mois",
+    "nom": "Plat légumes, avec féculent et viande, poisson, dès 18 mois",
     "ef": "0.33",
     "changementclim": "1.80",
     "appauvozone": "0.38",
@@ -31680,7 +31680,7 @@
     "epuimine": "3.72"
   },
   {
-    "nom": "Plat légumes, avec féculent et viande/poisson, dès 6-8 mois",
+    "nom": "Plat légumes, avec féculent et viande, poisson, dès 6-8 mois",
     "ef": "0.33",
     "changementclim": "1.80",
     "appauvozone": "0.38",
@@ -31698,7 +31698,7 @@
     "epuimine": "3.72"
   },
   {
-    "nom": "Plat légumes, avec féculent et viande/poisson, dès 8-12 mois",
+    "nom": "Plat légumes, avec féculent et viande, poisson, dès 8-12 mois",
     "ef": "0.33",
     "changementclim": "1.80",
     "appauvozone": "0.38",
@@ -32058,7 +32058,7 @@
     "epuimine": "1.38"
   },
   {
-    "nom": "Pois mange-tout ou pois gourmand, bouilli/cuit à l'eau",
+    "nom": "Pois mange-tout ou pois gourmand, bouilli, cuit à l'eau",
     "ef": "0.20",
     "changementclim": "1.28",
     "appauvozone": "0.22",
@@ -32724,7 +32724,7 @@
     "epuimine": "6.24"
   },
   {
-    "nom": "Pomme de terre de conservation, sans peau, bouillie/cuite à l'eau",
+    "nom": "Pomme de terre de conservation, sans peau, bouillie, cuite à l'eau",
     "ef": "0.12",
     "changementclim": "0.80",
     "appauvozone": "0.18",
@@ -32832,7 +32832,7 @@
     "epuimine": "1.71"
   },
   {
-    "nom": "Pomme de terre primeur, sans peau, bouillie/cuite à l'eau",
+    "nom": "Pomme de terre primeur, sans peau, bouillie, cuite à l'eau",
     "ef": "0.12",
     "changementclim": "0.80",
     "appauvozone": "0.18",
@@ -32886,7 +32886,7 @@
     "epuimine": "3.25"
   },
   {
-    "nom": "Pomme de terre sautée/poêlée à la graisse de canard",
+    "nom": "Pomme de terre sautée, poêlée à la graisse de canard",
     "ef": "0.07",
     "changementclim": "0.54",
     "appauvozone": "0.09",
@@ -32922,7 +32922,7 @@
     "epuimine": "2.40"
   },
   {
-    "nom": "Pomme de terre, bouillie/cuite à l'eau",
+    "nom": "Pomme de terre, bouillie, cuite à l'eau",
     "ef": "0.12",
     "changementclim": "0.95",
     "appauvozone": "0.16",
@@ -33030,7 +33030,7 @@
     "epuimine": "2.72"
   },
   {
-    "nom": "Pomme de terre, rôtie/cuite au four",
+    "nom": "Pomme de terre, rôtie, cuite au four",
     "ef": "0.14",
     "changementclim": "0.91",
     "appauvozone": "0.20",
@@ -33084,7 +33084,7 @@
     "epuimine": "2.82"
   },
   {
-    "nom": "Pomme de terre, sautée/poêlée",
+    "nom": "Pomme de terre, sautée, poêlée",
     "ef": "0.11",
     "changementclim": "0.90",
     "appauvozone": "0.15",
@@ -33120,7 +33120,7 @@
     "epuimine": "2.00"
   },
   {
-    "nom": "Pomme, pulpe, bouillie/cuite à l'eau",
+    "nom": "Pomme, pulpe, bouillie, cuite à l'eau",
     "ef": "0.10",
     "changementclim": "0.72",
     "appauvozone": "0.12",
@@ -33156,7 +33156,7 @@
     "epuimine": "2.00"
   },
   {
-    "nom": "Pomme, pulpe, rôtie/cuite au four",
+    "nom": "Pomme, pulpe, rôtie, cuite au four",
     "ef": "0.11",
     "changementclim": "0.66",
     "appauvozone": "0.13",
@@ -33408,7 +33408,7 @@
     "epuimine": "11.95"
   },
   {
-    "nom": "Porc, échine, rôtie/cuite au four",
+    "nom": "Porc, échine, rôtie, cuite au four",
     "ef": "1.88",
     "changementclim": "11.88",
     "appauvozone": "1.11",
@@ -33696,7 +33696,7 @@
     "epuimine": "15.65"
   },
   {
-    "nom": "Porc, maigre 80/20, cru",
+    "nom": "Porc, maigre 80, 20, cru",
     "ef": "1.46",
     "changementclim": "9.35",
     "appauvozone": "0.84",
@@ -33714,7 +33714,7 @@
     "epuimine": "11.95"
   },
   {
-    "nom": "Porc, maigre 90/10, cru",
+    "nom": "Porc, maigre 90, 10, cru",
     "ef": "1.46",
     "changementclim": "9.35",
     "appauvozone": "0.84",
@@ -34236,7 +34236,7 @@
     "epuimine": "8.76"
   },
   {
-    "nom": "Poulet, aile, viande et peau, rôti/cuit au four",
+    "nom": "Poulet, aile, viande et peau, rôti, cuit au four",
     "ef": "1.13",
     "changementclim": "7.58",
     "appauvozone": "0.73",
@@ -34272,7 +34272,7 @@
     "epuimine": "7.41"
   },
   {
-    "nom": "Poulet, cuisse, viande et peau, bouilli/cuit à l'eau",
+    "nom": "Poulet, cuisse, viande et peau, bouilli, cuit à l'eau",
     "ef": "1.13",
     "changementclim": "7.58",
     "appauvozone": "0.73",
@@ -34308,7 +34308,7 @@
     "epuimine": "8.76"
   },
   {
-    "nom": "Poulet, cuisse, viande et peau, rôtie/cuite au four",
+    "nom": "Poulet, cuisse, viande et peau, rôtie, cuite au four",
     "ef": "1.13",
     "changementclim": "7.58",
     "appauvozone": "0.73",
@@ -34326,7 +34326,7 @@
     "epuimine": "12.14"
   },
   {
-    "nom": "Poulet, cuisse, viande, bouilli/cuit à l'eau",
+    "nom": "Poulet, cuisse, viande, bouilli, cuit à l'eau",
     "ef": "1.13",
     "changementclim": "7.58",
     "appauvozone": "0.73",
@@ -34362,7 +34362,7 @@
     "epuimine": "8.76"
   },
   {
-    "nom": "Poulet, cuisse, viande, rôti/cuit au four",
+    "nom": "Poulet, cuisse, viande, rôti, cuit au four",
     "ef": "1.13",
     "changementclim": "7.58",
     "appauvozone": "0.73",
@@ -34452,7 +34452,7 @@
     "epuimine": "8.76"
   },
   {
-    "nom": "Poulet, manchons marinés, rôtis/cuits au four",
+    "nom": "Poulet, manchons marinés, rôtis, cuits au four",
     "ef": "0.87",
     "changementclim": "5.80",
     "appauvozone": "0.57",
@@ -34506,7 +34506,7 @@
     "epuimine": "8.54"
   },
   {
-    "nom": "Poulet, poitrine, viande et peau, rôti/cuit au four",
+    "nom": "Poulet, poitrine, viande et peau, rôti, cuit au four",
     "ef": "1.11",
     "changementclim": "7.31",
     "appauvozone": "0.71",
@@ -34542,7 +34542,7 @@
     "epuimine": "7.00"
   },
   {
-    "nom": "Poulet, viande et peau, rôti/cuit au four",
+    "nom": "Poulet, viande et peau, rôti, cuit au four",
     "ef": "0.90",
     "changementclim": "5.97",
     "appauvozone": "0.60",
@@ -34938,7 +34938,7 @@
     "epuimine": "8.28"
   },
   {
-    "nom": "Quinoa, bouilli/cuit à l'eau, non salé",
+    "nom": "Quinoa, bouilli, cuit à l'eau, non salé",
     "ef": "0.15",
     "changementclim": "0.68",
     "appauvozone": "0.08",
@@ -35064,7 +35064,7 @@
     "epuimine": "25.05"
   },
   {
-    "nom": "Raie, rôtie/cuite au four",
+    "nom": "Raie, rôtie, cuite au four",
     "ef": "2.31",
     "changementclim": "13.36",
     "appauvozone": "3.05",
@@ -35622,7 +35622,7 @@
     "epuimine": "16.67"
   },
   {
-    "nom": "Ris, veau, braisé ou sauté/poêlé",
+    "nom": "Ris, veau, braisé ou sauté, poêlé",
     "ef": "3.00",
     "changementclim": "33.43",
     "appauvozone": "1.12",
@@ -36180,7 +36180,7 @@
     "epuimine": "3.66"
   },
   {
-    "nom": "Rognon, veau, braisé ou sauté/poêlé",
+    "nom": "Rognon, veau, braisé ou sauté, poêlé",
     "ef": "2.39",
     "changementclim": "26.65",
     "appauvozone": "0.90",
@@ -38880,7 +38880,7 @@
     "epuimine": "9.70"
   },
   {
-    "nom": "Saucisse de Morteau, bouillie/cuite à l'eau",
+    "nom": "Saucisse de Morteau, bouillie, cuite à l'eau",
     "ef": "1.14",
     "changementclim": "7.26",
     "appauvozone": "0.72",
@@ -39204,7 +39204,7 @@
     "epuimine": "10.08"
   },
   {
-    "nom": "Saucisson sec aux noix et/ou noisettes",
+    "nom": "Saucisson sec aux noix et, ou noisettes",
     "ef": "0.85",
     "changementclim": "5.45",
     "appauvozone": "0.51",
@@ -39348,7 +39348,7 @@
     "epuimine": "44.81"
   },
   {
-    "nom": "Saumon, bouilli/cuit à l'eau, élevage",
+    "nom": "Saumon, bouilli, cuit à l'eau, élevage",
     "ef": "1.62",
     "changementclim": "6.13",
     "appauvozone": "0.90",
@@ -39420,7 +39420,7 @@
     "epuimine": "7.70"
   },
   {
-    "nom": "Saumon, élevage, rôti/cuit au four",
+    "nom": "Saumon, élevage, rôti, cuit au four",
     "ef": "1.62",
     "changementclim": "6.13",
     "appauvozone": "0.90",
@@ -39438,7 +39438,7 @@
     "epuimine": "8.25"
   },
   {
-    "nom": "Saumon, grillé/poêlé",
+    "nom": "Saumon, grillé, poêlé",
     "ef": "1.60",
     "changementclim": "6.17",
     "appauvozone": "0.86",
@@ -39834,7 +39834,7 @@
     "epuimine": "211.33"
   },
   {
-    "nom": "Sole, bouillie/cuite à l'eau",
+    "nom": "Sole, bouillie, cuite à l'eau",
     "ef": "1.63",
     "changementclim": "8.25",
     "appauvozone": "1.76",
@@ -39924,7 +39924,7 @@
     "epuimine": "258.66"
   },
   {
-    "nom": "Sole, rôtie/cuite au four",
+    "nom": "Sole, rôtie, cuite au four",
     "ef": "1.31",
     "changementclim": "6.71",
     "appauvozone": "1.40",
@@ -40698,7 +40698,7 @@
     "epuimine": "3.93"
   },
   {
-    "nom": "Soupe de poissons et / ou crustacés, déshydratée reconstituée",
+    "nom": "Soupe de poissons et ,  ou crustacés, déshydratée reconstituée",
     "ef": "1.27",
     "changementclim": "6.80",
     "appauvozone": "1.62",
@@ -40716,7 +40716,7 @@
     "epuimine": "31.93"
   },
   {
-    "nom": "Soupe de poissons et / ou crustacés, préemballée à réchauffer",
+    "nom": "Soupe de poissons et ,  ou crustacés, préemballée à réchauffer",
     "ef": "1.24",
     "changementclim": "6.90",
     "appauvozone": "1.57",
@@ -42246,7 +42246,7 @@
     "epuimine": "17.79"
   },
   {
-    "nom": "Thon, rôti/cuit au four",
+    "nom": "Thon, rôti, cuit au four",
     "ef": "0.90",
     "changementclim": "5.39",
     "appauvozone": "1.23",
@@ -42552,7 +42552,7 @@
     "epuimine": "5.92"
   },
   {
-    "nom": "Tomate, pulpe et peau, bouillie/cuite à l'eau",
+    "nom": "Tomate, pulpe et peau, bouillie, cuite à l'eau",
     "ef": "0.18",
     "changementclim": "1.34",
     "appauvozone": "0.20",
@@ -42570,7 +42570,7 @@
     "epuimine": "9.94"
   },
   {
-    "nom": "Tomate, pulpe et peau, rôtie/cuite au four",
+    "nom": "Tomate, pulpe et peau, rôtie, cuite au four",
     "ef": "0.20",
     "changementclim": "1.30",
     "appauvozone": "0.24",
@@ -43038,7 +43038,7 @@
     "epuimine": "11.25"
   },
   {
-    "nom": "Truite arc en ciel, élevage, rôtie/cuite au four",
+    "nom": "Truite arc en ciel, élevage, rôtie, cuite au four",
     "ef": "1.69",
     "changementclim": "6.93",
     "appauvozone": "1.09",
@@ -43146,7 +43146,7 @@
     "epuimine": "11.25"
   },
   {
-    "nom": "Truite, rôtie/cuite au four",
+    "nom": "Truite, rôtie, cuite au four",
     "ef": "1.69",
     "changementclim": "6.93",
     "appauvozone": "1.09",
@@ -43218,7 +43218,7 @@
     "epuimine": "11.52"
   },
   {
-    "nom": "Turbot, rôti/cuit au four",
+    "nom": "Turbot, rôti, cuit au four",
     "ef": "2.33",
     "changementclim": "14.54",
     "appauvozone": "2.27",
@@ -43308,7 +43308,7 @@
     "epuimine": "8.25"
   },
   {
-    "nom": "Veau, carré, sauté/poêlé",
+    "nom": "Veau, carré, sauté, poêlé",
     "ef": "1.82",
     "changementclim": "20.28",
     "appauvozone": "0.70",
@@ -43380,7 +43380,7 @@
     "epuimine": "10.32"
   },
   {
-    "nom": "Veau, côte, grillée/poêlée",
+    "nom": "Veau, côte, grillée, poêlée",
     "ef": "2.28",
     "changementclim": "25.45",
     "appauvozone": "0.87",
@@ -43434,7 +43434,7 @@
     "epuimine": "8.25"
   },
   {
-    "nom": "Veau, épaule, grillée/poêlée",
+    "nom": "Veau, épaule, grillée, poêlée",
     "ef": "1.82",
     "changementclim": "20.28",
     "appauvozone": "0.70",
@@ -43524,7 +43524,7 @@
     "epuimine": "10.10"
   },
   {
-    "nom": "Veau, filet, rôti/cuit au four",
+    "nom": "Veau, filet, rôti, cuit au four",
     "ef": "2.28",
     "changementclim": "25.15",
     "appauvozone": "0.89",
@@ -43596,7 +43596,7 @@
     "epuimine": "10.10"
   },
   {
-    "nom": "Veau, noix, grillée/poêlée",
+    "nom": "Veau, noix, grillée, poêlée",
     "ef": "2.26",
     "changementclim": "25.19",
     "appauvozone": "0.85",
@@ -43740,7 +43740,7 @@
     "epuimine": "12.64"
   },
   {
-    "nom": "Veau, tête, bouillie/cuite à l'eau",
+    "nom": "Veau, tête, bouillie, cuite à l'eau",
     "ef": "2.29",
     "changementclim": "25.58",
     "appauvozone": "0.90",
