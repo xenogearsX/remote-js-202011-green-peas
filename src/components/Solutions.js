@@ -24,7 +24,7 @@ const solutions = [
     titre: "la ruche qui dit-oui",
     description: "La Ruche qui dit oui est une plateforme collaborative qui permet de mettre en relation directe producteurs locaux et consommateurs dans le but de favoriser les circuits-courts ",
     photo: `${ruche}`,
-    Lien: "https://laruchequiditoui.fr/fr"
+    lien: "https://laruchequiditoui.fr/fr"
   },
 
   {
@@ -32,7 +32,7 @@ const solutions = [
     titre: "Huile de Palme",
     description: "Préfére les produits sans huiles de palme pour limiter ton impact sur la biodiversité et la destruction du vivant",
     photo: `${palmoil}`,
-    Lien: "https://www.greenpeace.fr/deforestation-huile-de-palme-compte-a-rebours-final/"
+    lien: "https://www.greenpeace.fr/deforestation-huile-de-palme-compte-a-rebours-final/"
   },
 
   {
@@ -40,7 +40,7 @@ const solutions = [
     titre: "Viande",
     description: "Essaie de réduire ta consommation de viande. Pour rappel 1kg de viande bovine équivaut à 27kg de gaz à effet de serre et utilise jusqu'à 13 500L d'eau",
     photo: `${beef}`,
-    Lien: "https://www.lemonde.fr/les-decodeurs/article/2018/12/11/pourquoi-la-viande-est-elle-si-nocive-pour-la-planete_5395914_4355770.html"
+    lien: `https://www.lemonde.fr/les-decodeurs/article/2018/12/11/pourquoi-la-viande-est-elle-si-nocive-pour-la-planete_5395914_4355770.html`
   },
 
   {
@@ -48,7 +48,7 @@ const solutions = [
     titre: "Produits exotiques",
     description: "Pour les produits exotiques comme le café ou le chocolat, préfére des produits issus de filières équitables avec une réelle traçabilité",
     photo: `${ecocert}`, 
-    Lien: "https://www.ecocert.com/fr/home"
+    lien: "https://www.ecocert.com/fr/home"
   },
 
   {
@@ -70,6 +70,6 @@ const solutions = [
 ];
 
 const Solutions = () => 
-    solutions.map((solution)=> <SolutionsCards categorie={solution.categorie} titre={solution.titre} description={solution.description} photo={solution.photo} url={solution.lien}/>);
+    solutions.map((solution)=> <SolutionsCards categorie={solution.categorie} titre={solution.titre} description={solution.description} photo={solution.photo} lien={solution.lien}/>);
 
   export default Solutions;

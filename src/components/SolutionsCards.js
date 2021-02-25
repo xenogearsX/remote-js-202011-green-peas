@@ -10,7 +10,7 @@ class SolutionsCards extends React.Component {
                 <h3>{props.categorie}</h3>
                 <img src={props.photo} alt={props.titre} />
                 <p>{props.description}</p>
-                <a href={props.url}>Clique ici pour en savoir plus</a>
+                <a href={props.lien}>Clique ici pour en savoir plus</a>
             </div>
         )
     }
