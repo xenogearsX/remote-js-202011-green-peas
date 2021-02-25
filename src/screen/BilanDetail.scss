@@ -111,8 +111,6 @@
 
 .animSuv {
     display: flex;
-    background-color: rgb(163, 191, 236);
-    border-radius: 5px;
 }
 
 .contRoad {   
@@ -147,14 +145,8 @@
     vertical-align: 15px;
 }
 
-.barre1 {
-    font-size: 30px;
-    color: rgb(139, 134, 134);
-    vertical-align: 15px;
-}
-
 .road2 {
-    color: rgb(163, 191, 236);
+    color :rgb(246, 245, 245);
     z-index: 3;
     display: inline-block;               
     padding-right: 2em;                  
