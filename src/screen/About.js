@@ -4,22 +4,22 @@ import './About.css'
 const About = () => {
   return (
     <>
-      <section id="encartJeux">
+      <section className="encart">
         <h1>A propos</h1>
         <p>
           Green Peas le site de sensibilisation de la pollution engendrée par la
           production et le transport des aliments.
         </p>
 
-        <h3 className="padBot-025rem">Sources</h3>
-
+        <h2>Sources</h2>
+        <h3>Données de l'impact environnemental :{" "}</h3>
         <ul>
           <li>
-            Données de l'impact environnemental :{" "}
             <a href="https://api.gouv.fr/les-api/api_agribalyse">AGRYBALYSE</a>
           </li>
-          <li>
-            ️Citation de l'intro :
+          </ul>
+          
+            <h3>️Citation de l'intro :</h3>
             <ul>
               <li>
                 <a href="https://www.lemonde.fr/">Le Monde</a>
@@ -42,10 +42,13 @@ const About = () => {
               <li>
                 <a href="https://www.socialter.fr/">Socialter</a>
               </li>
-            </ul>
-          </li>
+            
+              </ul>
+              
+              <h3>Image fruits et légumes de saison :{" "}</h3>
+              <ul>
           <li>
-            Image fruits et légumes de saison :{" "}
+            
             <a href="https://www.biocoop.fr/">Biocoop</a>
           </li>
         </ul>

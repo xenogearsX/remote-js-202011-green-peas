@@ -1,8 +1,7 @@
-import Card from "./Card";
+import FoodCard from "./FoodCard";
 import React from "react";
 import "./Food.css";
 import simplefood from "../data/json/simplefood.json"
-import { Link } from "react-router-dom";
 
 class Food extends React.Component {
   constructor() {
@@ -128,7 +127,7 @@ class Food extends React.Component {
       .slice(indexOfFirstFood, indexOfLastFood);
 
     const renderfoods = currentfoods.map((food) => {
-      return <Card key={food.nom} value={food.nom} result={food.ef} />;
+      return <FoodCard key={food.nom} value={food.nom} result={food.ef} />;
     });
 
     // Logic for displaying page numbers
@@ -174,37 +173,62 @@ class Food extends React.Component {
     });
 
     return (
-      <div className="food">
-        <div className="search">
-          <input
-            id="searchfood"
-            type="search"
-            placeholder="Rechercher un aliment"
-            onKeyDown={this.handleFilter}
-          />
-          <button
-            type="submit"
-            className="noradius"
-            onClick={this.handleGlass.bind(this)}
-          >
-            🔎
-          </button>
-          <Link to="/details" className="button">Aliments détaillés</Link>
+<>
+
+
+
+      <section className="encart">
+      <h1>Aliments</h1>
+      
+      <p>Découvre l'empreinte écologique de ton alimentation !</p>
+
+      <div className="search">
+            <input
+              id="searchfood"
+              type="search"
+              placeholder="Rechercher un aliment"
+              onKeyDown={this.handleFilter}
+            />
+            <button
+              type="submit"
+              className="searchbutton"
+              onClick={this.handleGlass.bind(this)}
+            >
+              🔎
+            </button>
         </div>
+
+      
+    </section>
+
+
+
+      <div className="food">
+        
         {this.state.search === "" ? (
           <p className="block">Tous les aliments de la base de données.</p>
         ) : (
           <p className="block">Vous recherchez {this.state.search}.</p>
         )}
+
+{renderfoods.length === 0 ? null : (<ul id="page-numbers">
+            <li onClick={this.first.bind(this)}>First</li>
+            <li onClick={this.prec.bind(this)}>{"préc. <"}</li>
+            {renderPageNumbers}
+            <li onClick={this.suiv.bind(this)}>{"> suiv."}</li>
+            <li onClick={this.last.bind(this)}>Last</li>
+        </ul>)}
         {renderfoods}
-        <ul id="page-numbers">
-          <li onClick={this.first.bind(this)}>First</li>
-          <li onClick={this.prec.bind(this)}>{"préc. <"}</li>
-          {renderPageNumbers}
-          <li onClick={this.suiv.bind(this)}>{"> suiv."}</li>
-          <li onClick={this.last.bind(this)}>Last</li>
-        </ul>
+        {renderfoods.length === 0 ? null : (<ul id="page-numbers">
+            <li onClick={this.first.bind(this)}>First</li>
+            <li onClick={this.prec.bind(this)}>{"préc. <"}</li>
+            {renderPageNumbers}
+            <li onClick={this.suiv.bind(this)}>{"> suiv."}</li>
+            <li onClick={this.last.bind(this)}>Last</li>
+        </ul>)}
       </div>
+
+      </>
     );
   }
 }

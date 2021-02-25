@@ -10,6 +10,18 @@
 
 .encartBilan {
   @include encart; // texte ul and li inside encart jeux
+
+li {
+
+
+  border-bottom: 1px solid $colorSecondary;
+
+  &:last-child {
+    border: 0;
+  }
+
+}
+
   p{
     text-align: center;
     padding: 1rem;
@@ -24,6 +36,7 @@
         background-color: $colorPrimary;
       }
   }
+;
 }
 
 .encart {

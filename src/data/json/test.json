@@ -1,6 +1,6 @@
 [
   {
-    "Nom du Produit en Français": "Agneau épaule cuite au four",
+    "Nom du Produit en Français": "Agneau épaule au four",
     "Score unique EF (mPt/kg de produit)": "4.87",
     "Changement climatique (kg CO2 eq/kg de produit)": "50.07",
     "Catégorie Jeux": "Plat"
@@ -12,31 +12,31 @@
     "Catégorie Jeux": "Entrée"
   },
   {
-    "Nom du Produit en Français": "Avocat pulpe cru",
+    "Nom du Produit en Français": "Avocat cru",
     "Score unique EF (mPt/kg de produit)": "0.55",
     "Changement climatique (kg CO2 eq/kg de produit)": "2.75",
     "Catégorie Jeux": "Entrée"
   },
   {
-    "Nom du Produit en Français": "Baba au rhum préemballé",
+    "Nom du Produit en Français": "Baba au rhum",
     "Score unique EF (mPt/kg de produit)": "0.12",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.87",
     "Catégorie Jeux": "Dessert"
   },
   {
-    "Nom du Produit en Français": "Barre à la noix de coco enrobée de chocolat",
+    "Nom du Produit en Français": "Barre à la noix de coco/chocolat",
     "Score unique EF (mPt/kg de produit)": "0.41",
     "Changement climatique (kg CO2 eq/kg de produit)": "4.73",
     "Catégorie Jeux": "Dessert"
   },
   {
-    "Nom du Produit en Français": "Boeuf bourguignon ou pot-au-feu",
+    "Nom du Produit en Français": "Boeuf bourguignon/pot-au-feu",
     "Score unique EF (mPt/kg de produit)": "3.53",
     "Changement climatique (kg CO2 eq/kg de produit)": "42.73",
     "Catégorie Jeux": "Plat"
   },
   {
-    "Nom du Produit en Français": "Eau minérale ou de source, aromatisée",
+    "Nom du Produit en Français": "Eau minérale/source, aromatisée",
     "Score unique EF (mPt/kg de produit)": "0.04",
     "Changement climatique (kg CO2 eq/kg de produit)": "0.40",
     "Catégorie Jeux": "Boisson"
@@ -90,13 +90,13 @@
     "Catégorie Jeux": "Dessert"
   },
   {
-    "Nom du Produit en Français": "Canard magret grillé/poêlé",
+    "Nom du Produit en Français": "Canard magret poêlé",
     "Score unique EF (mPt/kg de produit)": "1.11",
     "Changement climatique (kg CO2 eq/kg de produit)": "7.31",
     "Catégorie Jeux": "Plat"
   },
   {
-    "Nom du Produit en Français": "Chapon rôti/cuit au four",
+    "Nom du Produit en Français": "Chapon rôti",
     "Score unique EF (mPt/kg de produit)": "1.13",
     "Changement climatique (kg CO2 eq/kg de produit)": "7.56",
     "Catégorie Jeux": "Plat"
