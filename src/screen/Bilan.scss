@@ -1,5 +1,4 @@
-@import '../components/design/ui.scss';
-
+@import "../components/design/ui.scss";
 
 .bouton {
   @include boutonSite;
@@ -11,32 +10,28 @@
 .encartBilan {
   @include encart; // texte ul and li inside encart jeux
 
-li {
+  li {
+    border-bottom: 1px solid $colorSecondary;
 
-
-  border-bottom: 1px solid $colorSecondary;
-
-  &:last-child {
-    border: 0;
+    &:last-child {
+      border: 0;
+    }
   }
 
-}
-
-  p{
+  p {
     text-align: center;
     padding: 1rem;
     border-radius: 5px;
   }
   .Score {
-      background-color: red;
-      align-self: center;
-      color:white;
-      margin-bottom: 1rem;
-      &.Good {
-        background-color: $colorPrimary;
-      }
+    background-color: red;
+    align-self: center;
+    color: white;
+    margin-bottom: 1rem;
+    &.Good {
+      background-color: $colorPrimary;
+    }
   }
-;
 }
 
 .encart {
@@ -52,5 +47,3 @@ li {
     margin: 1rem auto;
   }
 }
-
-

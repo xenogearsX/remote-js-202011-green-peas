@@ -1,12 +1,13 @@
-import React from "react";
 import FactCards from "./FactsCards";
-import gas from "../data/images/gas.svg";
+import React from "react";
+
 import biodiversity from "../data/images/biodiversity.svg";
 import deforestation from "../data/images/deforestation.svg";
+import gas from "../data/images/gas.svg";
 import oil from "../data/images/oil.svg";
 import pesticide from "../data/images/pesticide.svg";
-import water from "../data/images/water.svg";
 import soil from "../data/images/soil_degradation.svg";
+import water from "../data/images/water.svg";
 
 //Tableau de faits sur l'impact de l'agriculture sur l'environnement
 
@@ -92,12 +93,18 @@ const facts = [
 
 const FactsList = () => {
   const rand = getRandom(0, facts.length - 1);
-  return <FactCards texte={facts[rand].texte} icon={facts[rand].icon} categorie={facts[rand].categorie}/>;
+  return (
+    <FactCards
+      texte={facts[rand].texte}
+      icon={facts[rand].icon}
+      categorie={facts[rand].categorie}
+    />
+  );
 };
 const getRandom = (min, max) => {
   min = Math.ceil(min);
   max = Math.floor(max);
   return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+};
 
 export default FactsList;

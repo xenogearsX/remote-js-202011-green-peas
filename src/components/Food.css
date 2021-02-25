@@ -17,9 +17,9 @@
 
 #page-numbers > li {
   -webkit-user-select: none;
-    user-select: none;
-    cursor: pointer;
-    font-size: .8rem;
+  user-select: none;
+  cursor: pointer;
+  font-size: 0.8rem;
 }
 
 .block {
@@ -37,7 +37,7 @@
   border: 1px solid #aeaeae;
   border-radius: 2px;
   padding: 7px;
-  margin: .2rem;
+  margin: 0.2rem;
 }
 .button {
   display: flex;
@@ -46,11 +46,11 @@
   font-size: 0.8em;
   height: 50px;
   text-decoration: none;
-    color: black;
-    background-color: rgb(243, 243, 243);
-    border: 1px solid;
-    border-radius: 0px 5px 5px 0px;
+  color: black;
+  background-color: rgb(243, 243, 243);
+  border: 1px solid;
+  border-radius: 0px 5px 5px 0px;
   position: relative;
-  font-family:"Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }

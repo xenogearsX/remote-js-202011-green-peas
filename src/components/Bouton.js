@@ -1,10 +1,13 @@
-import React from 'react'
-import './bouton.css'
+import React from "react";
 
-const Bouton = ({screen ,texte}) => {
-    return(
-        <a href={screen} className="bouton">{texte}</a>
-    )
-}
+import "./bouton.css";
 
-export default Bouton
+const Bouton = ({ screen, texte }) => {
+  return (
+    <a href={screen} className="bouton">
+      {texte}
+    </a>
+  );
+};
+
+export default Bouton;

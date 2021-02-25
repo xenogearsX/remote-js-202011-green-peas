@@ -1,6 +1,6 @@
-import React from "react";
-import Footer from "./Footer";
 import Carousel from "./Carousel";
+import Footer from "./Footer";
+import React from "react";
 import Solutions from "./Solutions";
 
 class Best extends React.Component {
@@ -9,16 +9,8 @@ class Best extends React.Component {
       <div>
         <Carousel />
         <Solutions />
-      {/* {facts.map((fact, index) => (
-        <FactCards
-          texte={fact.texte}
-          icon={fact.icon}
-          key={index}
-          categorie={facts.categorie}
-        />
-      ))} */}
-      <Footer />
-    </div>
+        <Footer />
+      </div>
     );
   }
 }
