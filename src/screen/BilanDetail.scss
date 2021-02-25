@@ -111,9 +111,11 @@
 
 .animSuv {
     display: flex;
+    background: linear-gradient(to top,green, grey,rgb(94, 93, 93), rgb(169, 197, 241), rgb(213, 229, 255));
+    border-radius: 5px;
 }
 
-.contRoad {   
+.contRoad {  
     z-index: 2;
     color: black;     
     padding: 0px;
@@ -143,6 +145,10 @@
 .chicken {
     font-size: 25px;
     vertical-align: 15px;
+}
+
+.borne {
+    color: white;
 }
 
 .road2 {
