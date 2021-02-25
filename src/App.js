@@ -1,6 +1,7 @@
 import Best from "./components/Best";
 import Bilan from "./components/Bilan";
-import Details from "./screen/Details";
+import BilanDetail from "./screen/BilanDetail";
+import DetailsCard from "./components/DetailsCard";
 import Food from "./components/Food";
 import Game from "./screen/Game";
 import Game1 from "./screen/Game1";
@@ -8,14 +9,14 @@ import Game2 from "./screen/Game2";
 import Game3 from "./screen/Game3";
 import Game4 from "./screen/Game4";
 import Game5 from "./screen/Game5";
-import BilanDetail from "./screen/BilanDetail";
 import GameOver from "./screen/GameOver";
 import Header from "./components/Header";
 import Home from "./screen/Home";
+import Intro from "./screen/Intro";
 import Nav from "./components/Nav";
 import React from "react";
+
 import { Route, Switch } from "react-router-dom";
-import Intro from "./screen/Intro";
 
 import "./App.css";
 import About from "./screen/About";
@@ -38,7 +39,7 @@ class App extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ loading: false });
-    }, 4000);
+    }, 50);
   }
   render() {
     return this.state.loading ? (
@@ -55,7 +56,6 @@ class App extends React.Component {
             <Route path="/game" component={Game} />
             <Route path="/mieux" component={Best} />
             <Route path="/aliments" component={Food} />
-            <Route path="/details" component={Details} />
             <Route
               path="/game1"
               render={(props) => (
@@ -132,6 +132,8 @@ class App extends React.Component {
               )}
             />
             <Route path="/about" component={About} />
+            <Route path="/:value" component={DetailsCard} />
+      
           </Switch>
         </div>
       </div>

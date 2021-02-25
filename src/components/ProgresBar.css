@@ -29,6 +29,7 @@
     background: linear-gradient(to right,white, grey,rgb(94, 93, 93), black, red);
     border: 5px;
     border-radius: 10px;
+    transition: -2s;
 }
 
 #flame {

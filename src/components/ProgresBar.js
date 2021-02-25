@@ -15,7 +15,6 @@ return (
             <img id="flame" src={flame} alt="flame indicator" style={{left: this.props.indicator}} />
             <div className="progresBarIndicator1" style={{width:this.props.width}}></div>
         </div>
-
     </div>
 ) 
 }

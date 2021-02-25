@@ -26,7 +26,7 @@ class Bilan extends React.Component {
               
               <p>
               {ScoreMenu > ScoreMoyenne 
-              ? 'Désolé avec un score pareil on va pas aller loin' 
+              ? 'Désolé avec un score pareil on ne va pas aller loin' 
               : 'Bravo ton score est exemplaire' 
               }
               </p>

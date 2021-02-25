@@ -30,18 +30,16 @@ export default function Carousel () {
             <AliceCarousel activeIndex={test()}>
                 <img src={janvier} className="sliderimg" alt="janvier" />
                 <img src={février} className="sliderimg" alt="février" />
-                <img src={mars} className="sliderimg" alt="" />
-                <img src={avril} className="sliderimg" alt="" />
-                <img src={mai} className="sliderimg" alt="" />
-                <img src={juin} className="sliderimg" alt="" />
-                <img src={juillet} className="sliderimg" alt="" />
-                <img src={aout} className="sliderimg" alt="" />
-                <img src={septembre} className="sliderimg" alt="" />
-                <img src={aout} className="sliderimg" alt="" />
-                <img src={septembre} className="sliderimg" alt="" />
-                <img src={octobre} className="sliderimg" alt="" />
-                <img src={novembre} className="sliderimg" alt="" />
-                <img src={décembre} className="sliderimg" alt="" />
+                <img src={mars} className="sliderimg" alt="mars" />
+                <img src={avril} className="sliderimg" alt="avril" />
+                <img src={mai} className="sliderimg" alt="mai" />
+                <img src={juin} className="sliderimg" alt="juin" />
+                <img src={juillet} className="sliderimg" alt="juillet" />
+                <img src={aout} className="sliderimg" alt="août" />
+                <img src={septembre} className="sliderimg" alt="septembre" />
+                <img src={octobre} className="sliderimg" alt="octobre" />                
+                <img src={novembre} className="sliderimg" alt="novembre" />
+                <img src={décembre} className="sliderimg" alt="décembre" />
             </AliceCarousel>
         </div>
     )
