@@ -63,11 +63,13 @@ class BilanDetail extends React.Component {
 
            
                     <div className="textVulg">
-                       
+                        <section className='info'>
                           <img className='imgiconLamp' image src={lamp} alt='lamp.png'/>
                           <p>
                           <span className='nbjours'>{(this.props.score.toFixed(0))*2}</span>  jours d'éclairage d'1 ampoule</p>
+                        </section>
                             <h3>OU</h3>
+                    <section className='info'>
                             <div className="animSuv">
                             <img className='imgiconSuv' src={suvcar} alt='suv-car'/>
                             <div className='contRoad'>
@@ -76,6 +78,7 @@ class BilanDetail extends React.Component {
                             </div>
                             </div>
                             <p><span className='nbjours'>{(this.props.score*9).toFixed(0)}</span>  km en SUV </p>
+                    </section>
                     </div>  
                 </section>
 

@@ -60,6 +60,12 @@
     animation: slideDown 1s;
 }
 
+.info {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 @keyframes slideDown {
     from {
         transform:translateY(20px);
