@@ -72,6 +72,7 @@ class BilanDetail extends React.Component {
                             <img className='imgiconSuv' src={suvcar} alt='suv-car'/>
                             <div className='contRoad'>
                             <div className='road'>------|----------<span className="chicken">🐓</span>-------------------|--------------|------------<span className="chicken">🐓</span>--------------|--------------------<span className="chicken">🐓</span>-------------------|---------<span className="chicken">🐓</span>------------|---------------------|------------<span className="chicken">🐓</span>-----------------------------------------|--</div>
+                            <div className='road2'>___<span className="chicken">🌼</span>_________<span className="chicken">🌼🌻</span>_______<span className="chicken">🌻</span>________________<span className="chicken">🌻</span>___________________________<span className="chicken">🌼🌻</span>_______<span className="chicken">🌻</span>________________<span className="chicken">🌻</span>__</div>
                             </div>
                             </div>
                             <p><span className='nbjours'>{(this.props.score*9).toFixed(0)}</span>  km en SUV </p>
