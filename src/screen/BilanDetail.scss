@@ -99,19 +99,31 @@
     z-index: 2;
     position: absolute;
     animation: animIcon2 0.3s;
+    animation: animIcon3 40s;
     animation-iteration-count: infinite;
-    padding: 0;
-    margin: auto;
-    width: fit-content;
+    padding-bottom: 0;
+    margin-top: 20px;
+    width: 100px;
     text-align: center;
 }
 
 @keyframes animIcon2 {
     from {
         transform:translateY(-2px);
+        transform: translateX(0);
     }
     to {
         transform: translateY(0);
+        transform: translateX(200px);
+    }
+}
+
+@keyframes animIcon3 {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(70px);
     }
 }
 
