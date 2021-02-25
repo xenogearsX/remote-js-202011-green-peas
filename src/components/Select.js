@@ -2,6 +2,8 @@ import React, { PureComponent } from "react";
 import test from "../data/json/test.json";
 import defaultImgDish from "../data/images/dish.svg";
 
+import './Select.css'
+
 export default class Select extends PureComponent {
   state = {
     imgDefault: defaultImgDish,
@@ -45,14 +47,16 @@ export default class Select extends PureComponent {
       );
     return (
       <>
+      <div className="selectDiv">
         <select className="select" onChange={this.props.changeClass}>
-            <option>Sélectionne un aliment</option>
+            <option className="titreOption">Sélectionne un aliment</option>
           {randomTen.map((item, index) => (
-            <option key={index} value={item["Changement climatique (kg CO2 eq/kg de produit)"]}>
+            <option className="optionAliment" key={index} value={item["Changement climatique (kg CO2 eq/kg de produit)"]}>
               {item["Nom du Produit en Français"]}
             </option>
           ))}
         </select>
+      </div>
         <img
           className="dish"
           src={this.state.imgDefault}
