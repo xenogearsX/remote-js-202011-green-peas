@@ -13,6 +13,11 @@
     &.menu {
         margin-top: 25px;
     }
+    &.border-blue {
+      li {
+        border-bottom: 1px solid $colorSecondary;
+      }
+    }
     .figure {
         display: flex;
     justify-content: center;
@@ -26,19 +31,18 @@ ul {
     font-family: $typoSecondaire;
     font-size: $typoM;
     line-height: 1.3em;
-
-
     li {
       font-size: $typoS;
       padding: 0.55rem 0;
       margin-bottom: 0.45rem;
-      
-
       &:last-child {
         border: 0;
       }
     }
   }
+}
 
-
+.dataDetail {
+  font-size: $typoM;
+  font-weight: 500;
 }

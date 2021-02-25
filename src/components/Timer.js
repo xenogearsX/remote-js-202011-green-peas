@@ -1,8 +1,6 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
 
-
-
 let intervalId = null;
 
 class Timer extends React.Component {

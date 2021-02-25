@@ -1,6 +1,6 @@
 import Best from "./components/Best";
 import Bilan from "./components/Bilan";
-import Details from "./screen/Details";
+import DetailsCard from "./components/DetailsCard";
 import Food from "./components/Food";
 import Game from "./screen/Game";
 import Game1 from "./screen/Game1";
@@ -55,7 +55,6 @@ class App extends React.Component {
             <Route path="/game" component={Game} />
             <Route path="/mieux" component={Best} />
             <Route path="/aliments" component={Food} />
-            <Route path="/details" component={Details} />
             <Route
               path="/game1"
               render={(props) => (
@@ -132,6 +131,8 @@ class App extends React.Component {
               )}
             />
             <Route path="/about" component={About} />
+            <Route path="/:value" component={DetailsCard} />
+      
           </Switch>
         </div>
       </div>

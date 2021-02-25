@@ -1,27 +1,12 @@
 import React from "react";
 
 export default class Explanation extends React.Component {
-  state = {
-    hidden: true,
-  };
-  reduce = () => {
-    const explications = document.querySelector("#encart");
-    if (this.state.hidden) {
-      explications.style.display = "block";
-    } else {
-      explications.style.display = "none";
-    }
-    this.setState({ hidden: !this.state.hidden });
-  };
   render() {
     return (
       <section className="encart">
-        <h1>
+        <h2>
           Explications des termes
-          <button className="reduce" onClick={this.reduce}>
-            {this.state.hidden ? "Agrandir" : "Réduire"}
-          </button>
-        </h1>
+        </h2>
         <div id="encart">
           <h2 className="titreJeux">
             Empreinte environnementale :

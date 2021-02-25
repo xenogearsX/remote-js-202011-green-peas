@@ -16,10 +16,12 @@
 }
 
 #page-numbers > li {
-  color: blue;
-  user-select: none;
-  cursor: pointer;
+  -webkit-user-select: none;
+    user-select: none;
+    cursor: pointer;
+    font-size: .8rem;
 }
+
 .block {
   width: 100%;
   display: block;
@@ -32,9 +34,10 @@
   display: none;
 }
 .food li {
-  border: 1px solid black;
+  border: 1px solid #aeaeae;
   border-radius: 2px;
-  padding: 5px;
+  padding: 7px;
+  margin: .2rem;
 }
 .button {
   display: flex;

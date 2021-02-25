@@ -1,58 +1,36 @@
 import React from "react";
-import "./DetailsCard.scss";
+import details from "../data/json/detailjson.json";
+import Explanation from "./Explanation";
 
 class DetailCard extends React.Component {
+  
   render() {
+    const filter = details.filter(food => food.nom===this.props.match.params.value)
     return (
-      <div className="carddetail">
-        <p className="titreCard">{this.props.value}</p>
-        <p>
-        Empreinte environnementale<span> :</span><br />{this.props.ef}
-        </p>
-        <p>
-        Changement climatique<span> :</span><br />{this.props.changeclim}
-        </p>
-        <p>
-        Appauvrissement de la couche d'ozone<span> :</span><br />{this.props.appozone}
-        </p>
-        <p>
-        Rayonnements ionisants<span> :</span><br />{this.props.rayion}
-        </p>
-        <p>
-        Formation photochimique d'ozone<span> :</span><br />{this.props.formozone}
-        </p>
-        <p>
-        Particules<span> :</span><br />{this.props.part}
-        </p>
-        <p>
-        Acidification terrestre et eaux douces<span> :</span><br />{this.props.acid}
-        </p>
-        <p>
-        Eutrophisation terrestre<span> :</span><br />{this.props.eut}
-        </p>
-        <p>
-        Eutrophisation eaux douces<span> :</span><br />{this.props.eue}
-        </p>
-        <p>
-        Eutrophisation marine<span> :</span><br />{this.props.eum}
-        </p>
-        <p>
-        Utilisation du sol<span> :</span><br />{this.props.sol}
-        </p>
-        <p>
-        Écotoxicité pour écosystèmes aquatiques d'eau douce<span> :</span><br />{this.props.eco}
-        </p>
-        <p>
-        Épuisement des ressources eau<span> :</span><br />{this.props.ee}
-        </p>
-        <p>
-        Épuisement des ressources énergétiques<span> :</span><br />{this.props.een}
-        </p>
-        <p>
-        Épuisement des ressources minérales<span> :</span><br />{this.props.em}
-        </p>
-        {this.props.ef < 1 ? <p className="pea">🟢</p> : this.props.ef < 4 ? <p className="pea">🟡</p> : <p className="pea">🔴</p>}
+      <>
+      <div className="encart border-blue">
+          <h2>{filter[0].nom}</h2>
+          <ul>
+              {filter[0].ef < 1 ? <li className="pea"> 🟢</li> : filter[0].ef < 4 ? <li className="pea">🟡</li> : <li className="pea">🔴</li>} 
+              <li>Empreinte environnementale :<span className="dataDetail">{" "+filter[0].ef} </span></li> 
+              <li>Changement climatique :<span className="dataDetail">{" "+filter[0].changementclim}</span></li>
+              <li>Appauvrissement de la couche d'ozone :<span className="dataDetail">{" "+filter[0].appauvozone}</span></li>
+              <li>Rayonnements ionisants :<span className="dataDetail">{" "+filter[0].rayonion}</span></li>
+              <li>Formation photochimique d'ozone :<span className="dataDetail">{" "+filter[0].formphotoozone}</span></li>
+              <li>Particules :<span className="dataDetail">{" "+filter[0].particule}</span></li>
+              <li>Acidification terrestre et eaux douces :<span className="dataDetail">{" "+filter[0].acidterreau}</span></li>
+              <li>Eutrophisation terrestre :<span className="dataDetail">{" "+filter[0].euterre}</span></li>
+              <li>Eutrophisation eaux douces :<span className="dataDetail">{" "+filter[0].eueaudouce}</span></li>
+              <li>Eutrophisation marine :<span className="dataDetail">{" "+filter[0].eumarine}</span></li>
+              <li>Utilisation du sol :<span className="dataDetail">{" "+filter[0].utilsol}</span></li>
+              <li>Écotoxicité pour écosystèmes aquatiques d'eau douce :<span className="dataDetail">{" "+filter[0].ecotoxeau}</span></li>
+              <li>Épuisement des ressources eau :<span className="dataDetail">{" "+filter[0].epuieau}</span></li>
+              <li>Épuisement des ressources énergétiques :<span className="dataDetail">{" "+filter[0].epuienerg}</span></li>
+              <li>Épuisement des ressources minérales :<span className="dataDetail">{" "+filter[0].epuimine}</span></li>
+          </ul>
       </div>
+      <Explanation/>
+      </>
     );
   }
 }
