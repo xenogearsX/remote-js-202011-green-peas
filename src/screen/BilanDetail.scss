@@ -152,7 +152,8 @@
 }
 
 .road2 {
-    color :rgb(246, 245, 245);
+    position: relative;
+    color :green;
     z-index: 3;
     display: inline-block;               
     padding-right: 2em;                  
