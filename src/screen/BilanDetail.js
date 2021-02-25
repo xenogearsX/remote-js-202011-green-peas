@@ -30,8 +30,7 @@ class BilanDetail extends React.Component {
     return(
       
             <div className="">
- 
-            <section className="encart">
+                   <section className="encart">
                     <h1>Bilan de ton menu</h1>
                     {/* Score total affiché sur la barre de score */}
                     
@@ -73,17 +72,28 @@ class BilanDetail extends React.Component {
                           </h3>
            
                     <div className="textVulg">
-                          <img className='imgicon' image src={lamp} alt='lamp.png'/>
+                        <section className='info'>
+                          <img className='imgiconLamp' image src={lamp} alt='lamp.png'/>
                           <p>
                           <span className='nbjours'>{(this.props.score.toFixed(0))*2}</span>  jours d'éclairage d'1 ampoule</p>
+                        </section>
                             <h3>OU</h3>
-                            <img className='imgicon' src={suvcar} alt='suv-car'/>
+                    <section className='info'>
+                            <div className="animSuv">
+                            <img className='imgiconSuv' src={suvcar} alt='suv-car'/>
+                            <div className='contRoad'>
+                            <div className='road'>------<span className="borne">|</span>----------<span className="chicken">🐓</span>-------------------<span className="borne">|</span>--------------<span className="borne">|</span>------------<span className="chicken">🐓</span>--------------<span className="borne">|</span>--------------------<span className="chicken">🐓</span>-------------------<span className="borne">|</span>---------<span className="chicken">🐓</span>------------<span className="borne">|</span>---------------------<span className="borne">|</span>------------<span className="chicken">🐓</span>----------------------------<span className="chicken">🐓</span>------------------------------------<span className="chicken">🐓</span>-------------------------------------<span className="chicken">🐓</span>----------------------<span className="chicken">🐓</span>---------------------<span className="borne">|</span>--</div>
+                            <div className='road2'>_______<span className="chicken">🌼</span>_______________<span className="chicken">🌼🌻</span>___________<span className="chicken">🌼</span>_______<span className="chicken">🌻</span>_____________<span className="chicken">🌻</span>_______________<span className="chicken">🌼🌻</span>_______<span className="chicken">🌻</span>_____________<span className="chicken">🌻</span>__</div>
+                            </div>
+                            </div>
                             <p><span className='nbjours'>{(this.props.score*9).toFixed(0)}</span>  km en SUV </p>
+                    </section>
                     </div>  
                 </section>
                 
         <Footer />
-      </div>
+        </div>
+      
     );
   }
 }

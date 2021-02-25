@@ -1,0 +1,21 @@
+/* .titreOption {
+background-color: yellow;
+}
+
+.select {
+    background-color: green;
+}
+
+.titreOption {
+    background-color: violet;
+}
+
+.optionAliment:active .optionAliment:hover {
+    background-color: indigo;
+    outline-color: red
+} */
+.selectDiv {
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+}

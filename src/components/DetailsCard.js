@@ -1,6 +1,8 @@
 import React from "react";
 import details from "../data/json/detailjson.json";
 import Explanation from "./Explanation";
+import {Link} from 'react-router-dom'
+
 
 class DetailCard extends React.Component {
   
@@ -8,6 +10,7 @@ class DetailCard extends React.Component {
     const filter = details.filter(food => food.nom===this.props.match.params.value)
     return (
       <>
+        <Link to="/aliments" className="bouton mb_1rem">Retour aux aliments </Link>
       <div className="encart border-blue">
           <h2>{filter[0].nom}</h2>
           <ul>
@@ -30,6 +33,7 @@ class DetailCard extends React.Component {
           </ul>
       </div>
       <Explanation/>
+      <Link to="/aliments" className="bouton mb_1rem">Retour aux aliments </Link>
       </>
     );
   }
