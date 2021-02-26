@@ -1,9 +1,10 @@
-import earth from "../data/images/earth-2.svg";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import React from "react";
 
 import "../screen/Home.scss";
+
+import earth from "../data/images/earth-2.svg";
 
 class Home extends React.Component {
   render() {

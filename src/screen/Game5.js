@@ -1,10 +1,8 @@
-import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import ProgresBar from "../components/ProgresBar";
 import React from "react";
 import Select from "../components/Select";
 import Timer from "../components/Timer";
-
 
 class Game5 extends React.Component {
   state = {
@@ -36,7 +34,6 @@ class Game5 extends React.Component {
             <div className="bouton off">Valider ta boisson</div>
           )}
         </section>
-        <Footer />
       </div>
     );
   }

@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
-import pois from "../data/images/gp-logo.svg";
 import React from "react";
 
 import "./Identity.css";
+
+import pois from "../data/images/gp-logo.svg";
 
 class Identity extends React.Component {
   render() {

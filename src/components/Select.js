@@ -1,9 +1,9 @@
 import React, { PureComponent } from "react";
 
-import "./Select.css";
-
 import defaultImgDish from "../data/images/dish.svg";
 import test from "../data/json/test.json";
+
+import "./Select.css";
 
 export default class Select extends PureComponent {
   state = {

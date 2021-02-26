@@ -1,5 +1,6 @@
 import FactsList from "../components/FactsList";
 import React from "react";
+
 import "./Intro.css";
 
 const Intro = () => {

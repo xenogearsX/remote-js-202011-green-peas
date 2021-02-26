@@ -4,12 +4,11 @@ import React from "react";
 
 import "../screen/Bilan.scss";
 
-import earthfoutu from "../data/images/dead_earth.svg";
 import earth from "../data/images/earth-2.svg";
+import earthfoutu from "../data/images/dead_earth.svg";
 
 class Bilan extends React.Component {
   render() {
-    console.log(this.props);
     const ScoreMenu = this.props.score.toFixed(2);
     const ScoreMoyenne = this.props.scoreMoyenne;
     return (
@@ -26,11 +25,13 @@ class Bilan extends React.Component {
               alt="earth"
             />
           </figure>
+
           <p>
             {ScoreMenu > ScoreMoyenne
               ? "Désolé avec un score pareil on ne va pas aller loin"
               : "Bravo ton score est exemplaire"}
           </p>
+
           <Link to="/bilanDetail" className="bouton mb_1rem">
             Voir le détail de votre bilan
           </Link>

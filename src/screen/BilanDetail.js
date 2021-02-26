@@ -16,6 +16,7 @@ class BilanDetail extends React.Component {
 
   componentDidMount() {
     const eltWidth = this._element.current.getBoundingClientRect().width;
+    console.log(eltWidth);
     this.setState({
       maxWidth: eltWidth,
     });

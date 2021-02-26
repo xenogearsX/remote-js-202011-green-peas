@@ -1,4 +1,3 @@
-import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import ProgresBar from "../components/ProgresBar";
 import React from "react";
@@ -37,7 +36,6 @@ class Game2 extends React.Component {
             <div className="bouton off">Valider ton plat</div>
           )}
         </section>
-        <Footer />
       </div>
     );
   }

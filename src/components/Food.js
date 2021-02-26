@@ -1,7 +1,8 @@
 import FoodCard from "./FoodCard";
 import React from "react";
-import "./Food.css";
 import simplefood from "../data/json/simplefood.json";
+
+import "./Food.css";
 
 class Food extends React.Component {
   constructor() {
