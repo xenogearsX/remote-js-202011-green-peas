@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import React from "react";
-import {Link} from "react-router-dom"
+
 import "./Card.scss";
 
 class Card extends React.Component {
@@ -8,9 +9,15 @@ class Card extends React.Component {
       <div className="card">
         <p className="titreCard">{this.props.value}</p>
         <p>
-        <span>Score environnemental :</span> {this.props.result}
+          <span>Score environnemental :</span> {this.props.result}
         </p>
-        {this.props.result < 1 ? <p className="pea">🟢</p> : this.props.result < 4 ? <p className="pea">🟡</p> : <p className="pea">🔴</p>}
+        {this.props.result < 1 ? (
+          <p className="pea">🟢</p>
+        ) : this.props.result < 4 ? (
+          <p className="pea">🟡</p>
+        ) : (
+          <p className="pea">🔴</p>
+        )}
         <Link to={`/${this.props.value}`} className="bouton">
           Voir les détails
         </Link>
@@ -18,4 +25,4 @@ class Card extends React.Component {
     );
   }
 }
- export default Card
+export default Card;

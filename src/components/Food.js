@@ -1,7 +1,8 @@
 import FoodCard from "./FoodCard";
 import React from "react";
+import simplefood from "../data/json/simplefood.json";
+
 import "./Food.css";
-import simplefood from "../data/json/simplefood.json"
 
 class Food extends React.Component {
   constructor() {
@@ -28,7 +29,7 @@ class Food extends React.Component {
     }
   }
   handleGlass() {
-    const glass= document.getElementById('searchfood');
+    const glass = document.getElementById("searchfood");
     this.setState({
       search: glass.value,
     });
@@ -173,16 +174,13 @@ class Food extends React.Component {
     });
 
     return (
-<>
+      <>
+        <section className="encart">
+          <h1>Aliments</h1>
 
+          <p>Découvre l'empreinte écologique de ton alimentation !</p>
 
-
-      <section className="encart">
-      <h1>Aliments</h1>
-      
-      <p>Découvre l'empreinte écologique de ton alimentation !</p>
-
-      <div className="search">
+          <div className="search">
             <input
               id="searchfood"
               type="search"
@@ -196,38 +194,36 @@ class Food extends React.Component {
             >
               🔎
             </button>
+          </div>
+        </section>
+
+        <div className="food">
+          {this.state.search === "" ? (
+            <p className="block">Tous les aliments de la base de données.</p>
+          ) : (
+            <p className="block">Vous recherchez {this.state.search}.</p>
+          )}
+
+          {renderfoods.length === 0 ? null : (
+            <ul id="page-numbers">
+              <li onClick={this.first.bind(this)}>First</li>
+              <li onClick={this.prec.bind(this)}>{"préc. <"}</li>
+              {renderPageNumbers}
+              <li onClick={this.suiv.bind(this)}>{"> suiv."}</li>
+              <li onClick={this.last.bind(this)}>Last</li>
+            </ul>
+          )}
+          {renderfoods}
+          {renderfoods.length === 0 ? null : (
+            <ul id="page-numbers">
+              <li onClick={this.first.bind(this)}>First</li>
+              <li onClick={this.prec.bind(this)}>{"préc. <"}</li>
+              {renderPageNumbers}
+              <li onClick={this.suiv.bind(this)}>{"> suiv."}</li>
+              <li onClick={this.last.bind(this)}>Last</li>
+            </ul>
+          )}
         </div>
-
-      
-    </section>
-
-
-
-      <div className="food">
-        
-        {this.state.search === "" ? (
-          <p className="block">Tous les aliments de la base de données.</p>
-        ) : (
-          <p className="block">Vous recherchez {this.state.search}.</p>
-        )}
-
-{renderfoods.length === 0 ? null : (<ul id="page-numbers">
-            <li onClick={this.first.bind(this)}>First</li>
-            <li onClick={this.prec.bind(this)}>{"préc. <"}</li>
-            {renderPageNumbers}
-            <li onClick={this.suiv.bind(this)}>{"> suiv."}</li>
-            <li onClick={this.last.bind(this)}>Last</li>
-        </ul>)}
-        {renderfoods}
-        {renderfoods.length === 0 ? null : (<ul id="page-numbers">
-            <li onClick={this.first.bind(this)}>First</li>
-            <li onClick={this.prec.bind(this)}>{"préc. <"}</li>
-            {renderPageNumbers}
-            <li onClick={this.suiv.bind(this)}>{"> suiv."}</li>
-            <li onClick={this.last.bind(this)}>Last</li>
-        </ul>)}
-      </div>
-
       </>
     );
   }

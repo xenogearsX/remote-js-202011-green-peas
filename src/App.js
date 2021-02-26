@@ -1,3 +1,4 @@
+import About from "./screen/About";
 import Best from "./components/Best";
 import Bilan from "./components/Bilan";
 import BilanDetail from "./screen/BilanDetail";
@@ -15,18 +16,16 @@ import Home from "./screen/Home";
 import Intro from "./screen/Intro";
 import Nav from "./components/Nav";
 import React from "react";
-
 import { Route, Switch } from "react-router-dom";
 
 import "./App.css";
-import About from "./screen/About";
 
 class App extends React.Component {
   state = {
     loading: true,
     scoreglobal: 0,
     menu: [],
-    moyenne:26.93
+    moyenne: 26.93,
   };
   addMenu = (item) => {
     this.setState({ menu: [...this.state.menu, item] });
@@ -39,7 +38,7 @@ class App extends React.Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ loading: false });
-    }, 50);
+    }, 4000);
   }
   render() {
     return this.state.loading ? (
@@ -133,7 +132,6 @@ class App extends React.Component {
             />
             <Route path="/about" component={About} />
             <Route path="/:value" component={DetailsCard} />
-      
           </Switch>
         </div>
       </div>
