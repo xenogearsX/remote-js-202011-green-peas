@@ -1,11 +1,9 @@
-import React from "react";
 import GameAccess from "../components/GameAccess";
+import React from "react";
 
 class Game extends React.Component {
   render() {
-    return (
-        <GameAccess />
-    );
+    return <GameAccess />;
   }
 }
 export default Game;

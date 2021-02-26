@@ -1,18 +1,19 @@
-import React from "react";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import ProgresBar from "../components/ProgresBar";
+import React from "react";
 import Select from "../components/Select";
 import Timer from "../components/Timer";
+
 import "./Game.scss";
 
 class Game1 extends React.Component {
   state = {
     activeLink: false,
   };
-  changeClass=() =>{
+  changeClass = () => {
     this.setState({ activeLink: true });
-  }
+  };
   componentDidMount() {
     this.props.resetScore();
     this.props.resetMenu();
@@ -32,11 +33,13 @@ class Game1 extends React.Component {
             addMenu={this.props.addMenu}
             changeClass={this.changeClass}
           />
-          {this.state.activeLink?
-          <Link to="/game2" className="bouton">
-            Valider ton entrée
-          </Link> :
-          <div className="bouton off">Valider ton entrée</div>}
+          {this.state.activeLink ? (
+            <Link to="/game2" className="bouton">
+              Valider ton entrée
+            </Link>
+          ) : (
+            <div className="bouton off">Valider ton entrée</div>
+          )}
         </section>
         <Footer />
       </div>

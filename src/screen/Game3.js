@@ -1,6 +1,7 @@
-import React from "react";
+import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 import ProgresBar from "../components/ProgresBar";
+import React from "react";
 import Select from "../components/Select";
 import Timer from "../components/Timer";
 
@@ -32,6 +33,7 @@ class Game3 extends React.Component {
           </Link> : 
            <div className="bouton off">Valider ton accompagnement</div>}
         </section>
+        <Footer />
       </div>
     );
   }

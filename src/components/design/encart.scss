@@ -1,32 +1,31 @@
 @mixin encart {
-    text-align: left;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  margin: 50px auto;
+  border-radius: 10px;
+  background: $colorBack;
+  padding: 3rem;
+  min-width: 200px;
+  max-width: 414px;
+  box-shadow: 0px 1px 3px grey;
+  &.menu {
+    margin-top: 25px;
+  }
+  &.border-blue {
+    li {
+      border-bottom: 1px solid $colorSecondary;
+    }
+  }
+  .figure {
     display: flex;
-    flex-direction: column;
-    width: 90vw;
-    margin: 50px auto;
-    border-radius: 10px;
-    background: $colorBack;
-    padding: 3rem;
-    min-width:200px;
-    max-width: 414px;
-    box-shadow: 0px 1px 3px grey;
-    &.menu {
-        margin-top: 25px;
-    }
-    &.border-blue {
-      li {
-        border-bottom: 1px solid $colorSecondary;
-      }
-    }
-    .figure {
-        display: flex;
     justify-content: center;
     margin: 2rem;
-    }
+  }
 
-
-// Liste design 
-ul {
+  // Liste design
+  ul {
     color: $colorSecondary;
     font-family: $typoSecondaire;
     font-size: $typoM;

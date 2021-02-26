@@ -1,15 +1,15 @@
-import "./Header.css";
-import React from "react";
-import Identity from "./Identity";
 import BurgerMenu from "./BurgerMenu";
+import Identity from "./Identity";
+import React from "react";
+
+import "./Header.css";
 
 class Header extends React.Component {
   swipeMenu() {
     const mainMenu = document.querySelector("#menu");
     const burgerMenu = document.querySelector("#menu-burger");
     const nav = document.querySelector(".nav");
-    
-    
+
     document.addEventListener("click", function (event) {
       if (mainMenu.className === "") {
         return;

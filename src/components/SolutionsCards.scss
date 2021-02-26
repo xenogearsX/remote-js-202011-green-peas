@@ -1,27 +1,25 @@
-@import './design/ui.scss';
-
+@import "./design/ui.scss";
 
 .solution {
+  @include encart;
 
-    @include encart;
+  img {
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    align-self: center;
+  }
 
-    img{
-        width: 250px;
-        margin-bottom: 10px; ;
-        border-radius: 20px;
-        align-self: center;
-    }
+  h3 {
+    text-align: center;
+  }
 
-    h3 {
-        text-align: center;
-    }
+  p {
+    text-align: justify;
+  }
 
-    p {
-        text-align: justify;
-    }
-
-    a {
-        text-align: center;
-        color: $colorPrimary;
-    }
+  a {
+    text-align: center;
+    color: $colorPrimary;
+  }
 }
