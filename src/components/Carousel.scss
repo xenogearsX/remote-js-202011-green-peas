@@ -1,12 +1,14 @@
-@import "./design/ui.scss";
+@import './design/ui.scss';
+
 
 .carousel {
-  @include encart;
 
-  img {
-    width: auto;
-    height: 450px;
-    display: block;
-    margin: auto;
-  }
+    @include encart;
+
+    img {
+        width: auto; 
+        height: 450px;
+        display: block;
+        margin: auto;
+    }
 }

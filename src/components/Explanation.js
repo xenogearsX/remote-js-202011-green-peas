@@ -4,7 +4,9 @@ export default class Explanation extends React.Component {
   render() {
     return (
       <section className="encart">
-        <h2>Explications des termes</h2>
+        <h2>
+          Explications des termes
+        </h2>
         <div id="encart">
           <h2 className="titreJeux">
             Empreinte environnementale :

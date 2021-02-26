@@ -1,4 +1,5 @@
-@import "./design/ui.scss";
+@import './design/ui.scss';
+
 
 .padBot-025rem {
   padding-bottom: 0.25rem;
@@ -28,6 +29,7 @@ li {
     font-family: $typoSecondaire;
     font-size: $typoM;
     line-height: 1.3em;
+
 
     li {
       font-size: $typoS;

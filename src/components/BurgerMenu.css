@@ -1,3 +1,7 @@
+/*================================*/
+/*=== Partie sur le Swipe Menu ===*/
+/*================================*/
+/* Menu burger */
 #menu-burger {
   cursor: pointer;
   z-index: 6666;

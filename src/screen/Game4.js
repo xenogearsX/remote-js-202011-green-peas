@@ -1,18 +1,17 @@
-import Footer from "../components/Footer";
+import React from "react";
 import { Link } from "react-router-dom";
 import ProgresBar from "../components/ProgresBar";
-import React from "react";
 import Select from "../components/Select";
-import Timer from "../components/Timer";
 
+import Timer from "../components/Timer";
 
 class Game4 extends React.Component {
   state = {
     activeLink: false,
   };
-  changeClass = () => {
+  changeClass=() =>{
     this.setState({ activeLink: true });
-  };
+  }
   render() {
     return (
       <div>
@@ -28,15 +27,12 @@ class Game4 extends React.Component {
             addMenu={this.props.addMenu}
             changeClass={this.changeClass}
           />
-          {this.state.activeLink ? (
-            <Link to="/game5" className="bouton">
-              Valider ton dessert
-            </Link>
-          ) : (
-            <div className="bouton off">Valider ton dessert</div>
-          )}
+          {this.state.activeLink ?
+          <Link to="/game5" className="bouton">
+            Valider ton dessert
+          </Link> :
+          <div className="bouton off">Valider ton dessert</div>}
         </section>
-        <Footer />
       </div>
     );
   }

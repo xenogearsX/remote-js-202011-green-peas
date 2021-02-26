@@ -1,8 +1,10 @@
-@import "../components/design/ui.scss";
+@import '../components/design/ui.scss';
+
 
 .bouton {
   @include boutonSite;
 }
+
 
 .encart {
   @include encart; // texte ul and li inside encart jeux
