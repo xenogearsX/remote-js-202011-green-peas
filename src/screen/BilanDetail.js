@@ -35,10 +35,10 @@ class BilanDetail extends React.Component {
             className="ScoreDetail"
             style={{
               marginLeft:
-                maxWidthBar - this.props.score.toFixed(2) * (maxWidthBar / 80),
+                maxWidthBar - this.props.score.toFixed(2) * (maxWidthBar / 87.96),
             }}
           >
-            {(10 - (this.props.score * 10) / 80).toFixed(2)}
+            {(10 - (this.props.score * 10) / 87.96).toFixed(2)}
           </p>
           {/* barre de score */}
           <div
