@@ -26,7 +26,7 @@ export default function Carousel() {
   return (
     <div className="carousel">
       <h1>Consommer de saison</h1>
-      <AliceCarousel activeIndex={test()}>
+      <AliceCarousel activeIndex={test()} disableDotsControls="true">
         <img src={janvier} className="sliderimg" alt="janvier" />
         <img src={février} className="sliderimg" alt="février" />
         <img src={mars} className="sliderimg" alt="mars" />
