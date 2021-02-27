@@ -16,7 +16,6 @@ class BilanDetail extends React.Component {
 
   componentDidMount() {
     const eltWidth = this._element.current.getBoundingClientRect().width;
-    console.log(eltWidth);
     this.setState({
       maxWidth: eltWidth,
     });
@@ -35,10 +34,11 @@ class BilanDetail extends React.Component {
           <p
             className="ScoreDetail"
             style={{
-              marginLeft: this.props.score.toFixed(2) * (maxWidthBar / 80),
+              marginLeft:
+                maxWidthBar - this.props.score.toFixed(2) * (maxWidthBar / 80),
             }}
           >
-            {((this.props.score * 10) / 80).toFixed(2)}
+            {(10 - (this.props.score * 10) / 80).toFixed(2)}
           </p>
           {/* barre de score */}
           <div
@@ -90,7 +90,7 @@ class BilanDetail extends React.Component {
 
           <div className="textVulg">
             <section className="info">
-              <img className="imgiconLamp" image src={lamp} alt="lamp.png" />
+              <img className="imgiconLamp" src={lamp} alt="lamp.png" />
               <p>
                 <span className="nbjours">
                   {this.props.score.toFixed(0) * 2}
@@ -98,13 +98,13 @@ class BilanDetail extends React.Component {
                 jours d'éclairage d'1 ampoule
               </p>
             </section>
-            <h3>OU</h3>
+            <p>OU</p>
             <section className="info">
               <div className="animSuv">
                 <img className="imgiconSuv" src={suvcar} alt="suv-car" />
                 <div className="contRoad">
                   <div className="road">
-                    ------<span className="borne">|</span>----------
+                    <span className="borne">|</span>----------
                     <span className="chicken">🐓</span>-------------------
                     <span className="borne">|</span>--------------
                     <span className="borne">|</span>------------

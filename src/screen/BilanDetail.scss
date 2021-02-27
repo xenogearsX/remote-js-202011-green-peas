@@ -22,7 +22,7 @@
 
 .scoreVulgEchelle {
   height: 10px;
-  background: linear-gradient(to right, rgb(22, 192, 31), orange, red);
+  background: linear-gradient(to right, red, orange, rgb(22, 192, 31));
   border-radius: 10px;
   display: flex;
   animation: slideRight 2s;
@@ -61,6 +61,7 @@
 }
 
 .info {
+  margin-top: 0px;
   background-color: white;
   padding: 10px;
   border-radius: 5px;
@@ -151,6 +152,8 @@
 }
 
 .road {
+  position: relative;
+  left: 0;
   display: inline-block;
   padding-right: 2em;
   padding-left: 100%;
