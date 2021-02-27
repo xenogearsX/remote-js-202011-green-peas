@@ -85,6 +85,7 @@ const Solutions = () =>
       description={solution.description}
       photo={solution.photo}
       lien={solution.lien}
+      key={solution.lien}
     />
   ));
 
